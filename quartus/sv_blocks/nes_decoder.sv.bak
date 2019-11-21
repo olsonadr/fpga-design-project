@@ -1,0 +1,18 @@
+
+module nes_decoder (input  logic 	nes_latch,
+								   logic 	nes_clock,
+								   logic 	[7..0] nes_data,
+								  
+						  output logic 	nes_A,
+									logic 	nes_B,
+									logic 	nes_START,
+									logic 	nes_SELECT,
+									logic 	nes_UP,
+									logic 	nes_DOWN,
+									logic 	nes_LEFT,
+									logic 	nes_RIGHT);
+									
+			
+		assign nes_A <= 0;
+			
+endmodule
