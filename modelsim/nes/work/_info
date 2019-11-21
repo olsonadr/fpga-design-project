@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/olsonadr/cs/secondyear/ece/labs/lab6/quartus
+vnes_decoder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1574367711
+!i10b 1
+!s100 jIKaCX^HiC>lPklN@>f2b2
+Im`Rol5=_gbJ=Gnz_zM0Co3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 nes_decoder_sv_unit
+S1
+Z2 d/home/olsonadr/cs/secondyear/ece/design/modelsim/nes
+w1574367703
+8/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_decoder.sv
+F/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_decoder.sv
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1574367711.000000
+!s107 /home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_decoder.sv|
+!i113 1
+Z4 o-work work -sv
+Z5 tCvgOpt 0
+vnes_test
+Z6 !s110 1574367628
+!i10b 1
+!s100 _f8DK8BXHm_28@SXQfEhH0
+IR0S=WKo9bTK@O7Rd??aHL0
+R1
+R2
+w1574306501
+8/home/olsonadr/cs/secondyear/ece/design/quartus/blocks/nes_test.v
+F/home/olsonadr/cs/secondyear/ece/design/quartus/blocks/nes_test.v
+L0 19
+R3
+r1
+!s85 0
+31
+Z7 !s108 1574367628.000000
+!s107 /home/olsonadr/cs/secondyear/ece/design/quartus/blocks/nes_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/olsonadr/cs/secondyear/ece/design/quartus/blocks/nes_test.v|
+!i113 1
+o-work work
+R5
+vnes_test_controller
+R0
+R6
+!i10b 1
+!s100 ^hK<N;Oc=52CZ1b<Y@Sf90
+I9EfXfdaRlOfHd>SQiL1>N0
+R1
+!s105 nes_test_controller_sv_unit
+S1
+R2
+w1574307310
+8/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_test_controller.sv
+F/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_test_controller.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 /home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_test_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/olsonadr/cs/secondyear/ece/design/quartus/sv_blocks/nes_test_controller.sv|
+!i113 1
+R4
+R5
