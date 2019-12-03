@@ -1,5 +1,5 @@
 Flow report for design_project
-Thu Nov 21 13:25:15 2019
+Mon Dec  2 23:44:43 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,10 +40,10 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 21 13:25:15 2019       ;
+; Flow Status                        ; Successful - Mon Dec  2 23:44:43 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; design_project                              ;
-; Top-level Entity Name              ; motor_simple_test                           ;
+; Top-level Entity Name              ; top_level                                   ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
@@ -66,31 +66,31 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/21/2019 13:25:08 ;
+; Start date & time ; 12/02/2019 23:44:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; design_project      ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                   ;
-+-------------------------------------+----------------------------------------+----------------+-------------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value  ; Entity Name       ; Section Id     ;
-+-------------------------------------+----------------------------------------+----------------+-------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 5404525891584.157437150809080          ; --             ; --                ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --             ; --                ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>         ; --                ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --             ; --                ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --             ; --                ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --             ; --                ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --             ; motor_simple_test ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --             ; motor_simple_test ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --             ; motor_simple_test ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --             ; --                ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --             ; --                ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --             ; --                ; --             ;
-; TOP_LEVEL_ENTITY                    ; motor_simple_test                      ; design_project ; --                ; --             ;
-+-------------------------------------+----------------------------------------+----------------+-------------------+----------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+----------------------------------------+----------------+-------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value  ; Entity Name ; Section Id     ;
++-------------------------------------+----------------------------------------+----------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 158468088293428.157535907611274        ; --             ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --             ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>         ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --             ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --             ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --             ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --             ; top_level   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --             ; top_level   ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --             ; top_level   ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --             ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --             ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --             ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; top_level                              ; design_project ; --          ; --             ;
++-------------------------------------+----------------------------------------+----------------+-------------+----------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -98,8 +98,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 1382 MB             ; 00:00:19                           ;
-; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:19                           ;
+; Analysis & Elaboration ; 00:00:07     ; 1.0                     ; 1396 MB             ; 00:00:17                           ;
+; Total                  ; 00:00:07     ; --                      ; --                  ; 00:00:17                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

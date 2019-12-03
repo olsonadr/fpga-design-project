@@ -1,0 +1,73 @@
+/home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/sevenseg.sv {1 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/sevenseg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/top_level.v {1 {vlog -work design-project -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/top_level.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parsed_clock.v {1 {vlog -work design-project -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parsed_clock.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module parsed_clock
+
+Top level modules:
+	parsed_clock
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/seven_seg_6.v {1 {vlog -work design-project -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/seven_seg_6.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seven_seg_6
+
+Top level modules:
+	seven_seg_6
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/delay.v {1 {vlog -work work -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/delay.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module delay
+-- Compiling module mux_0
+
+Top level modules:
+	delay
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/L293D_encoder/L293D_encoder.sv {1 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/L293D_encoder/L293D_encoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module L293D_encoder
+
+Top level modules:
+	L293D_encoder
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/nes_decoder.sv {2 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/nes_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module nes_decoder
+** Warning: /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/nes_decoder.sv(26): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	nes_decoder
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/comparator.sv {1 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/counter.sv {1 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv {1 {vlog -work design-project -sv -stats=none /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module parser
+
+Top level modules:
+	parser
+
+} {} {}}
