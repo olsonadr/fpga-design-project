@@ -1,3 +1,5 @@
+vsim work.ReadState 
+
 add wave clk 
 add wave IR 
 add wave readSignal 

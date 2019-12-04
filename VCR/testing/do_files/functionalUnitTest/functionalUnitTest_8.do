@@ -1,3 +1,5 @@
+vsim work.VCR_Functional_Unit
+
 add wave clk
 add wave IR
 add wave displayValue

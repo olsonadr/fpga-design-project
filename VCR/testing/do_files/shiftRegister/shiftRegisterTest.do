@@ -1,3 +1,5 @@
+vsim work.ShiftRegister
+
 add wave clk
 add wave sin
 add wave q

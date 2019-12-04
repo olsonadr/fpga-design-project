@@ -1,3 +1,5 @@
+vsim work.SignalDecoder
+
 add wave signal
 add wave value
 

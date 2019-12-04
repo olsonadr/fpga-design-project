@@ -1,3 +1,5 @@
+vsim work.DisplayDecoder
+
 add wave data
 add wave segments
 

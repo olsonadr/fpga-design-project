@@ -1,3 +1,5 @@
+vsim work.vcr_decoder
+
 add wave clk_10KHz 
 add wave IR 
 add wave readControl 
