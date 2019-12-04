@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "nes_latch",
+					"strict" : false
+				},
+				{
+					"name" : "nes_clock",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_enable_1",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_enable_2",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_input_1",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_input_2",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_input_3",
+					"strict" : false
+				},
+				{
+					"name" : "L293D_input_4",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segs0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segs1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segs2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segs3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segs4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segs5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "system_reset_button",
+					"strict" : false
+				},
+				{
+					"name" : "clock_50Mhz",
+					"strict" : false
+				},
+				{
+					"name" : "nes_data",
+					"strict" : false
+				},
+				{
+					"name" : "switch0",
+					"strict" : false
+				},
+				{
+					"name" : "switch1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

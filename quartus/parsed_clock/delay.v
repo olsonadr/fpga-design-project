@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Mon Dec  2 19:57:32 2019"
+// CREATED		"Tue Dec  3 13:30:50 2019"
 
 module delay(
 	clock_in,
@@ -34,7 +34,7 @@ input wire	super_speed;
 output wire	clock_out;
 
 reg	[3:0] clock_option;
-wire	[0:1] select;
+wire	[1:0] select;
 wire	SYNTHESIZED_WIRE_11;
 reg	TFF_inst8;
 reg	TFF_inst10;
@@ -47,6 +47,13 @@ reg	TFF_inst5;
 assign	SYNTHESIZED_WIRE_6 = 1;
 
 
+
+
+mux4	b2v_inst(
+	.in(clock_option),
+	.sel(select),
+	.out(clock_out));
+	defparam	b2v_inst.IN_WIDTH = 1;
 
 
 
@@ -83,12 +90,6 @@ else
 end
 
 assign	SYNTHESIZED_WIRE_11 =  ~reset;
-
-
-mux_0	b2v_inst2(
-	.data(clock_option),
-	.sel(select),
-	.result(clock_out));
 
 
 always@(posedge TFF_inst9 or negedge SYNTHESIZED_WIRE_11)
@@ -172,14 +173,5 @@ end
 
 assign	select[0] = double_speed;
 assign	select[1] = super_speed;
-
-endmodule
-
-module mux_0(data,sel,result);
-/* synthesis black_box */
-
-input [3:0] data;
-input [1:0] sel;
-output result;
 
 endmodule

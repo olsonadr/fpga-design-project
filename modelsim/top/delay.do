@@ -11,7 +11,7 @@ add wave -position insertpoint sim:/delay/clock_out
 force -freeze sim:/delay/clock_in 0 0, 1 {50 ps} -r 100
 force -freeze sim:/delay/enable 1 0
 force -freeze sim:/delay/reset 1 0 -cancel 200
-force -freeze sim:/delay/double_speed 0 0
-force -freeze sim:/delay/super_speed 0 0
+force -freeze sim:/delay/double_speed 1 0, 0 25000, 1 50000, 0 {100000}
+force -freeze sim:/delay/super_speed  1 0, 0 50000
 
-run 100000
+run 200000

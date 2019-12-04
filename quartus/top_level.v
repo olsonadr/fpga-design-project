@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Mon Dec  2 15:38:25 2019"
+// CREATED		"Tue Dec  3 15:27:28 2019"
 
 module top_level(
 	clock_50Mhz,
@@ -118,7 +118,9 @@ nes_to_motor	b2v_dsa(
 	.motor_2_on(SYNTHESIZED_WIRE_2),
 	.motor_2_dir(SYNTHESIZED_WIRE_3));
 
+assign	not_nes_START =  ~SYNTHESIZED_WIRE_4;
 
+assign	not_nes_SELECT =  ~SYNTHESIZED_WIRE_5;
 
 assign	not_nes_LEFT =  ~SYNTHESIZED_WIRE_6;
 
@@ -148,8 +150,8 @@ parsed_clock	b2v_inst5(
 	.clock_50MHz(clock_50Mhz),
 	.enable_in(not_nes_A),
 	.reset_in(SYNTHESIZED_WIRE_16),
-	.double_speed_in(switch0),
-	.super_speed_in(switch1),
+	.double_speed_in(not_nes_START),
+	.super_speed_in(not_nes_SELECT),
 	.hours_ones(SYNTHESIZED_WIRE_14),
 	.hours_tens(SYNTHESIZED_WIRE_15),
 	.minutes_ones(SYNTHESIZED_WIRE_12),

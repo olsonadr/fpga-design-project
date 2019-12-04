@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Mon Dec  2 15:34:54 2019"
+// CREATED		"Tue Dec  3 13:43:19 2019"
 
 module parsed_clock(
 	clock_50MHz,

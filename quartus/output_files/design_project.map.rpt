@@ -1,5 +1,5 @@
 Analysis & Elaboration report for design_project
-Mon Dec  2 23:44:43 2019
+Tue Dec  3 13:43:06 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -11,7 +11,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   3. Parallel Compilation
   4. Parameter Settings for User Entity Instance: parsed_clock:inst5|parser:inst3
   5. Parameter Settings for User Entity Instance: parsed_clock:inst5|counter:inst
-  6. Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|MUX:inst2
+  6. Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|mux4:inst
   7. Parameter Settings for User Entity Instance: parsed_clock:inst5|comparator:inst1
   8. Analysis & Elaboration Settings
   9. Analysis & Elaboration Messages
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon Dec  2 23:44:43 2019       ;
+; Analysis & Elaboration Status      ; Successful - Tue Dec  3 13:43:06 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; design_project                              ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -97,12 +97,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|MUX:inst2 ;
+; Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|mux4:inst ;
 +----------------+-------+--------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                         ;
 +----------------+-------+--------------------------------------------------------------+
-; WIDTH          ; 4     ; Signed Integer                                               ;
-; WIDTHS         ; 2     ; Signed Integer                                               ;
+; IN_WIDTH       ; 1     ; Signed Integer                                               ;
 +----------------+-------+--------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -209,7 +208,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Dec  2 23:44:36 2019
+    Info: Processing started: Tue Dec  3 13:42:59 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off design_project -c design_project --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -245,6 +244,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file seven_s
     Info (12023): Found entity 1: sevenseg File: /home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/sevenseg.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file seven_seg_6/seven_seg_6.bdf
     Info (12023): Found entity 1: seven_seg_6
+Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/mux4.sv
+    Info (12023): Found entity 1: mux4 File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/mux4.sv Line: 3
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
 Warning (275008): Primitive "NOT" of instance "inst10" not used
 Warning (275008): Primitive "NOT" of instance "inst11" not used
@@ -269,22 +270,13 @@ Warning (10230): Verilog HDL assignment warning at parser.sv(29): truncated valu
 Info (12128): Elaborating entity "counter" for hierarchy "parsed_clock:inst5|counter:inst"
 Warning (10230): Verilog HDL assignment warning at counter.sv(8): truncated value with size 32 to match size of target (30) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/counter.sv Line: 8
 Info (12128): Elaborating entity "delay" for hierarchy "parsed_clock:inst5|delay:inst6"
-Info (12128): Elaborating entity "MUX" for hierarchy "parsed_clock:inst5|delay:inst6|MUX:inst2"
-Info (12130): Elaborated megafunction instantiation "parsed_clock:inst5|delay:inst6|MUX:inst2"
-Info (12133): Instantiated megafunction "parsed_clock:inst5|delay:inst6|MUX:inst2" with the following parameter:
-    Info (12134): Parameter "WIDTH" = "4"
-    Info (12134): Parameter "WIDTHS" = "2"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "parsed_clock:inst5|delay:inst6|MUX:inst2|lpm_mux:$00001" File: /home/olsonadr/programs/intelFPGA_lite/18.1/quartus/libraries/megafunctions/mux.tdf Line: 43
-Info (12131): Elaborated megafunction instantiation "parsed_clock:inst5|delay:inst6|MUX:inst2|lpm_mux:$00001", which is child of megafunction instantiation "parsed_clock:inst5|delay:inst6|MUX:inst2" File: /home/olsonadr/programs/intelFPGA_lite/18.1/quartus/libraries/megafunctions/mux.tdf Line: 43
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_06c.tdf
-    Info (12023): Found entity 1: mux_06c File: /home/olsonadr/cs/secondyear/ece/design/quartus/db/mux_06c.tdf Line: 22
-Info (12128): Elaborating entity "mux_06c" for hierarchy "parsed_clock:inst5|delay:inst6|MUX:inst2|lpm_mux:$00001|mux_06c:auto_generated" File: /home/olsonadr/programs/intelFPGA_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
+Info (12128): Elaborating entity "mux4" for hierarchy "parsed_clock:inst5|delay:inst6|mux4:inst"
 Info (12128): Elaborating entity "enable_flip_flop" for hierarchy "parsed_clock:inst5|enable_flip_flop:inst7"
 Info (12128): Elaborating entity "comparator" for hierarchy "parsed_clock:inst5|comparator:inst1"
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 1396 megabytes
-    Info: Processing ended: Mon Dec  2 23:44:43 2019
+    Info: Peak virtual memory: 1390 megabytes
+    Info: Processing ended: Tue Dec  3 13:43:06 2019
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Total CPU time (on all processors): 00:00:18
 
 

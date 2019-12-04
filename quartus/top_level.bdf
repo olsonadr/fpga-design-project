@@ -631,7 +631,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 536 344 600 392)
+	(rect 520 328 584 376)
 	(text "OR2" (rect 1 0 23 11)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 37 31 52)(font "Intel Clear" ))
 	(port
@@ -1078,26 +1078,6 @@ refer to the applicable agreement for further details.
 	(pt 680 352)
 )
 (connector
-	(text "switch0" (rect 616 376 659 391)(font "Intel Clear" ))
-	(pt 664 384)
-	(pt 680 384)
-)
-(connector
-	(text "switch1" (rect 616 392 659 407)(font "Intel Clear" ))
-	(pt 664 400)
-	(pt 680 400)
-)
-(connector
-	(text "system_reset" (rect 448 368 523 383)(font "Intel Clear" ))
-	(pt 520 376)
-	(pt 536 376)
-)
-(connector
-	(text "not_nes_B" (rect 460 352 520 367)(font "Intel Clear" ))
-	(pt 520 360)
-	(pt 536 360)
-)
-(connector
 	(text "segs0[6..0]" (rect 1200 328 1262 343)(font "Intel Clear" ))
 	(pt 1168 336)
 	(pt 1192 336)
@@ -1162,10 +1142,6 @@ refer to the applicable agreement for further details.
 	(pt 976 416)
 	(pt 992 416)
 	(bus)
-)
-(connector
-	(pt 600 368)
-	(pt 680 368)
 )
 (connector
 	(text "not_nes_LEFT" (rect 464 560 546 575)(font "Intel Clear" ))
@@ -1489,6 +1465,38 @@ refer to the applicable agreement for further details.
 	(text "not_nes_A" (rect 306 368 366 383)(font "Intel Clear" ))
 	(pt 256 376)
 	(pt 296 376)
+)
+(connector
+	(text "not_nes_START" (rect 576 376 668 391)(font "Intel Clear" ))
+	(pt 664 384)
+	(pt 680 384)
+)
+(connector
+	(text "not_nes_SELECT" (rect 576 392 673 407)(font "Intel Clear" ))
+	(pt 680 400)
+	(pt 672 400)
+)
+(connector
+	(pt 680 368)
+	(pt 592 368)
+)
+(connector
+	(pt 592 368)
+	(pt 592 352)
+)
+(connector
+	(pt 592 352)
+	(pt 584 352)
+)
+(connector
+	(text "not_nes_B" (rect 452 336 512 351)(font "Intel Clear" ))
+	(pt 520 344)
+	(pt 512 344)
+)
+(connector
+	(text "system_reset" (rect 440 352 515 367)(font "Intel Clear" ))
+	(pt 520 360)
+	(pt 512 360)
 )
 (text "Read as fast as possible" (rect -128 552 26 569)(font "Intel Clear" (font_size 8)))
 (text "to nes controller" (rect 1168 544 1275 561)(font "Intel Clear" (font_size 8)))

@@ -101,7 +101,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 520 1349 536)
+	(rect 1144 504 1349 520)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "seconds_ones[3..0]" (rect 90 0 199 13)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 536 1347 552)
+	(rect 1144 520 1347 536)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "seconds_tens[3..0]" (rect 90 0 197 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 552 1349 568)
+	(rect 1144 536 1349 552)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "minutes_ones[3..0]" (rect 90 0 199 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 568 1346 584)
+	(rect 1144 552 1346 568)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "minutes_tens[3..0]" (rect 90 0 196 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 584 1335 600)
+	(rect 1144 568 1335 584)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "hours_ones[3..0]" (rect 90 0 185 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -181,7 +181,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 600 1333 616)
+	(rect 1144 584 1333 600)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "hours_tens[3..0]" (rect 90 0 183 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -196,7 +196,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 664 480 952 656)
+	(rect 664 464 952 640)
 	(text "parser" (rect 5 0 41 13)(font "Arial" ))
 	(text "inst3" (rect 8 160 36 175)(font "Intel Clear" ))
 	(port
@@ -268,7 +268,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 272 160))
 	)
-	(annotation_block (parameter)(rect 624 680 840 736))
+	(annotation_block (parameter)(rect 624 664 840 720))
 )
 (symbol
 	(rect 344 120 536 216)
@@ -389,7 +389,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 144 96))
 	)
-	(annotation_block (parameter)(rect 976 192 1168 240))
+	(annotation_block (parameter)(rect 944 192 1136 240))
 )
 (symbol
 	(rect 840 320 904 368)
@@ -525,31 +525,6 @@ refer to the applicable agreement for further details.
 	(pt 609 416)
 )
 (connector
-	(pt 1128 296)
-	(pt 1128 440)
-	(bus)
-)
-(connector
-	(pt 1096 296)
-	(pt 1128 296)
-	(bus)
-)
-(connector
-	(pt 664 512)
-	(pt 632 512)
-	(bus)
-)
-(connector
-	(pt 632 440)
-	(pt 632 512)
-	(bus)
-)
-(connector
-	(pt 632 440)
-	(pt 1128 440)
-	(bus)
-)
-(connector
 	(pt 609 560)
 	(pt 584 560)
 )
@@ -561,12 +536,6 @@ refer to the applicable agreement for further details.
 	(text "total_sec[29..0]" (rect 296 456 384 471)(font "Intel Clear" ))
 	(pt 377 464)
 	(pt 424 464)
-	(bus)
-)
-(connector
-	(text "total_sec[29..0]" (rect 984 504 1072 519)(font "Intel Clear" ))
-	(pt 952 512)
-	(pt 976 512)
 	(bus)
 )
 (connector
@@ -638,6 +607,27 @@ refer to the applicable agreement for further details.
 	(pt 560 152)
 )
 (connector
+	(pt 632 496)
+	(pt 664 496)
+	(bus)
+)
+(connector
+	(pt 632 440)
+	(pt 632 496)
+	(bus)
+)
+(connector
+	(text "total_sec[29..0]" (rect 984 488 1072 503)(font "Intel Clear" ))
+	(pt 952 496)
+	(pt 976 496)
+	(bus)
+)
+(connector
+	(pt 952 512)
+	(pt 1144 512)
+	(bus)
+)
+(connector
 	(pt 952 528)
 	(pt 1144 528)
 	(bus)
@@ -663,8 +653,18 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 952 608)
-	(pt 1144 608)
+	(pt 1120 296)
+	(pt 1120 440)
+	(bus)
+)
+(connector
+	(pt 1096 296)
+	(pt 1120 296)
+	(bus)
+)
+(connector
+	(pt 632 440)
+	(pt 1120 440)
 	(bus)
 )
 (junction (pt 560 152))

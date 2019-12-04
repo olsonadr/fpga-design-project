@@ -576,7 +576,7 @@ q[29] <= q[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level|parsed_clock:inst5|delay:inst6
-clock_out <= MUX:inst2.result
+clock_out <= mux4:inst.out[0]
 reset => inst13.IN0
 clock_in => inst3.IN0
 clock_in => inst9.IN0
@@ -589,51 +589,18 @@ clock_in => inst10.IN0
 clock_in => inst8.IN0
 clock_in => inst4.IN0
 enable => inst6.ENA
-double_speed => MUX:inst2.sel[1]
-super_speed => MUX:inst2.sel[0]
+double_speed => mux4:inst.sel[0]
+super_speed => mux4:inst.sel[1]
 
 
-|top_level|parsed_clock:inst5|delay:inst6|MUX:inst2
-data[0] => lpm_mux:$00001.data[0][0]
-data[1] => lpm_mux:$00001.data[1][0]
-data[2] => lpm_mux:$00001.data[2][0]
-data[3] => lpm_mux:$00001.data[3][0]
-sel[0] => lpm_mux:$00001.sel[0]
-sel[1] => lpm_mux:$00001.sel[1]
-result <= lpm_mux:$00001.result[0]
-
-
-|top_level|parsed_clock:inst5|delay:inst6|MUX:inst2|lpm_mux:$00001
-data[0][0] => mux_06c:auto_generated.data[0]
-data[1][0] => mux_06c:auto_generated.data[1]
-data[2][0] => mux_06c:auto_generated.data[2]
-data[3][0] => mux_06c:auto_generated.data[3]
-sel[0] => mux_06c:auto_generated.sel[0]
-sel[1] => mux_06c:auto_generated.sel[1]
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-result[0] <= mux_06c:auto_generated.result[0]
-
-
-|top_level|parsed_clock:inst5|delay:inst6|MUX:inst2|lpm_mux:$00001|mux_06c:auto_generated
-data[0] => _.IN0
-data[0] => _.IN0
-data[1] => _.IN0
-data[2] => _.IN1
-data[2] => _.IN1
-data[3] => _.IN0
-result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
-sel[0] => _.IN1
-sel[0] => _.IN0
-sel[0] => _.IN0
-sel[0] => _.IN0
-sel[0] => _.IN0
-sel[0] => _.IN0
-sel[1] => _.IN0
-sel[1] => _.IN0
-sel[1] => _.IN0
-sel[1] => _.IN0
+|top_level|parsed_clock:inst5|delay:inst6|mux4:inst
+in[0][0] => Mux0.IN3
+in[1][0] => Mux0.IN2
+in[2][0] => Mux0.IN1
+in[3][0] => Mux0.IN0
+sel[0] => Mux0.IN5
+sel[1] => Mux0.IN4
+out[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level|parsed_clock:inst5|enable_flip_flop:inst7
