@@ -1,0 +1,5 @@
+module Counter(input logic clk,
+					input logic reset,
+					output logic[22:0] count);
+
+endmodule 
