@@ -46,6 +46,7 @@
     tabsize=3,
     moredelim=*[s][\colorIndex]{[}{]},
     literate=*{:}{:}1 }
+
 \makeatletter
 \newcommand*\@lbracket{[}
 \newcommand*\@rbracket{]}
@@ -112,13 +113,7 @@
 
 
 
-\newpage
-
-
-
-\FloatBarrier
-\newpage
-\FloatBarrier
+\clearpage
 
 
 
@@ -132,9 +127,9 @@ Intro to Project paragraph. The inputs and outputs of the overall design immedia
 
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.8\textwidth]{images/description.png}
+  \includegraphics[width=.8\textwidth]{images/description.png}
 	\caption{This image is legible, and conveys the point of the design.  Your image can be hand drawn, but it must have straight lines, use your OSU ID.  I don't recommend drafting this on the computer, because there aren't any decent tools to draw these block diagrams quickly.}
-    \label{fig:description}
+  \label{fig:description}
 \end{figure}
 
 \begin{figure}[h]
@@ -173,6 +168,33 @@ The following subsections will discuss the inputs, outputs, designs, and simulat
 
 
 \clearpage
+
+
+
+\subsection{Functional Unit 1 Name}
+Introduction to functional unit. The input and output specifications follow, a block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
+\begin{itemize}
+  \item \textbf{Inputs:  } inputs
+  \item \textbf{Outputs: } outputs
+\end{itemize}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.8\textwidth]{images/functional_1.png}
+	\caption{The logic design of the (NAME) functional unit used in the final design.}
+    \label{fig:functional-1}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
+	\caption{The simulation results of the top level design for the project.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+
+
+\clearpage
+
+
 
 
 
@@ -274,86 +296,98 @@ Introduction to individual block. The input and output specifications follow, as
 
 
 
+\subsection{DisplayDecoder Functional Unit}
+The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is
+able to output a hexadecimal display value between 0 and F. A block diagram of the unit follows in \textbf{Figure A} and the simulation results for the unit follows in \textbf{Figure B}.
+\begin{itemize}
+  \item \textbf{Inputs:  } The DisplayDecoder module takes a 4-bit binary value input, data, as its only input.
+  \item \textbf{Outputs: } The DisplayDecoder module outputs a 7-bit binary value that is used to activate specific segments in the FPGA seven segment display.
+\end{itemize}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.8\textwidth]{images/functional_1.png}
+	\caption{The logic design of the DisplayDecoder functional unit used in the final design.}
+    \label{fig:functional-1}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
+	\caption{The simulation results for the DisplayDecoder Module.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+
+
+\clearpage
+
+
+
+\subsection{vcr\_decoder Functional Unit}
+The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
+\begin{itemize}
+  \item \textbf{Inputs:  } The vcr\_decoder module two inputs, clk and IR. clk is a 10 KHz clock signal that is used to drive the module. IR is the Infrared signal coming from the VCR remote that will be translated by the module.
+  \item \textbf{Outputs: } The vcr\_decoder module has a single output, displayValue, which is the 0-9 representing the IR signal that was received by the module as input.
+\end{itemize}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.8\textwidth]{images/functional_1.png}
+	\caption{The logic design of the vcr\_decoder functional unit used in the final design.}
+    \label{fig:functional-1}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
+	\caption{The simulation results of the vcr\_decoder Functional Unit.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+
+
+\clearpage
+
+
+
+\subsubsection{ReadState Module}
+Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
+\begin{itemize}
+  \item \textbf{Inputs:  } inputs
+  \item \textbf{Outputs: } outputs
+\end{itemize}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
+  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
+    \label{fig:individual-1-2-block}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
+  \caption{The simulation results of the (NAME) individual block used in the (NAME) functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+
+
+
+
+\clearpage
+
+
+
 \appendix
 \section{SystemVerilog Files}
 This appendix will list the SystemVerilog code used for each block used in the design project.
 
-\subsection{Functional Unit Name}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-
-
+Generate me!
 
 \clearpage
 
-
-
-\subsection{Functional Unit Name}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{SystemVerilog code for the (NAME) block used in the design.}
-\end{figure}
-
-
-
-\clearpage
 
 
 
 \section{Simulation Files (Do Scripts)}
 This appendix will list the Do Scripts used to simulate each block used in the design project.
 
-\subsection{Functional Unit Name}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script code for the (NAME) block used in the design.}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsection{Functional Unit Name}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script code for the (NAME) block used in the design.}
-\end{figure}
-\begin{figure}[h]
-  \lstinputlisting[style=verilog-style]{sv_files/placeholder.sv}
-  \subcaption{Do Script code for the (NAME) block used in the design.}
-\end{figure}
+Generate me!
 
 
 \end{document}

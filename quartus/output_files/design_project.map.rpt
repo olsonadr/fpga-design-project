@@ -1,5 +1,5 @@
-Analysis & Elaboration report for design_project
-Tue Dec  3 13:43:06 2019
+Analysis & Synthesis report for design_project
+Wed Dec 04 21:59:06 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -7,14 +7,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: parsed_clock:inst5|parser:inst3
-  5. Parameter Settings for User Entity Instance: parsed_clock:inst5|counter:inst
-  6. Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|mux4:inst
-  7. Parameter Settings for User Entity Instance: parsed_clock:inst5|comparator:inst1
-  8. Analysis & Elaboration Settings
-  9. Analysis & Elaboration Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -38,9 +35,9 @@ refer to the applicable agreement for further details.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                   ;
+; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Tue Dec  3 13:43:06 2019       ;
+; Analysis & Synthesis Status        ; Failed - Wed Dec 04 21:59:06 2019           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; design_project                              ;
 ; Top-level Entity Name              ; top_level                                   ;
@@ -59,65 +56,8 @@ refer to the applicable agreement for further details.
 +------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 6           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: parsed_clock:inst5|parser:inst3 ;
-+----------------+-------+-----------------------------------------------------+
-; Parameter Name ; Value ; Type                                                ;
-+----------------+-------+-----------------------------------------------------+
-; IN_BITS        ; 30    ; Signed Integer                                      ;
-; TICK_PER_SEC   ; 9537  ; Signed Integer                                      ;
-+----------------+-------+-----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: parsed_clock:inst5|counter:inst ;
-+----------------+-------+-----------------------------------------------------+
-; Parameter Name ; Value ; Type                                                ;
-+----------------+-------+-----------------------------------------------------+
-; N              ; 30    ; Signed Integer                                      ;
-+----------------+-------+-----------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: parsed_clock:inst5|delay:inst6|mux4:inst ;
-+----------------+-------+--------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                         ;
-+----------------+-------+--------------------------------------------------------------+
-; IN_WIDTH       ; 1     ; Signed Integer                                               ;
-+----------------+-------+--------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: parsed_clock:inst5|comparator:inst1 ;
-+----------------+-------+---------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                    ;
-+----------------+-------+---------------------------------------------------------+
-; N              ; 30    ; Signed Integer                                          ;
-+----------------+-------+---------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                            ;
+; Analysis & Synthesis Settings                                                                              ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -202,81 +142,152 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec  3 13:42:59 2019
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off design_project -c design_project --analysis_and_elaboration
+    Info: Processing started: Wed Dec 04 21:58:44 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off design_project -c design_project
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/vcr_functional_unit.sv
+    Info (12023): Found entity 1: VCR_Functional_Unit File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/VCR_Functional_Unit.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/vcr_decoder.sv
+    Info (12023): Found entity 1: vcr_decoder File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/signaldecoder.sv
+    Info (12023): Found entity 1: SignalDecoder File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/SignalDecoder.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/shiftregister.sv
+    Info (12023): Found entity 1: ShiftRegister File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/ShiftRegister.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/readstate.sv
+    Info (12023): Found entity 1: ReadState File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/ReadState.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/displaydecoder.sv
+    Info (12023): Found entity 1: DisplayDecoder File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/DisplayDecoder.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/parser.sv
-    Info (12023): Found entity 1: parser File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 1
+    Info (12023): Found entity 1: parser File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/enable_flip_flop.bdf
     Info (12023): Found entity 1: enable_flip_flop
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/delay.bdf
     Info (12023): Found entity 1: delay
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/counter.sv
-    Info (12023): Found entity 1: counter File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/counter.sv Line: 1
+    Info (12023): Found entity 1: counter File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/counter.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/comparator.sv
-    Info (12023): Found entity 1: comparator File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/comparator.sv Line: 1
+    Info (12023): Found entity 1: comparator File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/comparator.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file top_level.bdf
     Info (12023): Found entity 1: top_level
-Info (12021): Found 1 design units, including 1 entities, in source file L293D_encoder/testbench/sv_blocks/L293D_test_chip.sv
-    Info (12023): Found entity 1: L293D_test_chip File: /home/olsonadr/cs/secondyear/ece/design/quartus/L293D_encoder/testbench/sv_blocks/L293D_test_chip.sv Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file L293D_encoder/testbench/blocks/motor_simple_test.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file l293d_encoder/testbench/sv_blocks/l293d_test_chip.sv
+    Info (12023): Found entity 1: L293D_test_chip File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/L293D_encoder/testbench/sv_blocks/L293D_test_chip.sv Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file l293d_encoder/testbench/blocks/motor_simple_test.bdf
     Info (12023): Found entity 1: motor_simple_test
-Info (12021): Found 1 design units, including 1 entities, in source file L293D_encoder/L293D_encoder.sv
-    Info (12023): Found entity 1: L293D_encoder File: /home/olsonadr/cs/secondyear/ece/design/quartus/L293D_encoder/L293D_encoder.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file l293d_encoder/l293d_encoder.sv
+    Info (12023): Found entity 1: L293D_encoder File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/L293D_encoder/L293D_encoder.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file nes_decoder/test/sv_blocks/nes_test_controller.sv
-    Info (12023): Found entity 1: nes_test_controller File: /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/test/sv_blocks/nes_test_controller.sv Line: 2
+    Info (12023): Found entity 1: nes_test_controller File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/nes_decoder/test/sv_blocks/nes_test_controller.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file nes_decoder/test/blocks/nes_test.bdf
     Info (12023): Found entity 1: nes_test
 Info (12021): Found 1 design units, including 1 entities, in source file nes_decoder/nes_decoder.sv
-    Info (12023): Found entity 1: nes_decoder File: /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/nes_decoder.sv Line: 2
+    Info (12023): Found entity 1: nes_decoder File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/nes_decoder/nes_decoder.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file nes_to_motor/nes_to_motor.sv
-    Info (12023): Found entity 1: nes_to_motor File: /home/olsonadr/cs/secondyear/ece/design/quartus/nes_to_motor/nes_to_motor.sv Line: 2
+    Info (12023): Found entity 1: nes_to_motor File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/nes_to_motor/nes_to_motor.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/parsed_clock.bdf
     Info (12023): Found entity 1: parsed_clock
 Info (12021): Found 1 design units, including 1 entities, in source file seven_seg_6/sevenseg.sv
-    Info (12023): Found entity 1: sevenseg File: /home/olsonadr/cs/secondyear/ece/design/quartus/seven_seg_6/sevenseg.sv Line: 1
+    Info (12023): Found entity 1: sevenseg File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/seven_seg_6/sevenseg.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file seven_seg_6/seven_seg_6.bdf
     Info (12023): Found entity 1: seven_seg_6
 Info (12021): Found 1 design units, including 1 entities, in source file parsed_clock/mux4.sv
-    Info (12023): Found entity 1: mux4 File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/mux4.sv Line: 3
+    Info (12023): Found entity 1: mux4 File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/mux4.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file vcr_files/mux2.sv
+    Info (12023): Found entity 1: mux2 File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/mux2.sv Line: 3
 Info (12127): Elaborating entity "top_level" for the top level hierarchy
-Warning (275008): Primitive "NOT" of instance "inst10" not used
-Warning (275008): Primitive "NOT" of instance "inst11" not used
+Warning (275085): Found inconsistent dimensions for element "segs5"
+Warning (275080): Converted elements in bus name "segs5" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "segs5[6..0]" to "segs56..0"
+Warning (275009): Pin "switch1" not connected
 Info (12128): Elaborating entity "nes_decoder" for hierarchy "nes_decoder:wow"
-Warning (10230): Verilog HDL assignment warning at nes_decoder.sv(89): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/nes_decoder/nes_decoder.sv Line: 89
+Warning (10230): Verilog HDL assignment warning at nes_decoder.sv(90): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/nes_decoder/nes_decoder.sv Line: 90
 Info (12128): Elaborating entity "L293D_encoder" for hierarchy "L293D_encoder:asd"
 Info (12128): Elaborating entity "nes_to_motor" for hierarchy "nes_to_motor:dsa"
 Info (12128): Elaborating entity "seven_seg_6" for hierarchy "seven_seg_6:inst4"
 Info (12128): Elaborating entity "sevenseg" for hierarchy "seven_seg_6:inst4|sevenseg:inst"
 Info (12128): Elaborating entity "parsed_clock" for hierarchy "parsed_clock:inst5"
 Info (12128): Elaborating entity "parser" for hierarchy "parsed_clock:inst5|parser:inst3"
-Warning (10230): Verilog HDL assignment warning at parser.sv(17): truncated value with size 32 to match size of target (30) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 17
-Warning (10230): Verilog HDL assignment warning at parser.sv(19): truncated value with size 32 to match size of target (6) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 19
-Warning (10230): Verilog HDL assignment warning at parser.sv(20): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 20
-Warning (10230): Verilog HDL assignment warning at parser.sv(21): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 21
-Warning (10230): Verilog HDL assignment warning at parser.sv(23): truncated value with size 32 to match size of target (6) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 23
-Warning (10230): Verilog HDL assignment warning at parser.sv(24): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 24
-Warning (10230): Verilog HDL assignment warning at parser.sv(25): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 25
-Warning (10230): Verilog HDL assignment warning at parser.sv(27): truncated value with size 32 to match size of target (5) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 27
-Warning (10230): Verilog HDL assignment warning at parser.sv(28): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 28
-Warning (10230): Verilog HDL assignment warning at parser.sv(29): truncated value with size 32 to match size of target (4) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/parser.sv Line: 29
+Warning (10230): Verilog HDL assignment warning at parser.sv(17): truncated value with size 32 to match size of target (30) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 17
+Warning (10230): Verilog HDL assignment warning at parser.sv(19): truncated value with size 32 to match size of target (6) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at parser.sv(20): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 20
+Warning (10230): Verilog HDL assignment warning at parser.sv(21): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at parser.sv(23): truncated value with size 32 to match size of target (6) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 23
+Warning (10230): Verilog HDL assignment warning at parser.sv(24): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 24
+Warning (10230): Verilog HDL assignment warning at parser.sv(25): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 25
+Warning (10230): Verilog HDL assignment warning at parser.sv(27): truncated value with size 32 to match size of target (5) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 27
+Warning (10230): Verilog HDL assignment warning at parser.sv(28): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 28
+Warning (10230): Verilog HDL assignment warning at parser.sv(29): truncated value with size 32 to match size of target (4) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/parser.sv Line: 29
 Info (12128): Elaborating entity "counter" for hierarchy "parsed_clock:inst5|counter:inst"
-Warning (10230): Verilog HDL assignment warning at counter.sv(8): truncated value with size 32 to match size of target (30) File: /home/olsonadr/cs/secondyear/ece/design/quartus/parsed_clock/counter.sv Line: 8
+Warning (10230): Verilog HDL assignment warning at counter.sv(8): truncated value with size 32 to match size of target (30) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/parsed_clock/counter.sv Line: 8
 Info (12128): Elaborating entity "delay" for hierarchy "parsed_clock:inst5|delay:inst6"
 Info (12128): Elaborating entity "mux4" for hierarchy "parsed_clock:inst5|delay:inst6|mux4:inst"
 Info (12128): Elaborating entity "enable_flip_flop" for hierarchy "parsed_clock:inst5|enable_flip_flop:inst7"
 Info (12128): Elaborating entity "comparator" for hierarchy "parsed_clock:inst5|comparator:inst1"
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 1390 megabytes
-    Info: Processing ended: Tue Dec  3 13:43:06 2019
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:18
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst3"
+Info (12128): Elaborating entity "DisplayDecoder" for hierarchy "DisplayDecoder:inst"
+Info (12128): Elaborating entity "vcr_decoder" for hierarchy "vcr_decoder:inst2"
+Warning (10036): Verilog HDL or VHDL warning at vcr_decoder.sv(15): object "controlLength" assigned a value but never read File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 15
+Error (10200): Verilog HDL Conditional Statement error at vcr_decoder.sv(48): cannot match operand(s) in the condition to the corresponding edges in the enclosing event control of the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 48
+Warning (10230): Verilog HDL assignment warning at vcr_decoder.sv(49): truncated value with size 32 to match size of target (9) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 49
+Error (10200): Verilog HDL Conditional Statement error at vcr_decoder.sv(54): cannot match operand(s) in the condition to the corresponding edges in the enclosing event control of the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 54
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "init", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "outputReady", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "readyToRead", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "nextstate", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "readControl", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "outputting", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10240): Verilog HDL Always Construct warning at vcr_decoder.sv(65): inferring latch(es) for variable "vcr_out", which holds its previous value in one or more paths through the always construct File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Error (10166): SystemVerilog RTL Coding error at vcr_decoder.sv(65): always_comb construct does not infer purely combinational logic. File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "vcr_out[0]" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "vcr_out[1]" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "vcr_out[2]" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "vcr_out[3]" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "outputting" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "readControl" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "nextstate.PUSH" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "nextstate.READ" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "nextstate.C2" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "nextstate.C1" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "nextstate.IDLE" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "readyToRead" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "outputReady" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Info (10041): Inferred latch for "init" at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Error (10028): Can't resolve multiple constant drivers for net "outputReady" at vcr_decoder.sv(33) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 33
+Error (10029): Constant driver at vcr_decoder.sv(65) File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Error (12152): Can't elaborate user hierarchy "vcr_decoder:inst2"
+Info (144001): Generated suppressed messages file C:/Users/com/Documents/GitHub/fpga-design-project/quartus/output_files/design_project.map.smsg
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 6 errors, 26 warnings
+    Error: Peak virtual memory: 4699 megabytes
+    Error: Processing ended: Wed Dec 04 21:59:07 2019
+    Error: Elapsed time: 00:00:23
+    Error: Total CPU time (on all processors): 00:00:48
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/com/Documents/GitHub/fpga-design-project/quartus/output_files/design_project.map.smsg.
 
 

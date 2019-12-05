@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at vcr_decoder.sv(65): always construct contains both blocking and non-blocking assignments File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/vcr_decoder.sv Line: 65
+Warning (10268): Verilog HDL information at ReadState.sv(62): always construct contains both blocking and non-blocking assignments File: C:/Users/com/Documents/GitHub/fpga-design-project/quartus/vcr_files/ReadState.sv Line: 62
