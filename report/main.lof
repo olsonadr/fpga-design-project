@@ -1,0 +1,34 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces This image is legible, and conveys the point of the design. Your image can be hand drawn, but it must have straight lines, use your OSU ID. I don't recommend drafting this on the computer, because there aren't any decent tools to draw these block diagrams quickly.\relax }}{2}{figure.caption.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces The hardware diagram shows which pins are used on the FPGA, module boards, and relevant supply voltages for the different pieces of hardware used in the system.\relax }}{3}{figure.caption.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces The top level design for the project. This would be improved by combining the priority encoder and Mux4 into a single clock select block. Combining the ArrowLogic and Counter14 would also make this diagram better. Use chapter 1 concepts wisely on this diagram, specifically hierarchy, modularity, regularity, and discipline.\relax }}{4}{figure.caption.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces The simulation results of the top level design for the project.\relax }}{4}{figure.caption.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces The logic design of the (NAME) functional unit used in the final design.\relax }}{5}{figure.caption.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces The simulation results of the top level design for the project.\relax }}{5}{figure.caption.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces The block symbol of the (NAME) individual block used in the (NAME) functional unit, the block diagram of the logic of the testbench used to further simulate the block, and the block symbol of the test chip used in the testbench of the block.\relax }}{6}{figure.caption.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces The simulation results of the block alone, the testbench used to further simulate the block, and the simulation results for the testbebch of the (NAME) individual block used in the (NAME) functional unit.\relax }}{7}{figure.caption.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces The block symbol of the (NAME) individual block used in the (NAME) functional unit.\relax }}{8}{figure.caption.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces The simulation results of the (NAME) individual block used in the (NAME) functional unit.\relax }}{8}{figure.caption.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces The logic design of the DisplayDecoder functional unit used in the final design.\relax }}{9}{figure.caption.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces The simulation results for the DisplayDecoder Module.\relax }}{9}{figure.caption.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces The logic design of the vcr_decoder functional unit used in the final design.\relax }}{10}{figure.caption.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces The simulation results of the vcr_decoder Functional Unit.\relax }}{10}{figure.caption.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces The block symbol of the (NAME) individual block used in the (NAME) functional unit.\relax }}{11}{figure.caption.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces The simulation results of the (NAME) individual block used in the (NAME) functional unit.\relax }}{11}{figure.caption.18}% 

@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Project Description}{}% 1
+\BOOKMARK [1][-]{section.2}{High Level Description}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Functional Unit 1 Name}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Individual Block 1 Name \(with testbench\)}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Individual Block 2 Name \(without testbench\)}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{DisplayDecoder Functional Unit}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{vcrdecoder Functional Unit}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.1}{ReadState Module}{subsection.2.3}% 8
+\BOOKMARK [1][-]{appendix.A}{SystemVerilog Files}{}% 9
+\BOOKMARK [2][-]{subsection.A.1}{Functional Unit Name}{appendix.A}% 10
+\BOOKMARK [2][-]{subsection.A.2}{Functional Unit Name}{appendix.A}% 11
+\BOOKMARK [1][-]{appendix.B}{Simulation Files \(Do Scripts\)}{}% 12
+\BOOKMARK [2][-]{subsection.B.1}{Functional Unit Name}{appendix.B}% 13
+\BOOKMARK [2][-]{subsection.B.2}{Functional Unit Name}{appendix.B}% 14
