@@ -1,0 +1,41 @@
+{
+
+"intro_text": "Intro text.",
+
+"input_text": "Input text.",
+
+"output_text": "Output text.",
+
+"individual_blocks": [
+  { "name": "comparator",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "counter",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "delay",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "enable_flip_flop",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "mux4",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "parser",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." }
+]
+
+}

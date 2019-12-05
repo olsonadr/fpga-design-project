@@ -61,6 +61,8 @@
 }
 \makeatother
 
+
+
 %%Bibliography
 \begin{filecontents}{references.bib}
 @online{book,
@@ -170,133 +172,15 @@ The following subsections will discuss the inputs, outputs, designs, and simulat
 \clearpage
 
 
-
-\subsection{Functional Unit 1 Name}
-Introduction to functional unit. The input and output specifications follow, a block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The logic design of the (NAME) functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results of the top level design for the project.}
-    \label{fig:top-level-sim}
-\end{figure}
-
+%% Functional Subsections
+GENERATE ME!!!
 
 
 \clearpage
 
 
 
-
-
-\subsection{Functional Unit 1 Name}
-Introduction to functional unit. The input and output specifications follow, a block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The logic design of the (NAME) functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results of the top level design for the project.}
-    \label{fig:top-level-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{Individual Block 1 Name (with testbench)}
-Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}[t]{.4\textwidth}
-    \includegraphics[width=.98\textwidth]{symbols/individual_placeholder.png}
-    \subcaption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
-	\end{subfigure}
-  \begin{subfigure}[t]{.4\textwidth}
-  \includegraphics[width=.98\textwidth]{symbols/individual_placeholder.png}
-  \subcaption{The block symbol of the test block used in the testbench made to further simulate the (NAME) individual block.}
-  \end{subfigure}
-  \centering
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{images/testbench_placeholder.png}
-    \subcaption{The testbench used to further simulate the (NAME) individual block.}
-  \end{subfigure}
-  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit, the block diagram of the logic of the testbench used to further simulate the block, and the block symbol of the test chip used in the testbench of the block.}
-    \label{fig:individual-1-1-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
-    \subcaption{The simulation results for the (NAME) individual block alone.}
-  \end{subfigure}
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_testbench_sim.png}
-    \caption{The simulation results of the test block used in the testbench.}
-  \end{subfigure}
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_testbench_sim.png}
-    \caption{The simulation results of the testbench used.}
-  \end{subfigure}
-    \caption{The simulation results of the block alone, the testbench used to further simulate the block, and the simulation results for the testbebch of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-1-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{Individual Block 2 Name (without testbench)}
-Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
-  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-2-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
-  \caption{The simulation results of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsection{DisplayDecoder Functional Unit}
+\subsection{DisplaysDecoder Functional Unit}
 The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is
 able to output a hexadecimal display value between 0 and F. A block diagram of the unit follows in \textbf{Figure A} and the simulation results for the unit follows in \textbf{Figure B}.
 \begin{itemize}
@@ -322,7 +206,7 @@ able to output a hexadecimal display value between 0 and F. A block diagram of t
 
 
 
-\subsection{vcr\_decoder Functional Unit}
+\subsection{vcr decoder Functional Unit}
 The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
 \begin{itemize}
   \item \textbf{Inputs:  } The vcr\_decoder module two inputs, clk and IR. clk is a 10 KHz clock signal that is used to drive the module. IR is the Infrared signal coming from the VCR remote that will be translated by the module.

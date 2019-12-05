@@ -1,0 +1,16 @@
+{
+
+"intro_text": "Intro text.",
+
+"input_text": "Input text.",
+
+"output_text": "Output text.",
+
+"individual_blocks": [
+  { "name": "debounce",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." }
+]
+
+}
