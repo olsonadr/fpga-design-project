@@ -46,6 +46,7 @@
     tabsize=3,
     moredelim=*[s][\colorIndex]{[}{]},
     literate=*{:}{:}1 }
+
 \makeatletter
 \newcommand*\@lbracket{[}
 \newcommand*\@rbracket{]}
@@ -58,7 +59,22 @@
     \else \color{vorange}%
     \fi\fi\fi
 }
+\newcommand*{\NumDoFiles}{5}%
+\newcommand*{\NumSVFiles}{5}%
+\def\app@exe{\immediate\write18}
+\def\listDir#1#2{%
+  \app@exe{ls #1/* | xargs cat >> files.tmp}%
+  \lstinputlisting[#2]{files.tmp}%
+  \AtEndDocument{}}
+
+  \def\listAllFilesWithName#1#2{%
+    \app@exe{ls #1 | xargs cat >> ./wow.tmp}%
+    \lstinputlisting[#2]{./wow.tmp}%
+    \AtEndDocument{rm -f ./wow.tmp}}
+
 \makeatother
+\usepackage{pgffor}%
+
 
 %%Bibliography
 \begin{filecontents}{references.bib}
@@ -112,13 +128,7 @@
 
 
 
-\newpage
-
-
-
-\FloatBarrier
-\newpage
-\FloatBarrier
+\clearpage
 
 
 
@@ -132,9 +142,9 @@ Intro to Project paragraph. The inputs and outputs of the overall design immedia
 
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.8\textwidth]{images/description.png}
+  \includegraphics[width=.8\textwidth]{images/description.png}
 	\caption{This image is legible, and conveys the point of the design.  Your image can be hand drawn, but it must have straight lines, use your OSU ID.  I don't recommend drafting this on the computer, because there aren't any decent tools to draw these block diagrams quickly.}
-    \label{fig:description}
+  \label{fig:description}
 \end{figure}
 
 \begin{figure}[h]
@@ -320,6 +330,21 @@ This appendix will list the SystemVerilog code used for each block used in the d
 
 \section{Simulation Files (Do Scripts)}
 This appendix will list the Do Scripts used to simulate each block used in the design project.
+
+
+\foreach \c in {1,2,...,\NumDoFiles}{%
+    \IfFileExists{./do_files/\c_*.do} {%
+        wow
+        % \listAllFilesWithName{./do_files/\c_*.do}{}
+    }{%
+            % files does not exist, so nothing to do
+    }%
+}%
+
+
+
+
+% \listDir{./do_files}{style=verilog-style}
 
 \subsection{Functional Unit Name}
 \begin{figure}[h]
