@@ -59,22 +59,7 @@
     \else \color{vorange}%
     \fi\fi\fi
 }
-\newcommand*{\NumDoFiles}{5}%
-\newcommand*{\NumSVFiles}{5}%
-\def\app@exe{\immediate\write18}
-\def\listDir#1#2{%
-  \app@exe{ls #1/* | xargs cat >> files.tmp}%
-  \lstinputlisting[#2]{files.tmp}%
-  \AtEndDocument{}}
-
-  \def\listAllFilesWithName#1#2{%
-    \app@exe{ls #1 | xargs cat >> ./wow.tmp}%
-    \lstinputlisting[#2]{./wow.tmp}%
-    \AtEndDocument{rm -f ./wow.tmp}}
-
 \makeatother
-\usepackage{pgffor}%
-
 
 %%Bibliography
 \begin{filecontents}{references.bib}
@@ -392,63 +377,9 @@ Introduction to individual block. The input and output specifications follow, as
 \section{SystemVerilog Files}
 This appendix will list the SystemVerilog code used for each block used in the design project.
 
-\subsection{seven_seg_6}
-\subsubsection{Component Blocks of seven_seg_6 Unit}
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/seven_seg_6/sv_individual_blocks/sevenseg.sv}
-\subcaption{SystemVerilog code for theseven_seg_6 block used in the design.}
-\end{figure}
+Generate me!
 
 \clearpage
-
-\subsection{L293D_encoder}
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/L293D_encoder/L293D_encoder.sv}
-\subcaption{SystemVerilog code for theL293D_encoder block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsection{nes_decoder}
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/nes_decoder/nes_decoder.sv}
-\subcaption{SystemVerilog code for thenes_decoder block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsection{parsed_clock}
-\subsubsection{Component Blocks of parsed_clock Unit}
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/parsed_clock/sv_individual_blocks/parser.sv}
-\subcaption{SystemVerilog code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/parsed_clock/sv_individual_blocks/comparator.sv}
-\subcaption{SystemVerilog code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/parsed_clock/sv_individual_blocks/mux4.sv}
-\subcaption{SystemVerilog code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/parsed_clock/sv_individual_blocks/counter.sv}
-\subcaption{SystemVerilog code for theparsed_clock block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsection{nes_to_motor}
-\begin{figure}[h]
-\lstinputlisting[style=verilog-style]{functional_units/nes_to_motor/nes_to_motor.sv}
-\subcaption{SystemVerilog code for thenes_to_motor block used in the design.}
-\end{figure}
-
-\clearpage
-
 
 
 
@@ -456,80 +387,7 @@ This appendix will list the SystemVerilog code used for each block used in the d
 \section{Simulation Files (Do Scripts)}
 This appendix will list the Do Scripts used to simulate each block used in the design project.
 
-\subsection{seven_seg_6}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/seven_seg_6/seven_seg_6.do}
-\subcaption{Do Script code for theseven_seg_6 block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsubsection{Component Blocks of seven_seg_6 Unit}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/seven_seg_6/do_individual_blocks/sevenseg.do}
-\subcaption{Do Script code for theseven_seg_6 block used in the design.}
-\end{figure}
-
-\subsection{L293D_encoder}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/L293D_encoder/L293D_encoder.do}
-\subcaption{Do Script code for theL293D_encoder block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsection{nes_decoder}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/nes_decoder/nes_decoder.do}
-\subcaption{Do Script code for thenes_decoder block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsection{parsed_clock}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/parsed_clock.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\clearpage
-
-\subsubsection{Component Blocks of parsed_clock Unit}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/counter.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/parser.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/enable_flip_flop.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/delay.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/mux4.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/parsed_clock/do_individual_blocks/comparator.do}
-\subcaption{Do Script code for theparsed_clock block used in the design.}
-\end{figure}
-
-\subsection{nes_to_motor}
-\begin{figure}[h]
-\lstinputlisting[]{functional_units/nes_to_motor/nes_to_motor.do}
-\subcaption{Do Script code for thenes_to_motor block used in the design.}
-\end{figure}
+Generate me!
 
 
 \end{document}
