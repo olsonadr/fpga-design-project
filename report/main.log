@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 DEC 2019 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  5 DEC 2019 01:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1162,6 +1162,42 @@ LaTeX Warning: Label `fig:functional-1' multiply defined.
 LaTeX Warning: Label `fig:top-level-sim' multiply defined.
 
 
+LaTeX Warning: Label `fig:functional-1' multiply defined.
+
+
+LaTeX Warning: Label `fig:functional-1' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-block' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-block' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
 LaTeX Warning: Label `fig:individual-1-2-block' multiply defined.
 
 
@@ -1170,26 +1206,26 @@ LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1262,7 +1298,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 80.
+Package hyperref Info: Link coloring ON on input line 81.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1272,9 +1308,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1288,8 +1324,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
 \c@lstlisting=\count358
  [1
 
@@ -1304,965 +1340,282 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-./main.toc:16: Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...coder Functional Unit}{10}{subsection.2.3}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.toc:16: Extra }, or forgotten $.
-<argument> ...ne {2.3}vcr_decoder Functional Unit}
-                                                  \hyper@linkend 
-l.16 ...coder Functional Unit}{10}{subsection.2.3}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.toc:16: Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...coder Functional Unit}{10}{subsection.2.3}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.toc:16: Missing } inserted.
-<inserted text> 
-                }
-l.16 ...coder Functional Unit}{10}{subsection.2.3}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
+))
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (./main.lof
-./main.lof:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.lof:28: Extra }, or forgotten $.
-<argument> ...it used in the final design.\relax }
-                                                  }\hyper@linkend 
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.lof:28: Extra }, or forgotten $.
-<argument> ...t used in the final design.\relax }}
-                                                  \hyper@linkend 
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.lof:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.lof:28: Missing } inserted.
-<inserted text> 
-                }
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.lof:28: Missing } inserted.
-<inserted text> 
-                }
-l.28 ...al design.\relax }}{10}{figure.caption.15}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.lof:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.lof:30: Extra }, or forgotten $.
-<argument> ...vcr_decoder Functional Unit.\relax }
-                                                  }\hyper@linkend 
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.lof:30: Extra }, or forgotten $.
-<argument> ...cr_decoder Functional Unit.\relax }}
-                                                  \hyper@linkend 
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.lof:30: Missing $ inserted.
-<inserted text> 
-                $
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.lof:30: Missing } inserted.
-<inserted text> 
-                }
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.lof:30: Missing } inserted.
-<inserted text> 
-                }
-l.30 ...onal Unit.\relax }}{10}{figure.caption.16}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
+ (./main.lofpdfTeX warning (ext4): destination with the same identifier (name{p
+age.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 ...onal unit.\relax }}{15}{figure.caption.23}
+                                                  % [1])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.115 \newpage
-               [1]
-<images/description.png, id=165, 614.295pt x 794.97pt>
+ [2]
+<images/description.png, id=214, 614.295pt x 794.97pt>
 File: images/description.png Graphic file (type png)
 <use images/description.png>
-Package pdftex.def Info: images/description.png  used on input line 135.
+Package pdftex.def Info: images/description.png  used on input line 130.
 (pdftex.def)             Requested size: 341.43437pt x 441.85648pt.
-<images/hardware.png, id=167, 700.86844pt x 660.21657pt>
+<images/hardware.png, id=216, 700.86844pt x 660.21657pt>
 File: images/hardware.png Graphic file (type png)
 <use images/hardware.png>
-Package pdftex.def Info: images/hardware.png  used on input line 142.
+Package pdftex.def Info: images/hardware.png  used on input line 137.
 (pdftex.def)             Requested size: 341.43437pt x 321.63516pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./images/description.png>] [3 <./images/hardware.png>]
-<images/top_level.png, id=178, 978.65625pt x 643.6547pt>
+[3
+
+ <./images/description.png>] [4 <./images/hardware.png>]
+<images/top_level.png, id=227, 978.65625pt x 643.6547pt>
 File: images/top_level.png Graphic file (type png)
 <use images/top_level.png>
-Package pdftex.def Info: images/top_level.png  used on input line 161.
+Package pdftex.def Info: images/top_level.png  used on input line 156.
 (pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
-<sims/top_level.png, id=179, 1098.1025pt x 384.43625pt>
+<sims/top_level.png, id=228, 1098.1025pt x 384.43625pt>
 File: sims/top_level.png Graphic file (type png)
 <use sims/top_level.png>
-Package pdftex.def Info: sims/top_level.png  used on input line 167.
-(pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
- [4
-
- <./images/top_level.png> <./sims/top_level.png>]
-<images/functional_1.png, id=186, 978.65625pt x 643.6547pt>
-File: images/functional_1.png Graphic file (type png)
-<use images/functional_1.png>
-Package pdftex.def Info: images/functional_1.png  used on input line 187.
-(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
-<sims/functional_1.png, id=187, 1098.1025pt x 384.43625pt>
-File: sims/functional_1.png Graphic file (type png)
-<use sims/functional_1.png>
-Package pdftex.def Info: sims/functional_1.png  used on input line 193.
+Package pdftex.def Info: sims/top_level.png  used on input line 162.
 (pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
  [5
 
+ <./images/top_level.png> <./sims/top_level.png>]
+<images/functional_1.png, id=234, 978.65625pt x 643.6547pt>
+File: images/functional_1.png Graphic file (type png)
+<use images/functional_1.png>
+Package pdftex.def Info: images/functional_1.png  used on input line 182.
+(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
+<sims/functional_1.png, id=235, 1098.1025pt x 384.43625pt>
+File: sims/functional_1.png Graphic file (type png)
+<use sims/functional_1.png>
+Package pdftex.def Info: sims/functional_1.png  used on input line 188.
+(pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
+ [6
+
  <./images/functional_1.png> <./sims/functional_1.png>]
-<symbols/individual_placeholder.png, id=193, 459.7175pt x 380.42125pt>
+File: images/functional_1.png Graphic file (type png)
+<use images/functional_1.png>
+Package pdftex.def Info: images/functional_1.png  used on input line 209.
+(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
+File: sims/functional_1.png Graphic file (type png)
+<use sims/functional_1.png>
+Package pdftex.def Info: sims/functional_1.png  used on input line 215.
+(pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
+ [7
+
+]
+<symbols/individual_placeholder.png, id=246, 459.7175pt x 380.42125pt>
 File: symbols/individual_placeholder.png Graphic file (type png)
 <use symbols/individual_placeholder.png>
 Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
- 213.
+ 235.
 (pdftex.def)             Requested size: 167.29892pt x 138.44336pt.
 File: symbols/individual_placeholder.png Graphic file (type png)
 <use symbols/individual_placeholder.png>
 Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
- 217.
+ 239.
 (pdftex.def)             Requested size: 167.29892pt x 138.44336pt.
-<images/testbench_placeholder.png, id=194, 1227.58624pt x 491.8375pt>
+<images/testbench_placeholder.png, id=247, 1227.58624pt x 491.8375pt>
 File: images/testbench_placeholder.png Graphic file (type png)
 <use images/testbench_placeholder.png>
 Package pdftex.def Info: images/testbench_placeholder.png  used on input line 2
-22.
+44.
 (pdftex.def)             Requested size: 409.88683pt x 164.2206pt.
-<sims/placeholder_sim.png, id=195, 1098.1025pt x 384.43625pt>
+<sims/placeholder_sim.png, id=248, 1098.1025pt x 384.43625pt>
 File: sims/placeholder_sim.png Graphic file (type png)
 <use sims/placeholder_sim.png>
-Package pdftex.def Info: sims/placeholder_sim.png  used on input line 231.
+Package pdftex.def Info: sims/placeholder_sim.png  used on input line 253.
 (pdftex.def)             Requested size: 409.88683pt x 143.4945pt.
-<sims/placeholder_testbench_sim.png, id=196, 1340.00626pt x 294.09875pt>
+<sims/placeholder_testbench_sim.png, id=249, 1340.00626pt x 294.09875pt>
 File: sims/placeholder_testbench_sim.png Graphic file (type png)
 <use sims/placeholder_testbench_sim.png>
 Package pdftex.def Info: sims/placeholder_testbench_sim.png  used on input line
- 235.
+ 257.
 (pdftex.def)             Requested size: 409.88683pt x 89.95801pt.
 File: sims/placeholder_testbench_sim.png Graphic file (type png)
 <use sims/placeholder_testbench_sim.png>
 Package pdftex.def Info: sims/placeholder_testbench_sim.png  used on input line
- 239.
+ 261.
 (pdftex.def)             Requested size: 409.88683pt x 89.95801pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[8
 
  <./symbols/individual_placeholder.png> <./images/testbench_placeholder.png>] [
-7 <./sims/placeholder_sim.png> <./sims/placeholder_testbench_sim.png>]
+9 <./sims/placeholder_sim.png> <./sims/placeholder_testbench_sim.png>]
 File: symbols/individual_placeholder.png Graphic file (type png)
 <use symbols/individual_placeholder.png>
 Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
- 260.
+ 282.
 (pdftex.def)             Requested size: 204.85802pt x 169.522pt.
 File: sims/placeholder_sim.png Graphic file (type png)
 <use sims/placeholder_sim.png>
-Package pdftex.def Info: sims/placeholder_sim.png  used on input line 266.
+Package pdftex.def Info: sims/placeholder_sim.png  used on input line 288.
 (pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
-
-[8
-
-]
-File: images/functional_1.png Graphic file (type png)
-<use images/functional_1.png>
-Package pdftex.def Info: images/functional_1.png  used on input line 286.
-(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
-File: sims/functional_1.png Graphic file (type png)
-<use sims/functional_1.png>
-Package pdftex.def Info: sims/functional_1.png  used on input line 292.
-(pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
- [9
-
-]
-./main.tex:303: Missing $ inserted.
-<inserted text> 
-                $
-l.303 \subsection{vcr_decoder Functional Unit}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:303: Missing $ inserted.
-<inserted text> 
-                $
-l.303 \subsection{vcr_decoder Functional Unit}
-                                              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 303.
-
-./main.tex:304: Missing $ inserted.
-<inserted text> 
-                $
-l.304 The vcr_
-              decoder module converts an IR signal sent from a VCR remote in...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:305: Missing $ inserted.
-<inserted text> 
-                $
-l.305 \begin{itemize}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:305: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.305 \begin{itemize}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (755.39441pt too wide) in paragraph at lines 304--305
-\T1/cmr/m/n/10 The vcr$[]\OML/cmm/m/it/10 ecodermoduleconvertsanIRsignalsentfro
-maVCRremoteintoadecimalvaluebetween\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 and\OT1/cm
-r/m/n/10 9\OML/cmm/m/it/10 :Ablockdiagramoftheunitfollowsin[]; thesimulationres
-ultsfortheunitfollowsin[]; andthedetailsforeachindividualblockcomprisingtheunit
-followafter:$ 
- []
-
-
-./main.tex:306: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.306   \item \textbf
-                     {Inputs:  } The vcr_decoder module two inputs, clk and ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 306
-[][]
- []
-
-./main.tex:306: Missing $ inserted.
-<inserted text> 
-                $
-l.306   \item \textbf{Inputs:  } The vcr_
-                                         decoder module two inputs, clk and ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-./main.tex:307: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307   \item
-              \textbf{Outputs: } The vcr_decoder module has a single output,...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:307: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307   \item \textbf
-                     {Outputs: } The vcr_decoder module has a single output,...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:307: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307   \item \textbf
-                     {Outputs: } The vcr_decoder module has a single output,...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:307: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307   \item \textbf
-                     {Outputs: } The vcr_decoder module has a single output,...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 307
-[][]
- []
-
-
-./main.tex:308: LaTeX Error: Command \end{document} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:308: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:308: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./main.tex:308: LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:308: Missing $ inserted.
-<inserted text> 
-                $
-l.308 \end{itemize}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.tex:308: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.308 \end{itemize}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-File: images/functional_1.png Graphic file (type png)
-<use images/functional_1.png>
-Package pdftex.def Info: images/functional_1.png  used on input line 311.
-(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
-./main.tex:312: Missing $ inserted.
-<inserted text> 
-                $
-l.312 ...unctional unit used in the final design.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:312: Missing $ inserted.
-<inserted text> 
-                $
-l.312 ...unctional unit used in the final design.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:312: Missing $ inserted.
-<inserted text> 
-                $
-l.312 ...unctional unit used in the final design.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:312: Missing $ inserted.
-<inserted text> 
-                $
-l.312 ...unctional unit used in the final design.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-File: sims/functional_1.png Graphic file (type png)
-<use sims/functional_1.png>
-Package pdftex.def Info: sims/functional_1.png  used on input line 317.
-(pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
-./main.tex:318: Missing $ inserted.
-<inserted text> 
-                $
-l.318 ...ults of the vcr_decoder Functional Unit.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:318: Missing $ inserted.
-<inserted text> 
-                $
-l.318 ...ults of the vcr_decoder Functional Unit.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:318: Missing $ inserted.
-<inserted text> 
-                $
-l.318 ...ults of the vcr_decoder Functional Unit.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:318: Missing $ inserted.
-<inserted text> 
-                $
-l.318 ...ults of the vcr_decoder Functional Unit.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (805.10689pt too wide) in paragraph at lines 306--321
-[]\T1/cmr/bx/n/10 Inputs:  \T1/cmr/m/n/10 The vcr$[]\OML/cmm/m/it/10 ecodermodu
-letwoinputs; clkandIR:clkisa\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 KHzclocksignalth
-atisusedtodrivethemodule:IRistheInfraredsignalcomingfromtheVCRremotethatwillbet
-ranslatedbythemodule:[]Thevcr[]ecodermodulehasasingleoutput; displayValue; whic
-histhe\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^@
- []
 
 [10
 
 ]
-File: symbols/individual_placeholder.png Graphic file (type png)
-<use symbols/individual_placeholder.png>
-Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
- 336.
-(pdftex.def)             Requested size: 204.85802pt x 169.522pt.
-File: sims/placeholder_sim.png Graphic file (type png)
-<use sims/placeholder_sim.png>
-Package pdftex.def Info: sims/placeholder_sim.png  used on input line 342.
+File: images/functional_1.png Graphic file (type png)
+<use images/functional_1.png>
+Package pdftex.def Info: images/functional_1.png  used on input line 308.
+(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
+File: sims/functional_1.png Graphic file (type png)
+<use sims/functional_1.png>
+Package pdftex.def Info: sims/functional_1.png  used on input line 314.
 (pdftex.def)             Requested size: 418.2537pt x 146.42752pt.
  [11
 
-] (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2019/02/27 1.8b listings language file
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2019/02/27 1.8b listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 359.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 359.
-
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 360.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 360.
-See the caption package documentation for explanation.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 364.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 364.
-See the caption package documentation for explanation.
+]
+File: images/functional_1.png Graphic file (type png)
+<use images/functional_1.png>
+Package pdftex.def Info: images/functional_1.png  used on input line 333.
+(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
+File: images/functional_1.png Graphic file (type png)
+<use images/functional_1.png>
+Package pdftex.def Info: images/functional_1.png  used on input line 339.
+(pdftex.def)             Requested size: 341.43437pt x 224.55573pt.
+<sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png, id=271, 12
+17.54875pt x 410.53375pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png Graphi
+c file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Tr
+ansition.png  used on input line 345.
+(pdftex.def)             Requested size: 418.2537pt x 141.02666pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
+<sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png, id=272, 1210
+.5225pt x 403.5075pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png Graphic 
+file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_tran
+sition.png  used on input line 351.
+(pdftex.def)             Requested size: 418.2537pt x 139.41957pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+<sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png, id=273, 12
+09.51875pt x 410.53375pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png Graphi
+c file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_tr
+ansition.png  used on input line 357.
+(pdftex.def)             Requested size: 418.2537pt x 141.96004pt.
 
-)
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 368.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 368.
-See the caption package documentation for explanation.
-
+<sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png, id=274, 
+1212.53pt x 416.55624pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png Grap
+hic file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_
+transition.png  used on input line 363.
+(pdftex.def)             Requested size: 418.2537pt x 143.68663pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12
 
-] [13] [14] (./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 380.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 380.
-See the caption package documentation for explanation.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 384.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 384.
-See the caption package documentation for explanation.
+] [13 <./sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png> <.
+/sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png> <./sims/vcr_
+testing/moduleTests/vcr_decoder/C2_to_READ_transition.png>] [14 <./sims/vcr_tes
+ting/moduleTests/vcr_decoder/READ_to_PUSH_transition.png>]
+File: symbols/individual_placeholder.png Graphic file (type png)
+<use symbols/individual_placeholder.png>
+Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
+ 383.
+(pdftex.def)             Requested size: 204.85802pt x 169.522pt.
+<sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png, id=292,
+ 1222.5675pt x 415.5525pt>
+File: sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png Gra
+phic file (type png)
+<use sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING
+_Transition.png  used on input line 389.
+(pdftex.def)             Requested size: 418.2537pt x 142.16101pt.
+<sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png, id=293, 1217.5487
+5pt x 411.5375pt>
+File: sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png Graphic file 
+(type png)
+<use sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/PROCESSING_Stat
+e.png  used on input line 395.
+(pdftex.def)             Requested size: 418.2537pt x 141.37148pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 388.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 388.
-See the caption package documentation for explanation.
-
+<sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png, id=294, 1213.53
+375pt x 413.545pt>
+File: sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png Graphic fil
+e (type png)
+<use sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/Transition_to_D
+ONE.png  used on input line 401.
+(pdftex.def)             Requested size: 418.2537pt x 142.53435pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15
 
-] [16] [17] (./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
+ <./sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png>]
+[16 <./sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png> <./sims/vcr
+_testing/moduleTests/ReadState/Transition_to_DONE.png>]
+File: symbols/individual_placeholder.png Graphic file (type png)
+<use symbols/individual_placeholder.png>
+Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
+ 420.
+(pdftex.def)             Requested size: 204.85802pt x 169.522pt.
+<sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoderTest.png, id=307, 1218
+.5525pt x 408.52625pt>
+File: sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoderTest.png Graphic 
+file (type png)
+<use sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoderTest.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/SignalDecoder/SignalDecod
+erTest.png  used on input line 426.
+(pdftex.def)             Requested size: 418.2537pt x 140.21861pt.
+ [17
 
+ <./sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoderTest.png>]
+File: symbols/individual_placeholder.png Graphic file (type png)
+<use symbols/individual_placeholder.png>
+Package pdftex.def Info: symbols/individual_placeholder.png  used on input line
+ 445.
+(pdftex.def)             Requested size: 204.85802pt x 169.522pt.
+<sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegisterTest.png, id=313, 1215
+.54124pt x 409.53pt>
+File: sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegisterTest.png Graphic 
+file (type png)
+<use sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegisterTest.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegist
+erTest.png  used on input line 451.
+(pdftex.def)             Requested size: 418.2537pt x 140.91306pt.
+ [18
 
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+ <./sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegisterTest.png>] [19
 
-)
+] [20
 
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 403.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 403.
-See the caption package documentation for explanation.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 407.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 407.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 411.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 411.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18
-
-] [19] [20] (./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 423.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 423.
-See the caption package documentation for explanation.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 427.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 427.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./sv_files/placeholder.sv
-Overfull \hbox (559.55734pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
- []
-
-
-Overfull \hbox (4.02762pt too wide) in paragraph at lines 17--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
-(caption)                outside box or environment on input line 431.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 431.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21
-
-] [22] [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D6E89C5E5C50950E54CBD8E89D96E86;1023.
+(rerunfilecheck)             Checksum: 79DEF98073FC9F0676190ED7B626DB90;1005.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2272,33 +1625,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29123 strings out of 492616
- 528420 string characters out of 6129482
- 1053071 words of memory out of 5000000
- 32062 multiletter control sequences out of 15000+600000
- 20976 words of font info for 56 fonts, out of 8000000 for 9000
+ 28186 strings out of 492616
+ 518410 string characters out of 6129482
+ 971070 words of memory out of 5000000
+ 31566 multiletter control sequences out of 15000+600000
+ 12924 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,97p,877b,1719s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,81p,877b,2026s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on main.pdf (24 pages, 3842497 bytes).
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (21 pages, 4038853 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 464 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
