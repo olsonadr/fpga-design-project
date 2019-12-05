@@ -1,0 +1,28 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Project Description}{3}{section.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}High Level Description}{5}{section.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Functional Unit 1 Name}{6}{subsection.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Functional Unit 1 Name}{7}{subsection.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Individual Block 1 Name (with testbench)}{8}{subsubsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Individual Block 2 Name (without testbench)}{10}{subsubsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}DisplayDecoder Functional Unit}{11}{subsection.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}vcr\_decoder Functional Unit}{12}{subsection.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}ReadState Individual Block}{15}{subsubsection.2.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}SignalDecoder Individual Block}{17}{subsubsection.2.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}ShiftRegister Individual Block}{18}{subsubsection.2.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}SystemVerilog Files}{19}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Simulation Files (Do Scripts)}{20}{appendix.B}% 

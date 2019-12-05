@@ -61,6 +61,8 @@
 }
 \makeatother
 
+
+
 %%Bibliography
 \begin{filecontents}{references.bib}
 @online{book,
@@ -170,133 +172,15 @@ The following subsections will discuss the inputs, outputs, designs, and simulat
 \clearpage
 
 
-
-\subsection{Functional Unit 1 Name}
-Introduction to functional unit. The input and output specifications follow, a block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The logic design of the (NAME) functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results of the top level design for the project.}
-    \label{fig:top-level-sim}
-\end{figure}
-
+%% Functional Subsections
+GENERATE ME!!!
 
 
 \clearpage
 
 
 
-
-
-\subsection{Functional Unit 1 Name}
-Introduction to functional unit. The input and output specifications follow, a block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The logic design of the (NAME) functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results of the top level design for the project.}
-    \label{fig:top-level-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{Individual Block 1 Name (with testbench)}
-Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}[t]{.4\textwidth}
-    \includegraphics[width=.98\textwidth]{symbols/individual_placeholder.png}
-    \subcaption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
-	\end{subfigure}
-  \begin{subfigure}[t]{.4\textwidth}
-  \includegraphics[width=.98\textwidth]{symbols/individual_placeholder.png}
-  \subcaption{The block symbol of the test block used in the testbench made to further simulate the (NAME) individual block.}
-  \end{subfigure}
-  \centering
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{images/testbench_placeholder.png}
-    \subcaption{The testbench used to further simulate the (NAME) individual block.}
-  \end{subfigure}
-  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit, the block diagram of the logic of the testbench used to further simulate the block, and the block symbol of the test chip used in the testbench of the block.}
-    \label{fig:individual-1-1-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
-    \subcaption{The simulation results for the (NAME) individual block alone.}
-  \end{subfigure}
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_testbench_sim.png}
-    \caption{The simulation results of the test block used in the testbench.}
-  \end{subfigure}
-  \begin{subfigure}[t]{.98\textwidth}
-    \includegraphics[width=.98\textwidth]{sims/placeholder_testbench_sim.png}
-    \caption{The simulation results of the testbench used.}
-  \end{subfigure}
-    \caption{The simulation results of the block alone, the testbench used to further simulate the block, and the simulation results for the testbebch of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-1-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{Individual Block 2 Name (without testbench)}
-Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
-  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-2-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
-  \caption{The simulation results of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsection{DisplayDecoder Functional Unit}
+\subsection{DisplaysDecoder Functional Unit}
 The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is
 able to output a hexadecimal display value between 0 and F. A block diagram of the unit follows in \textbf{Figure A} and the simulation results for the unit follows in \textbf{Figure B}.
 \begin{itemize}
@@ -312,7 +196,7 @@ able to output a hexadecimal display value between 0 and F. A block diagram of t
 \begin{figure}[h]
   \centering
     \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results for the DisplayDecoder Module.}
+	\caption{The simulation results for the DisplayDecoder Individual Unit.}
     \label{fig:top-level-sim}
 \end{figure}
 
@@ -323,6 +207,8 @@ able to output a hexadecimal display value between 0 and F. A block diagram of t
 
 
 \subsection{vcr\_decoder Functional Unit}
+The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}. A state diagram describing the unit as well as the simulation results for the unit follow in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
+\subsection{vcr decoder Functional Unit}
 The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
 \begin{itemize}
   \item \textbf{Inputs:  } The vcr\_decoder module two inputs, clk and IR. clk is a 10 KHz clock signal that is used to drive the module. IR is the Infrared signal coming from the VCR remote that will be translated by the module.
@@ -336,9 +222,71 @@ The vcr\_decoder module converts an IR signal sent from a VCR remote into a deci
 \end{figure}
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
-	\caption{The simulation results of the vcr\_decoder Functional Unit.}
+    \includegraphics[width=.8\textwidth]{images/functional_1.png}
+	\caption{The State Diagram for the vcr\_decoder functional unit used in the final design.}
+    \label{fig:functional-1}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the IDLE state to the C1 control state following the first time the IR signal goes to a logic LOW.}
     \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the C1 control state to the C2 control state.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the C2 control state to the READ state, indicicating that it is currently reading a 32-bit IR signal corresponding the button on the VCR remote that was pressed.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the READ state to the PUSH state indicating that the full 32-bit input value has been processed and an output value is produced.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+
+
+
+\clearpage
+
+
+
+\subsubsection{ReadState Individual Block}
+The ReadState Individual Block is used to implement the READ state within the vcr\_decoder Module. The block diagram (\textbf{Figure C}), State Diagram, and simulation results \textbf{Figure D} are provided below.
+\begin{itemize}
+  \item \textbf{Inputs:  } inputs
+  \item \textbf{Outputs: } outputs
+\end{itemize}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
+  \caption{The block symbol of the ReadState individual block used in the vcr\_decoder functional unit.}
+    \label{fig:individual-1-2-block}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the IDLE state to the Reading State within the ReadState Module. This transition is in response to the initial HIGH IR signal that represents the 32-bit value encoding the button that was pressed.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows Processing State of the ReadState Module. When the state machine is in the Reading state, that means it is actively reading a HIGH signal for IR. As seen in this waveform, when IR goes LOW again, the state machine switches to the Processing state in which it checks the length of the signal to see if it is a logic 1 or a logic 0. The 1 or 0 is then shifted into the shift register on the rising edge of the shiftValue signal, as seen in the waveform. The state machine then switches into the Waiting state, while it waits for IR to go HIGH again.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the reading, Processing, Waiting cycle to the Done state in which it outputs the 32-bit hexadecimal value identified by the IR signal input. In each Waiting state, the state machine will check if 32-bits have been read into the shift register. If so, the state machine will switch to the Done state and output the value for the IR signal that it received as input. In addition, it will drive an output signal outputReady HIGH. This signal is used by the vcr\_decoder module, to know when to output a result.}
+    \label{fig:individual-1-2-sim}
 \end{figure}
 
 
@@ -347,11 +295,11 @@ The vcr\_decoder module converts an IR signal sent from a VCR remote into a deci
 
 
 
-\subsubsection{ReadState Module}
-Introduction to individual block. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
+\subsubsection{SignalDecoder Individual Block}
+The SignalDecoder Individual Block is used to convert the 32-bit value generated by the ReadState Individual Block into a 4-bit value by 0 and 15 that indicated which button on the VCR remote was pressed. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
 \begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
+  \item \textbf{Inputs:  } The SignalDecoder Individual Block takes a single 32-bit input that corresponds to the complete IR signal that was read in by the ReadState Individual Block
+  \item \textbf{Outputs: } The SignalDecoder Individual Block outputs a 4-bit value betwee 0 and 15.
 \end{itemize}
 \begin{figure}[h]
   \centering
@@ -361,11 +309,35 @@ Introduction to individual block. The input and output specifications follow, as
 \end{figure}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.98\textwidth]{sims/placeholder_sim.png}
-  \caption{The simulation results of the (NAME) individual block used in the (NAME) functional unit.}
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoderTest.png}
+  \caption{The simulation results of the SignalDecoder individual block used in the vcr\_decoder functional unit.}
     \label{fig:individual-1-2-sim}
 \end{figure}
 
+
+
+\clearpage
+
+
+
+\subsubsection{ShiftRegister Individual Block}
+The ShiftRegister Individual Block is used to store the 32-bit IR signal value bit by bit as as it is read in by the ReadState Module. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
+\begin{itemize}
+  \item \textbf{Inputs:  } Inputs
+  \item \textbf{Outputs: } Output
+\end{itemize}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
+  \caption{The block symbol of the ShiftRegister individual block used in the vcr\_decoder functional unit.}
+    \label{fig:individual-1-2-block}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ShiftRegister/ShiftRegisterTest.png}
+  \caption{The simulation results of the ShiftRegister individual block used in the vcr\_decoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
 
 
 

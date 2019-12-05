@@ -1,0 +1,9 @@
+{
+
+"intro_text": "The Counter Functional Unit increments a counter on every rising edge of the input clock signal. This is used to generate a 10 KHz clock signal to drive the vcr_decoder Functional Unit.",
+
+"input_text": "The Counter Functional Unit has 2 inputs: clk and reset. clk is the 50 MHz FPGA clock that is used to drive the counter. reset is an input signal that resets the counter to 0.",
+
+"output_text": "The Counter Functional Unit has 1 output: q. q is a 23-bit value with the current value of the counter.",
+
+}
