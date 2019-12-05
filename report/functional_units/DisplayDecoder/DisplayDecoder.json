@@ -1,0 +1,11 @@
+{
+
+"intro_text": "The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is able to output a hexadecimal display value between 0 and F.",
+
+"input_text": "The DisplayDecoder module takes a 4-bit binary value input, data, as its only input.",
+
+"output_text": "The DisplayDecoder module outputs a 7-bit binary value that is used to activate specific segments in the FPGA seven segment display.",
+
+"individual_blocks": []
+
+}

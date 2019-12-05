@@ -1,0 +1,31 @@
+{
+
+"intro_text": "Intro text.",
+
+"input_text": "Input text.",
+
+"output_text": "Output text.",
+
+"individual_blocks": [
+  { "name": "mux2",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "ReadState",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "ShiftRegister",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." },
+
+  { "name": "signalDecoder",
+    "intro_text":   "Intro text.",
+    "input_text":   "Input text.",
+    "output_text":  "Output text." }
+]
+
+}
