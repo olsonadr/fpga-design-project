@@ -119,7 +119,7 @@ def list_files(functional_dir, extension, output_file):
             # if sim exists
             for item in functional_unit_dir.iterdir():
                 if item.is_file() and item.name == fu_name + '_sim.' + extension:
-                    intro_to_write += ' The logic symbol follows in \\textbf{Figure ' + str(fig_num) + '}. '
+                    intro_to_write += ' The simulation results follow in \\textbf{Figure ' + str(fig_num) + '}. '
                     body_to_write += '\\begin{figure}[h]\n\\centering\n\\includegraphics[width=.98\\textwidth]{' + posixpath.join(rel_dir, fu_name, (fu_name + '_sim.' + extension)) + '}\n\\caption{The simulation results for the ' + fu_name_escaped + ' module.}\n\\end{figure}\n'
                     fig_num + 1
             # write functional unit stuff
@@ -169,7 +169,7 @@ def list_files(functional_dir, extension, output_file):
                 # if sim exists
                 for item in Path(posixpath.join(functional_unit_dir, 'individual_blocks')).iterdir():
                     if item.is_file() and item.name == ind_name + '_sim.' + extension:
-                        intro_to_write += ' The logic symbol follows in \\textbf{Figure ' + str(fig_num) + '}. '
+                        intro_to_write += ' The simulation results follow in \\textbf{Figure ' + str(fig_num) + '}. '
                         body_to_write += '\\begin{figure}[h]\n\\centering\n\\includegraphics[width=.98\\textwidth]{' + posixpath.join(rel_dir, fu_name, 'individual_blocks', (ind_name + '_sim.' + extension)) + '}\n\\caption{The simulation results for the ' + ind_name_escaped + ' module used in the ' + fu_name_escaped + ' functional unit.}\n\\end{figure}\n'
                         fig_num + 1
                 # write functional unit stuff
