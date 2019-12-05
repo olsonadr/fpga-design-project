@@ -206,13 +206,10 @@ able to output a hexadecimal display value between 0 and F. A block diagram of t
 
 
 
-<<<<<<< HEAD
 \subsection{vcr\_decoder Functional Unit}
 The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}. A state diagram describing the unit as well as the simulation results for the unit follow in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-=======
 \subsection{vcr decoder Functional Unit}
 The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
->>>>>>> 70c1966ab84ffe2ee203aea0130c42c8c4a1362f
 \begin{itemize}
   \item \textbf{Inputs:  } The vcr\_decoder module two inputs, clk and IR. clk is a 10 KHz clock signal that is used to drive the module. IR is the Infrared signal coming from the VCR remote that will be translated by the module.
   \item \textbf{Outputs: } The vcr\_decoder module has a single output, displayValue, which is the 0-9 representing the IR signal that was received by the module as input.
