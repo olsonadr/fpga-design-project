@@ -4,5 +4,5 @@ module Comparator #(parameter n = 23, m = 5000)
 						
 	
 									
-	assign eq = (a == m);
+	assign eq = (a <= m);
 endmodule 

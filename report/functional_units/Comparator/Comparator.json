@@ -1,0 +1,9 @@
+{
+
+"intro_text": "The Comparator Functional Unit is used to create a clock that operates at 10 KHz, to drive the vcr_decoder Functional Unit. The FPGA clock is 50 MHz so in order to create a 10 KHz clock, we only want a rising edge every 5000 cycles of the FPGA clock. ",
+
+"input_text": "The Comparator Functional Unit has a single input: a. a is a 23-bit value that is the output of the Counter Functional Unit",
+
+"output_text": "The Comparator Functional Unit has a single output: eq. eq is one if the input value, a, is equal to 5000.",
+
+}
