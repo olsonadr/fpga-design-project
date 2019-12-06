@@ -57,7 +57,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 328 456 520 472)
 	(text "INPUT" (rect 149 0 182 11)(font "Arial" (font_size 6)))
-	(text "display_white_in" (rect 5 0 99 13)(font "Arial" ))
+	(text "display_white_in" (rect 5 0 98 13)(font "Arial" ))
 	(pt 192 8)
 	(drawing
 		(line (pt 108 12)(pt 133 12))
@@ -467,7 +467,7 @@ refer to the applicable agreement for further details.
 	(pt 512 440)
 )
 (connector
-	(text "const_high[0]" (rect 521 416 600 431)(font "Intel Clear" ))
+	(text "const_high[0]" (rect 513 416 592 431)(font "Intel Clear" ))
 	(pt 488 424)
 	(pt 512 424)
 )
