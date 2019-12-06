@@ -21,7 +21,7 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -176 -112 -160 64)
+	(rect -176 -104 -160 72)
 	(text "INPUT" (rect 5 133 16 166)(font "Arial" (font_size 6))(vertical))
 	(text "clock_50Mhz" (rect 3 5 16 79)(font "Arial" )(vertical))
 	(pt 8 176)
@@ -38,7 +38,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -200 -104 -184 64)
+	(rect -200 -96 -184 72)
 	(text "INPUT" (rect 5 125 16 158)(font "Arial" (font_size 6))(vertical))
 	(text "nes_data" (rect 3 5 16 56)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -55,7 +55,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -224 -152 -208 64)
+	(rect -224 -144 -208 72)
 	(text "INPUT" (rect 5 173 16 206)(font "Arial" (font_size 6))(vertical))
 	(text "system_reset_button" (rect 3 5 16 123)(font "Arial" )(vertical))
 	(pt 8 216)
@@ -72,7 +72,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -248 -104 -232 64)
+	(rect -248 -96 -232 72)
 	(text "INPUT" (rect 5 125 16 158)(font "Arial" (font_size 6))(vertical))
 	(text "switch0" (rect 3 5 18 48)(font "Intel Clear" )(vertical))
 	(pt 8 168)
@@ -89,7 +89,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -272 -104 -256 64)
+	(rect -272 -96 -256 72)
 	(text "INPUT" (rect 5 125 16 158)(font "Arial" (font_size 6))(vertical))
 	(text "switch1" (rect 3 5 18 48)(font "Intel Clear" )(vertical))
 	(pt 8 168)
@@ -106,7 +106,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -128 -104 -112 64)
+	(rect -128 -96 -112 72)
 	(text "INPUT" (rect 0 125 11 158)(font "Arial" (font_size 6))(vertical))
 	(text "ps2_data" (rect 1 5 14 56)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -123,7 +123,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -152 -104 -136 64)
+	(rect -152 -96 -136 72)
 	(text "INPUT" (rect 0 125 11 158)(font "Arial" (font_size 6))(vertical))
 	(text "ps2_clk" (rect 1 5 16 48)(font "Intel Clear" )(vertical))
 	(pt 8 168)
@@ -459,7 +459,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 352 160 384)
+	(rect 104 352 152 384)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 31 36)(font "Intel Clear" ))
 	(port
@@ -484,7 +484,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 392 160 424)
+	(rect 104 392 152 424)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 21 31 36)(font "Intel Clear" ))
 	(port
@@ -509,7 +509,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 432 160 464)
+	(rect 104 432 152 464)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst10" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -534,7 +534,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 472 160 504)
+	(rect 104 472 152 504)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -736,7 +736,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -184 160 -136 192)
+	(rect -184 168 -136 200)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 21 31 36)(font "Intel Clear" ))
 	(port
@@ -794,7 +794,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 592 160 624)
+	(rect 104 592 152 624)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst12" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -819,7 +819,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 632 160 664)
+	(rect 104 632 152 664)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst13" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -844,7 +844,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 512 160 544)
+	(rect 104 512 152 544)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst14" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -869,7 +869,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 112 552 160 584)
+	(rect 104 552 152 584)
 	(text "NOT" (rect 1 0 24 11)(font "Arial" (font_size 6)))
 	(text "inst15" (rect 3 21 39 36)(font "Intel Clear" ))
 	(port
@@ -1525,11 +1525,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(text "system_reset" (rect -88 168 -13 183)(font "Intel Clear" ))
-	(pt -136 176)
-	(pt -96 176)
-)
-(connector
 	(text "segs5_out[6..0]" (rect 485 176 572 191)(font "Intel Clear" ))
 	(pt 440 184)
 	(pt 472 184)
@@ -1584,68 +1579,6 @@ refer to the applicable agreement for further details.
 	(pt 400 -16)
 	(pt 472 -16)
 	(bus)
-)
-(connector
-	(text "ps2_data" (rect -88 72 -35 87)(font "Intel Clear" ))
-	(pt -120 80)
-	(pt -96 80)
-)
-(connector
-	(pt -120 64)
-	(pt -120 80)
-)
-(connector
-	(pt -184 176)
-	(pt -216 176)
-)
-(connector
-	(text "clock_50MHz" (rect -88 120 -12 135)(font "Intel Clear" ))
-	(pt -96 128)
-	(pt -168 128)
-)
-(connector
-	(text "nes_data" (rect -89 144 -38 159)(font "Intel Clear" ))
-	(pt -96 152)
-	(pt -192 152)
-)
-(connector
-	(text "segs5_sel[0]" (rect -87 192 -16 207)(font "Intel Clear" ))
-	(pt -96 200)
-	(pt -240 200)
-)
-(connector
-	(text "switch1" (rect -86 216 -43 231)(font "Intel Clear" ))
-	(pt -96 224)
-	(pt -264 224)
-)
-(connector
-	(text "ps2_clk" (rect -86 96 -43 111)(font "Intel Clear" ))
-	(pt -96 104)
-	(pt -144 104)
-)
-(connector
-	(pt -168 64)
-	(pt -168 128)
-)
-(connector
-	(pt -192 64)
-	(pt -192 152)
-)
-(connector
-	(pt -216 64)
-	(pt -216 176)
-)
-(connector
-	(pt -240 64)
-	(pt -240 200)
-)
-(connector
-	(pt -264 64)
-	(pt -264 224)
-)
-(connector
-	(pt -144 64)
-	(pt -144 104)
 )
 (connector
 	(text "clock_10KHz" (rect 615 168 689 183)(font "Intel Clear" ))
@@ -1893,12 +1826,12 @@ refer to the applicable agreement for further details.
 	(pt 600 368)
 )
 (connector
-	(text "not_nes_START" (rect 480 376 572 391)(font "Intel Clear" ))
+	(text "not_nes_START" (rect 488 376 580 391)(font "Intel Clear" ))
 	(pt 568 384)
 	(pt 600 384)
 )
 (connector
-	(text "not_nes_SELECT" (rect 472 392 569 407)(font "Intel Clear" ))
+	(text "not_nes_SELECT" (rect 480 392 577 407)(font "Intel Clear" ))
 	(pt 568 400)
 	(pt 600 400)
 )
@@ -2090,177 +2023,244 @@ refer to the applicable agreement for further details.
 	(pt 1056 576)
 )
 (connector
-	(pt -192 384)
-	(pt -176 384)
+	(text "system_reset" (rect -88 176 -13 191)(font "Intel Clear" ))
+	(pt -136 184)
+	(pt -96 184)
 )
 (connector
-	(pt 32 496)
-	(pt 32 560)
+	(text "ps2_data" (rect -88 80 -35 95)(font "Intel Clear" ))
+	(pt -120 88)
+	(pt -96 88)
 )
 (connector
-	(pt -192 384)
-	(pt -192 560)
+	(pt -120 72)
+	(pt -120 88)
 )
 (connector
-	(pt -192 560)
-	(pt 32 560)
+	(pt -184 184)
+	(pt -216 184)
 )
 (connector
-	(pt 24 496)
-	(pt 32 496)
+	(text "clock_50MHz" (rect -88 128 -12 143)(font "Intel Clear" ))
+	(pt -96 136)
+	(pt -168 136)
 )
 (connector
-	(text "clock_50MHz" (rect -267 328 -191 343)(font "Intel Clear" ))
-	(pt -176 336)
-	(pt -192 336)
+	(text "nes_data" (rect -89 152 -38 167)(font "Intel Clear" ))
+	(pt -96 160)
+	(pt -192 160)
 )
 (connector
-	(text "nes_data" (rect -248 344 -197 359)(font "Intel Clear" ))
-	(pt -176 352)
-	(pt -192 352)
+	(text "segs5_sel[0]" (rect -87 200 -16 215)(font "Intel Clear" ))
+	(pt -96 208)
+	(pt -240 208)
 )
 (connector
-	(text "system_reset" (rect -264 360 -189 375)(font "Intel Clear" ))
-	(pt -176 368)
-	(pt -192 368)
+	(text "switch1" (rect -86 224 -43 239)(font "Intel Clear" ))
+	(pt -96 232)
+	(pt -264 232)
 )
 (connector
-	(text "nes_latch_out" (rect 191 328 271 343)(font "Intel Clear" ))
-	(pt 24 336)
-	(pt 184 336)
+	(text "ps2_clk" (rect -86 104 -43 119)(font "Intel Clear" ))
+	(pt -96 112)
+	(pt -144 112)
 )
 (connector
-	(text "nes_clock_out" (rect 192 344 274 359)(font "Intel Clear" ))
-	(pt 24 352)
-	(pt 184 352)
+	(pt -168 72)
+	(pt -168 136)
 )
 (connector
+	(pt -192 72)
+	(pt -192 160)
+)
+(connector
+	(pt -216 72)
+	(pt -216 184)
+)
+(connector
+	(pt -240 72)
+	(pt -240 208)
+)
+(connector
+	(pt -264 72)
+	(pt -264 232)
+)
+(connector
+	(pt -144 72)
+	(pt -144 112)
+)
+(connector
+	(pt 88 408)
+	(pt 104 408)
+)
+(connector
+	(pt 80 448)
+	(pt 104 448)
+)
+(connector
+	(pt 72 488)
+	(pt 104 488)
+)
+(connector
+	(pt 64 528)
+	(pt 104 528)
+)
+(connector
+	(pt 56 568)
+	(pt 104 568)
+)
+(connector
+	(pt 48 608)
+	(pt 104 608)
+)
+(connector
+	(pt 40 648)
+	(pt 104 648)
+)
+(connector
+	(text "not_nes_A" (rect 186 360 246 375)(font "Intel Clear" ))
+	(pt 152 368)
+	(pt 176 368)
+)
+(connector
+	(text "not_nes_B" (rect 184 400 244 415)(font "Intel Clear" ))
+	(pt 152 408)
+	(pt 176 408)
+)
+(connector
+	(text "not_nes_START" (rect 186 440 278 455)(font "Intel Clear" ))
+	(pt 152 448)
+	(pt 176 448)
+)
+(connector
+	(text "not_nes_SELECT" (rect 183 480 280 495)(font "Intel Clear" ))
+	(pt 152 488)
+	(pt 176 488)
+)
+(connector
+	(text "not_nes_LEFT" (rect 183 600 265 615)(font "Intel Clear" ))
+	(pt 152 608)
+	(pt 176 608)
+)
+(connector
+	(text "not_nes_RIGHT" (rect 183 640 272 655)(font "Intel Clear" ))
+	(pt 152 648)
+	(pt 176 648)
+)
+(connector
+	(text "not_nes_UP" (rect 183 520 252 535)(font "Intel Clear" ))
+	(pt 152 528)
+	(pt 176 528)
+)
+(connector
+	(text "not_nes_DOWN" (rect 183 560 275 575)(font "Intel Clear" ))
+	(pt 152 568)
+	(pt 176 568)
+)
+(connector
+	(pt 88 384)
 	(pt 24 384)
-	(pt 88 384)
 )
 (connector
+	(pt 80 400)
 	(pt 24 400)
-	(pt 80 400)
 )
 (connector
+	(pt 72 416)
 	(pt 24 416)
-	(pt 72 416)
 )
 (connector
+	(pt 64 432)
 	(pt 24 432)
-	(pt 64 432)
 )
 (connector
+	(pt 56 448)
 	(pt 24 448)
-	(pt 56 448)
 )
 (connector
+	(pt 48 464)
 	(pt 24 464)
-	(pt 48 464)
 )
 (connector
+	(pt 40 480)
 	(pt 24 480)
-	(pt 40 480)
 )
 (connector
-	(text "not_nes_A" (rect 194 360 254 375)(font "Intel Clear" ))
-	(pt 160 368)
-	(pt 184 368)
+	(pt 32 496)
+	(pt 24 496)
 )
 (connector
-	(pt 24 368)
-	(pt 112 368)
-)
-(connector
+	(pt 88 408)
 	(pt 88 384)
-	(pt 88 408)
 )
 (connector
-	(pt 88 408)
-	(pt 112 408)
-)
-(connector
-	(text "not_nes_B" (rect 192 400 252 415)(font "Intel Clear" ))
-	(pt 160 408)
-	(pt 184 408)
-)
-(connector
+	(pt 80 448)
 	(pt 80 400)
-	(pt 80 448)
 )
 (connector
-	(pt 80 448)
-	(pt 112 448)
-)
-(connector
-	(text "not_nes_START" (rect 194 440 286 455)(font "Intel Clear" ))
-	(pt 160 448)
-	(pt 184 448)
-)
-(connector
+	(pt 72 488)
 	(pt 72 416)
-	(pt 72 488)
 )
 (connector
-	(pt 72 488)
-	(pt 112 488)
-)
-(connector
-	(text "not_nes_SELECT" (rect 191 480 288 495)(font "Intel Clear" ))
-	(pt 160 488)
-	(pt 184 488)
-)
-(connector
+	(pt 64 528)
 	(pt 64 432)
-	(pt 64 528)
 )
 (connector
-	(pt 64 528)
-	(pt 112 528)
-)
-(connector
-	(text "not_nes_UP" (rect 191 520 260 535)(font "Intel Clear" ))
-	(pt 160 528)
-	(pt 184 528)
-)
-(connector
+	(pt 56 568)
 	(pt 56 448)
-	(pt 56 568)
 )
 (connector
-	(pt 56 568)
-	(pt 112 568)
-)
-(connector
-	(text "not_nes_DOWN" (rect 191 560 283 575)(font "Intel Clear" ))
-	(pt 160 568)
-	(pt 184 568)
-)
-(connector
+	(pt 48 608)
 	(pt 48 464)
-	(pt 48 608)
 )
 (connector
-	(pt 48 608)
-	(pt 112 608)
-)
-(connector
-	(text "not_nes_LEFT" (rect 191 600 273 615)(font "Intel Clear" ))
-	(pt 160 608)
-	(pt 184 608)
-)
-(connector
+	(pt 40 648)
 	(pt 40 480)
-	(pt 40 648)
 )
 (connector
-	(pt 40 648)
-	(pt 112 648)
+	(text "nes_latch_out" (rect 183 328 263 343)(font "Intel Clear" ))
+	(pt 24 336)
+	(pt 176 336)
 )
 (connector
-	(text "not_nes_RIGHT" (rect 191 640 280 655)(font "Intel Clear" ))
-	(pt 160 648)
-	(pt 184 648)
+	(text "nes_clock_out" (rect 184 344 266 359)(font "Intel Clear" ))
+	(pt 24 352)
+	(pt 176 352)
+)
+(connector
+	(pt 104 368)
+	(pt 24 368)
+)
+(connector
+	(text "nes_data" (rect -256 344 -205 359)(font "Intel Clear" ))
+	(pt -200 352)
+	(pt -176 352)
+)
+(connector
+	(text "clock_50MHz" (rect -275 328 -199 343)(font "Intel Clear" ))
+	(pt -200 336)
+	(pt -176 336)
+)
+(connector
+	(text "system_reset" (rect -272 360 -197 375)(font "Intel Clear" ))
+	(pt -200 368)
+	(pt -176 368)
+)
+(connector
+	(pt -176 384)
+	(pt -184 384)
+)
+(connector
+	(pt 32 496)
+	(pt 32 552)
+)
+(connector
+	(pt 32 552)
+	(pt -184 552)
+)
+(connector
+	(pt -184 384)
+	(pt -184 552)
 )
 (junction (pt 160 864))
 (text "Read as fast as possible" (rect -152 560 2 577)(font "Intel Clear" (font_size 8)))
@@ -2278,5 +2278,5 @@ refer to the applicable agreement for further details.
 (rectangle (rect 600 112 1280 248))
 (rectangle (rect 24 -152 576 56))
 (rectangle (rect 600 -152 1280 88))
-(rectangle (rect -288 720 272 984))
-(rectangle (rect 296 720 928 984))
+(rectangle (rect -288 720 288 984))
+(rectangle (rect 312 720 928 984))

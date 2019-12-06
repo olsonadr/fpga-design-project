@@ -120,7 +120,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1112 528 1288 544)
+	(rect 1088 488 1264 504)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "red_out[1..0]" (rect 90 0 160 13)(font "Arial" ))
 	(pt 0 8)
@@ -137,7 +137,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1112 552 1295 568)
+	(rect 1088 512 1271 528)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "green_out[1..0]" (rect 90 0 177 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1112 576 1288 592)
+	(rect 1088 536 1264 552)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "blue_out[1..0]" (rect 90 0 170 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -612,24 +612,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "red_out[1..0]" (rect 976 528 1050 543)(font "Intel Clear" ))
-	(pt 1112 536)
-	(pt 1048 536)
-	(bus)
-)
-(connector
-	(text "green_out[1..0]" (rect 964 552 1051 567)(font "Intel Clear" ))
-	(pt 1112 560)
-	(pt 1048 560)
-	(bus)
-)
-(connector
-	(text "blue_out[1..0]" (rect 968 576 1048 591)(font "Intel Clear" ))
-	(pt 1112 584)
-	(pt 1048 584)
-	(bus)
-)
-(connector
 	(text "red[0]" (rect 552 152 587 167)(font "Intel Clear" ))
 	(pt 648 160)
 	(pt 592 160)
@@ -851,6 +833,24 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 456 448)
 	(pt 456 512)
+)
+(connector
+	(text "blue_out[1..0]" (rect 944 536 1024 551)(font "Intel Clear" ))
+	(pt 1088 544)
+	(pt 1024 544)
+	(bus)
+)
+(connector
+	(text "red_out[1..0]" (rect 952 488 1026 503)(font "Intel Clear" ))
+	(pt 1024 496)
+	(pt 1088 496)
+	(bus)
+)
+(connector
+	(text "green_out[1..0]" (rect 940 512 1027 527)(font "Intel Clear" ))
+	(pt 1024 520)
+	(pt 1088 520)
+	(bus)
 )
 (junction (pt 544 136))
 (junction (pt 504 304))

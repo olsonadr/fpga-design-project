@@ -101,7 +101,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 504 1349 520)
+	(rect 976 504 1181 520)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "seconds_ones[3..0]" (rect 90 0 199 13)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 520 1347 536)
+	(rect 976 520 1179 536)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "seconds_tens[3..0]" (rect 90 0 197 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 536 1349 552)
+	(rect 976 536 1181 552)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "minutes_ones[3..0]" (rect 90 0 199 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 552 1346 568)
+	(rect 976 552 1178 568)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "minutes_tens[3..0]" (rect 90 0 196 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 568 1335 584)
+	(rect 976 568 1167 584)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "hours_ones[3..0]" (rect 90 0 185 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -181,7 +181,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1144 584 1333 600)
+	(rect 976 584 1165 600)
 	(text "OUTPUT" (rect 1 0 45 11)(font "Arial" (font_size 6)))
 	(text "hours_tens[3..0]" (rect 90 0 183 15)(font "Intel Clear" ))
 	(pt 0 8)
@@ -623,36 +623,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 952 512)
-	(pt 1144 512)
-	(bus)
-)
-(connector
-	(pt 952 528)
-	(pt 1144 528)
-	(bus)
-)
-(connector
-	(pt 952 544)
-	(pt 1144 544)
-	(bus)
-)
-(connector
-	(pt 952 560)
-	(pt 1144 560)
-	(bus)
-)
-(connector
-	(pt 952 576)
-	(pt 1144 576)
-	(bus)
-)
-(connector
-	(pt 952 592)
-	(pt 1144 592)
-	(bus)
-)
-(connector
 	(pt 1120 296)
 	(pt 1120 440)
 	(bus)
@@ -665,6 +635,36 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 632 440)
 	(pt 1120 440)
+	(bus)
+)
+(connector
+	(pt 952 512)
+	(pt 976 512)
+	(bus)
+)
+(connector
+	(pt 952 528)
+	(pt 976 528)
+	(bus)
+)
+(connector
+	(pt 952 544)
+	(pt 976 544)
+	(bus)
+)
+(connector
+	(pt 952 560)
+	(pt 976 560)
+	(bus)
+)
+(connector
+	(pt 952 576)
+	(pt 976 576)
+	(bus)
+)
+(connector
+	(pt 952 592)
+	(pt 976 592)
 	(bus)
 )
 (junction (pt 560 152))
