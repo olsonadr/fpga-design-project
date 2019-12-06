@@ -6,4 +6,6 @@
 
 "output_text": "The Comparator Functional Unit has a single output: eq. eq is one if the input value, a, is equal to 5000.",
 
+"individual_blocks": []
+
 }
