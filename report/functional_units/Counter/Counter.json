@@ -6,4 +6,6 @@
 
 "output_text": "The Counter Functional Unit has 1 output: q. q is a 23-bit value with the current value of the counter.",
 
+"individual_blocks": []
+
 }
