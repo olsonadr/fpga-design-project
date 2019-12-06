@@ -1,11 +1,11 @@
 {
 
-"intro_text": "Intro text.",
+  "intro_text": "The decoder block decodes the data from the PS/2 keyboard to the three-bit data. To match the keys in keyboard from ¡®a¡¯ to ¡®t¡¯ with the piano notes from middle C to the upper octave C, the hexadecimal code of the keyboard is converted to 3-bit data as shown in the simulation. ",
 
-"input_text": "Input text.",
+  "input_text": "The decoder block has one input, a[7..0]. It indicates the input 8-bit data, which is the make code for keys on the keyboard. ",
 
-"output_text": "Output text.",
+  "output_text": "The decoder block has one input, y[2..0]. It is converted from 8-bit to 3-bit data and is used to determine the note to generate. ",
 
-"individual_blocks": []
+  "individual_blocks": []
 
 }

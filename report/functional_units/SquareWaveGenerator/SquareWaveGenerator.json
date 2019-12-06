@@ -1,11 +1,27 @@
 {
 
-"intro_text": "Intro text.",
+  "intro_text": "Square Wave Generator generates square wave and it is used to generate tones in the piano in this project. When ps2_code[7..0] is read from the PS/2 Keyboard functional unit, a decoder decodes the data into three-digit binary data. The SquareWaveGenerator block receives the data and converts it into the square wave with specific Hz that indicates notes in the piano. ",
 
-"input_text": "Input text.",
+  "input_text": "The square wave generator schematic has three inputs, clk_50MHz, ps2_code[7..0], en. The clk_50MHz is the clock with a frequency of 50MHz, ps2_code[7..0] is the 8-bit data sent from PS/2 keyboard, and en is the switch that allows the SquareWaveGenerator block to send a data to output signal sqWave.",
 
-"output_text": "Output text.",
+  "output_text": "The square wave generator schematic has one output, sqWave. It shows the square wave with a specific Hz to generate the tone in the piano. ",
 
-"individual_blocks": []
+  "individual_blocks": [
+
+    {
+      "name": "SquareWaveGenerator",
+      "intro_text": "The square wave generator block converts eight types of 3-bit data from 0b000 to 0b111 into a square wave. In the SystemVerilog file, the internal counter div_cnt is compared to max_count which indicates the period taken to reach specific hz. If div_cnt reaches max_count, tmp_clk changes to make a square wave. The en signal determines whether the tmp_clk is sent to speaker or not. To make it clear, max_count for middle C is 95419 because the period for 262Hz is 3816973ns. Considering that the clock has the frequency of 50MHz, the signal is read in every 20ns and the square wave should be changed after it passes half of the period. Therefore, after calculating 3816973/20/2=95419. The max_count for other notes is also derived from this calculation. The notes from the middle C to the C with next octave have the frequency of 262 Hz, 294 Hz, 330 Hz, 350 Hz, 392 Hz, 440 Hz, 494 Hz, and 523 Hz in sequence. This means that each note has the period of 381673 ns, 3401360 ns, 3030303 ns, 2857142 ns, 2551020 ns, 2272727 ns, 2024291 ns, and 1912045 ns respectively. When they are simulated in the period, the square wave changes only once at the half of the period as shown below.",
+      "input_text": "The SquareWaveGenerator block has four inputs, clk, note[2..0], en, and reset. The clk is the clock with a frequency of 50MHz, and note[2..0] is the decoded data from the decoder to determine the note to generate. The en and reset performs as a switch for the block.",
+      "output_text": "The SquareWaveGenerator block has one input, speaker. It shows the square wave generated from the block. "
+    },
+
+    {
+      "name": "decoder",
+      "intro_text": "The decoder block decodes the data from the PS/2 keyboard to the three-bit data. To match the keys in keyboard from ¡®a¡¯ to ¡®t¡¯ with the piano notes from middle C to the upper octave C, the hexadecimal code of the keyboard is converted to 3-bit data as shown in the simulation. ",
+      "input_text": "The decoder block has one input, a[7..0]. It indicates the input 8-bit data, which is the make code for keys on the keyboard. ",
+      "output_text": "The decoder block has one input, y[2..0]. It is converted from 8-bit to 3-bit data and is used to determine the note to generate. "
+    }
+
+  ]
 
 }

@@ -1,16 +1,18 @@
 {
 
-"intro_text": "Intro text.",
+  "intro_text": "PS/2 is an interface for keyboards and mice to PC via a 6-pin Mini-DIN connector. The system must provide the keyboard or mouse with 5V source and ground connections. Communication occurs over two wires, a clock line and a data line. The clock has a frequency between 10 kHz and 16.7 kHz. The data has a start bit, which is set as logic low, one byte of data, a parity bit, and a stop bit, which is set as logic high. Each bit is read on the falling edge of the clock signal. In the schematics, ps2_data and ps2_clk first synchronized and debounced. The data signal is then loaded to a shift register on falling edges of the PS/2 clock so that the flip flops can store the data. When the data transmission is finished and the clock remains high for more than 55us, the time longer than half of the worst-case PS/2 clock period, idle counter sends logic high to the AND gate. If there is no error and the signal from the idle counter is high, ps2_code_new becomes logic high indicating that the block is ready for the next signal. The ps2_code[7..0] gets ps2_word[8..1] because flip flops in that position contain the data. In the simulation, the waves indicate clock with 50MHz, ps2_clk, ps2_data, ps2_code_new, and ps2_code[7..0] in sequence. The signals for ps2_clk and ps2_data are gotten from the csv file provided. After ps2_word[10..0] stores the signal of ps2_data at the falling edge of the ps2_clk, ps2_code_new becomes 1 and ps2_word[8..1] is sent to ps2_code[7..0] if there is no error. The simulation figures below shows the simulation of pushing the keys of ¡®a¡¯, ¡®s¡¯, ¡®d¡¯, ¡®f¡¯, ¡®w¡¯, ¡®e¡¯, ¡®r¡¯, and ¡®t¡¯. The keys in PS/2 Keyboard have make code in hexadecimal. The code for the keys used in this project is 0x1C, 0x1B, 0x23, 0x2B, 0x1D, 0x24, 0x2D, and 0x2C respectively. The codes are shown in the simulation in the binary format. ",
 
-"input_text": "Input text.",
+  "input_text": "The PS/2 keyboard module has three inputs, clk, ps2_data, ps2_clk. The clk is the clock signal of 50MHz, ps2_clk is the clock signal sent from the PS/2 keyboard to read the data, and the ps2_data is the data sent from PS/2 keyboard. ",
 
-"output_text": "Output text.",
+  "output_text": "The PS/2 keyboard module has two outputs, ps2_code[7..0], ps2_code_new. The ps2_code[7..0] is the make code data for keys on the keyboard, and ps2_code_new indicates whether the module is ready for the next data or not. ",
 
-"individual_blocks": [
-  { "name": "debounce",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." }
-]
+  "individual_blocks": [
+    {
+      "name": "debounce",
+      "intro_text": "When using mechanical switches, the signals often rebound, or bounce, off one another before settling into a stable state. The debounce component is used for successfully sending the data in a stable state. Two flip flops in the design check whether the data changes or not via the XOR gate. If the data changes, the counter block receives the signal to reset the counter. If not, the counter increases until it reaches the specified time and enables the output register. According to simulation, when the data remains stable for 40 ns, the data is sent to the last flip flop and the result signal is updated. ",
+      "input_text": "The debounce block has one input: button. It indicates the input from the keyboard.",
+      "output_text": "The debounce block has one output: result. It has the debounced value of the button."
+    }
+  ]
 
 }
