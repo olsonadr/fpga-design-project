@@ -8,8 +8,23 @@ add wave red_out
 add wave green_out
 add wave blue_out
 
-force red_in 0 0, 1 200, 2 400, 3 600
-force green_in 0 0, 1 200, 2 400, 3 600
-force blue_in 0 0, 1 200, 2 400, 3 600
+restart -f
+force red_in 00
+force green_in 01
+force blue_in 10
+run 20ns
 
-run 1000
+force red_in 01
+force green_in 10
+force blue_in 11
+run 20ns
+
+force red_in 00
+force green_in 00
+force blue_in 00
+run 20ns
+
+force red_in 11
+force green_in 11
+force blue_in 11
+run 20ns

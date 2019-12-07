@@ -14,6 +14,4 @@ force reset_frame 0
 run 10ns
 
 force reset_frame 1
-run 38400ns
-
-
+run 18240000ns

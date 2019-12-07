@@ -3,6 +3,6 @@ vsim work.clock_modulator
 add wave clock_in
 add wave clock_out
 
-force clock_in 1 0, 0 {50 ns} -r 100
-
-run 5000
+restart -f
+force clock_in 0 0, 1 {10 ns} -r 20ns
+run 100ns
