@@ -1,16 +1,16 @@
 {
 
-"intro_text": "Intro text.",
+"intro_text": "The seven_seg_6 module takes in six 4-bit binary values and converts them into the signals required to display each number (which will never exceed 9 in this design) on the FPGA's seven segment display. In this design, these inputs come directly from the parsed_clock module that is controlled by the nes controller, and all but the most significant bit of these seven segment data lines go directly to the FPGA's seven segment display. In this design, either the most significant bit of the parsed_clock OR the output of the vcr_decoder are displayed on the seven segment display's most leftmost digit, depending on the state of the switch0 design input (determined by the mux2 submoduele of the vcr_decoder module).",
 
-"input_text": "Input text.",
+"input_text": "Six 4-bit binary value inputs from the parsed_clock module that describe the one's and ten's places of the seconds, minutes, and hours of the clock. These values never exceed 59 seconds, 59 minutes, and 23 hours, so each place can only be 0-9 and failure of the sevenseg submodules due to overflow is impossible.",
 
-"output_text": "Output text.",
+"output_text": "Six 7-bit outputs describing how to display each input on a seven segment display. All but the most significant bit of these seven segment data lines go directly to the FPGA's seven segment display. In this design, either the most significant bit of the parsed_clock OR the output of the vcr_decoder are displayed on the seven segment display's most leftmost digit, depending on the state of the switch0 design input (based by the mux2 submoduele of the vcr_decoder module).",
 
 "individual_blocks": [
   { "name": "sevenseg",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." }
+    "intro_text":   "The sevenseg submodule converts a single 4-bit value between 0 and 9 into a 7-bit output describing how to display the input on a seven segment display. In this design, six of these sevenseg blocks are used in the seven_seg_6 module.",
+    "input_text":   "A single 4-bit value between 0 and 9 to be converted in to a seven segment representation (data[3:0]).",
+    "output_text":  "A 7-bit output describing how to display the input value on a seven segment display (segments[6:0])." }
 ]
 
 }

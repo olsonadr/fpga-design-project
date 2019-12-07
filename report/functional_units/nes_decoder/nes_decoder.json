@@ -1,10 +1,10 @@
 {
 
-"intro_text": "Intro text.",
+"intro_text": "The nes_decoder module interfaces with inputs from and outputs to the nes controller hardware to parse the states (active low) of the eight buttons on the controller.",
 
-"input_text": "Input text.",
+"input_text": "An input clock (at 50MHz for this design) which determines how quickly the system reads the nes inputs; an nes_data input that is the serialized data from the nes controller which describes the buttons pushed at any given moment; a reset signal that sets the system back to a default state; and a read_data input that, when driven high while the system is ready to read, starts the reading process. The nes_data input is the only input connected to the nes controller.",
 
-"output_text": "Output text.",
+"output_text": "Two outputs (nes_latch and nes_clock) that are sent to the nes controller and signal to the controller to start sending the first or next button states along nes_data, respectively; ready_to_read, which is driven high by the module after the system has completed an input reading period and is ready for another round of reading; and eight outputs describing the most recently read states of each of the buttons on the nes controller (active low, they are the A, B, Start, Select, Up, Down, Left, and Right Buttons).",
 
 "individual_blocks": []
 

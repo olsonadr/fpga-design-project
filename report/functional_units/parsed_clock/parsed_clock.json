@@ -1,46 +1,41 @@
 {
 
-"intro_text": "Intro text.",
+"intro_text": "The parsed_clock module takes in a clock and some control signals that start, modify the speed of, and reset a clock that is accurate to 1Hz. These outputs are parsed into seconds, minutes, and hours (in decimal notation) to match the typcial clock format of (HH.MM.SS). The inputs come from the nes_decoder and the FPGA's internal pins, and the outputs all go to the seven_seg_6 (six-digit seven segment display decoder) module in the design.",
 
-"input_text": "Input text.",
+"input_text": "A 50Mhz clock from the FPGA's internal pins; a reset signal from either the active-high button state of the B button on the nes controller or the overall system_reset signal that is the active-high button state of a button on the FPGA itself; and four more active-high button states from the nes controller (A Button acting as the start (toggle) enable signal of the clock, Start Button acting as the double-speed mode input of the parsed clock while held, and the Select Button acting as the super-speed mode input of the parsed clock while held).",
 
-"output_text": "Output text.",
+"output_text": "Six 4-bit binary value outputs describing the one's and ten's places of the seconds, minutes, and hours of the parsed clock. These values never exceed 59 seconds, 59 minutes, and 23 hours, so overflow is impossible. These outputs all directly lead to the seven_seg_6 module that converts these 4-bit values into seven segment endcoded values.",
 
 "individual_blocks": [
-  { "name": "comparator",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
+  { "name": "enable_flip_flop",
+    "intro_text":   "The enable_flip_flop submodule acts to toggle whether the clock is enabled (should count). It does this by taking in an enable input from the design, and on the positive edge of this enable, toggling it's enable_out output. It can be reset.",
+    "input_text":   "An input enable_in that, on its rising edge, toggles the outputted enable value of the module; and a reset input that resets the flip_flop to logic low.",
+    "output_text":  "An output that represents whether the clock should count or not (the submodule's enable value). This goes to the delay and counter blocks." },
+
+  { "name": "delay",
+    "intro_text":   "The delay submodule, by default, slows an input clock down by a factor of $1/2^{10}$. This is so that an input clock of 50MHz (as in this design) is slowed to a frequency that is easier converted to 1Hz later on through division. This submodule also allows for 4 modes of speed (MEGA, Super, Double, and Normal speeds). MEGA is 2048, Super is 1024, and Double is 2 times as fast as the Normal speed. This is controlled by the values of two speed inputs that act as a select signal between these options.",
+    "input_text":   "An input clock to be slowed (50Mhz in this design); an active-high enable that allows the submodule to propagate signal; a reset signal to reset all flip_flops to 1 (such that the first signal overflows and sends all held values to 0); and two inputs (double_speed and super_speed) that combine as a select signal to choose between four possible output clock speeds (MEGA [1,1] , Super [1,0] , Double [0,1] , and Normal [0,0] speeds for the select signal [super_speed, double_speed]).",
+    "output_text":  "A clock that is $1/2^{10}$ slower than the input clock in normal mode, somewhat faster depending on the speed mode selected (described above)." },
+
+  { "name": "mux4",
+    "intro_text":   "The mux4 submodule is a 4-option mux (where each option in this design is a one-wide clock speed option). This accounts for the select signals in the delay block.",
+    "input_text":   "Four one-bit options to send to the output (the speed options of the delay block); and a 2-bit select signal that maps select values [11, 10, 01, and 00] to sending clock_options[3, 2, 1, and 0].",
+    "output_text":  "One 1-bit output from the 4 options presented in the inputs, selected by the select signal. This is also the output of the delay block." },
 
   { "name": "counter",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
-
-  { "name": "enable_flip_flop",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
-
-  { "name": "mux4",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
+    "intro_text":   "The counter submodule is a simple one-by counter that increments it's output q on every clock cycle. It has a default max width of q of 30-bits and can be reset and enabled via its inputs.",
+    "input_text":   "A clock signal (clk) on which to increment the count held in the q output; a reset signal which sets the q output back to 0; and an enable signal that determines whether the counter should react to the clock.",
+    "output_text":  "The count output held in the output q, with a default maximum width of 30-bits." },
 
   { "name": "parser",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
-    
-  { "name": "delay",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." },
-    
-  { "name": "mux4",
-    "intro_text":   "Intro text.",
-    "input_text":   "Input text.",
-    "output_text":  "Output text." }
+    "intro_text":   "The parser submodule takes in a binary value up to 30-bits wide of slowed clock ticks, divides it by the number of clock ticks per second (9537 in this design, due to the delay block), and parses it into seconds, minutes, and hours (in decimal notation) to match the typcial clock format of (HH.MM.SS).",
+    "input_text":   "The count of clock ticks of the parsed_clock module, outputted by the counter submodule.",
+    "output_text":  "The total seconds counted so far (used for resetting at 24 hours), and six 4-bit binary value outputs describing the one's and ten's places of the seconds, minutes, and hours of the parsed clock." },
+
+  { "name": "comparator",
+    "intro_text":   "The comparator submodule takes in the total seconds counted by the parsed clock since the last reset, and sends a signal to reset the system when it is greater than or equal to the number of seconds in 24 hours. This prevents the clock from outputting values over what is possible in the typical clock format (HH.MM.SS).",
+    "input_text":   "The total seconds counted by the parsed clock since the last reset (default max width of 30-bits, called a[MAX_WIDTH:0]).",
+    "output_text":  "Whether the total seconds input (a) is greater than or equal to the number of seconds in a day ($60*60*24=3600$)." },
 ]
 
 }
