@@ -120,23 +120,30 @@
 
 
 \section{Project Description}
-Intro to Project paragraph. The inputs and outputs of the overall design immediately follow. An overall description diagram is then shown in \textbf{Figure 1} and a hardware diagram is shown in \textbf{Figure 2}.
+The purpose of this project was to design and implement a digital logic design that incorporated the NES controller, the PS/2 Keyboard, and the VCR remote as inputs to a system that produced outputs using a some of the following devices: a seven segment display, VGA output, LEDs, audio waves, or DC motors. Each input option has its own communication protocol that is processed by a driver to produce an output that can be used in one or more of the output devices. An overall description diagram is then shown in \textbf{Figure 1} and a hardware diagram is shown in \textbf{Figure 2}.
 
 \begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
+  \item \textbf{Inputs:  } NES Controller, PS/2 Keyboard, and VCR remote.
+  \item \textbf{Outputs: } Seven Segment Display, VGA output, Square wave audio output, and a L293D DC Motor.
 \end{itemize}
+
+\subsection{Project Deliverables}
+  \begin{itemize}
+    \item Supports communication protocols for the NES Controller, PS/2 Keyboard, and VCR Remote.
+    \item Supports output devices: Seven Segment Display, VGA, LM386N-4 Audio IC, and L293D DC Motor.
+    \item Allows the user to control input flow to certain outputs. For example, the seven segment display can use input from both the NES Controller and the VCR Remote.
+  \end{itemize}
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{images/description.png}
-	\caption{This image is legible, and conveys the point of the design.  Your image can be hand drawn, but it must have straight lines, use your OSU ID.  I don't recommend drafting this on the computer, because there aren't any decent tools to draw these block diagrams quickly.}
+  \includegraphics[width=.8\textwidth]{images/project_description.png}
+	\caption{Top Level Diagram for the project. The Diagram shows all the Functional Units used in the project and how they are connected from input to output.}
   \label{fig:description}
 \end{figure}
 
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.8\textwidth]{images/hardware.png}
+    \includegraphics[width=.8\textwidth]{images/hardware_diagram.png}
 	\caption{The hardware diagram shows which pins are used on the FPGA, module boards, and relevant supply voltages for the different pieces of hardware used in the system.}
     \label{fig:hardware}
 \end{figure}
@@ -148,23 +155,108 @@ Intro to Project paragraph. The inputs and outputs of the overall design immedia
 
 
 \section{High Level Description}
-Top level introduction. The input and output specifications follow, a toplevel diagram follows in \textbf{Figure 3}, and the simulation results follow in \textbf{Figure 4}.
+This section provides a Top level introduction to the project. The input and output specifications are provided below, as well as a toplevel diagram in \textbf{Figure 3}, and the simulation results in \textbf{Figure 4}.
+
+
 \begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
+  \item \textbf{Inputs:  } The Top Level of the project has 7 inputs: switch1, switch2, system\_reset\_button, nes\_data, clock\_50MHz, ps2\_clk, and ps2\_data.
+    \begin{itemize}
+      \item \textbf{switch1: } switch1 is used to enable the square wave generator unit connected to the PS2 Keyboard.
+      \item \textbf{switch2: }
+      \item \textbf{system\_reset\_button: } system\_reset\_button is an active high signal used to reset the nes\_decoder, vga\_encoder, and parsed\_clock Functional Units.
+      \item \textbf{nes\_data: } the input signal from the NES Controller into the nes\_decoder Functional Unit.
+      \item \textbf{clock\_50MHz: } the internal clock on the FPGA that is used generate all the other clock signals used in the top level.
+      \item \textbf{ps2\_clk: } the clock signal driving the ps\_2\_keyboard Functional Unit.
+      \item \textbf{ps2\_data: } the input signal from the PS2 Keyboard into the ps2\_keyboard functional unit.
+    \end{itemize}
+  \item \textbf{Outputs: } The Top level has outputs going to the NES Controller, the seven segment pins in the FPGA, the L293D DC Controller, the square wave generator, and the VGA pins.
 \end{itemize}
+
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.8\textwidth]{images/top_level.png}
-	\caption{The top level design for the  project.  This would be improved by combining the priority encoder and Mux4 into a single clock select block.  Combining the ArrowLogic and Counter14 would also make this diagram better.  Use chapter 1 concepts wisely on this diagram, specifically hierarchy, modularity, regularity, and discipline.}
+    \includegraphics[width=.98\textwidth]{images/top_level.png}
+	\caption{The top level design for the  project.}
     \label{fig:top-level}
 \end{figure}
+
+\clearpage
+
+
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.98\textwidth]{sims/top_level.png}
-	\caption{The simulation results of the top level design for the  project.}
+  \includegraphics[width=.8\textwidth]{images/top_level_block_1.png}
+  \subcaption{Block 1 of top level. Includes the inputs to the Top Level of the design, the ps2\_keyboard Functional unit, and the Multiplexer Functional Unit that controls input to the seven segment display.}
+  \label{fig:top-level-block-1}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\textwidth]{images/top_level_block_2.png}
+  \subcaption{Block 2 of top level. Includes the decoder for the ps2\_keyboard functional unit, the square wave generator functional unit, the vcr\_decoder functional unit, and the DislayDecoder functional unit.}
+  \label{fig:top-level-block-2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\textwidth]{images/top_level_block_3.png}
+  \subcaption{Block 3 of top level. Includes the nes\_decoder functional unit and the Counter and Comparator functional units used to generate the clock signal for the vcr\_decoder}
+  \label{fig:top-level-block-3}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\textwidth]{images/top_level_block_4.png}
+  \subcaption{Block 4 of top level. Includes the parsed\_clock, seven\_seg\_6, nes\_to\_motor, L293D\_Encoder, and vga\_endocder functional units. In addition, it includes the outputs for the Top Level of the project.}
+  \label{fig:top-level-block-4}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[height=0.98\textheight]{sims/top_level_motor_sim.png}
+	\caption{The simulation results for the L293D DC Motor in the Top Level.}
     \label{fig:top-level-sim}
 \end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[height=0.98\textheight]{sims/top_level_clock_sim_1.png}
+	\caption{The simulation results for the NES Controller to seven segment display in Top Level.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[height=0.98\textheight]{sims/top_level_clock_sim_2.png}
+	\caption{The simulation results for the NES Controller to seven segment display in Top Level.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.98\textwidth]{sims/square_wave_generator/SquareWaveGenerator.png}
+	\caption{The simulation results for the PS2 Keyboard to the LM386N-4 Audio IC in Top Level.}
+    \label{fig:top-level-sim}
+\end{figure}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/functionalUnittest/FunctionalUnitTest_6.png}
+  \caption{The Simulation results for Top Level VCR output with expected value of 6.}
+  \label{fig:top-level-block-1}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/functionalUnittest/FunctionalUnitTest_8.png}
+  \caption{The Simulation results for Top Level VCR output with expected value of 8.}
+  \label{fig:top-level-block-1}
+\end{figure}
+
+
+\FloatBarrier
+
 The following subsections will discuss the inputs, outputs, designs, and simulation results of all elements of the design at two levels of scrutiny: functional units and individual blocks of digital logic.
 
 
