@@ -1,10 +1,10 @@
 {
 
-"intro_text": "Intro text.",
+"intro_text": "The nes_to_motor module converts nes button states coming from the nes_deccoder module and converts them to the signals used internally in the L293D_encoder module to interface with the L293D DC motor controller. This is a module completely internal to the design that converts between the output and input signal conventions of other modules.",
 
-"input_text": "Input text.",
+"input_text": "Four active-high inputs describing that a system of two motors (like a tank) should turn left (left), turn right (right), drive forward (forward), or drive backward (backward), respectively. In this design, these inputs come from the inverted left, right, up, and down button states of the nes controller.",
 
-"output_text": "Output text.",
+"output_text": "Whether motors 1 (left) and 2 (right) should be spinning (motor_1_on and motor_2_on); and which direction each motor should spin if also enabled, where logic high correlates to clockwise motion and low to counterclockwise (motor_1_dir and motor_2_dir for each motor, respectively).",
 
 "individual_blocks": []
 

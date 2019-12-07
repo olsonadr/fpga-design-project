@@ -1,10 +1,10 @@
 {
 
-"intro_text": "Intro text.",
+"intro_text":   "The L293D_encoder functional unit converts internal system values describing how two motors should be driven to data in the format of the L293D DC motor controller. It is connected to these outputs, and takes its inputs from the nes_to_motor module.",
 
-"input_text": "Input text.",
+"input_text":   "Whether motors 1 (left) and 2 (right) should be spinning (motor_1_on and motor_2_on); and which direction each motor should spin if also enabled, where logic high correlates to clockwise motion (motor_1_dir and motor_2_dir for each motor, respectively).",
 
-"output_text": "Output text.",
+"output_text":  "The signals that the L293D DC motor controller takes in as inputs: enable_1 and enable_2 that describe whether motor 1 (left) and motor 2 (right) should be run; input_1 and input_2 which are always opposite signals describing the direction of rotation of the first (left) motor (where input_1 high and input_2 low correlates with clockwise rotation, for example); and input_3 and input_4 which are always opposite signals describing the direction of rotation of the second (right) motor (where input_1 high and input_2 low correlates with clockwise rotation, for example).",
 
 "individual_blocks": []
 
