@@ -13,13 +13,13 @@
     "output_text":  "An output that represents whether the clock should count or not (the submodule's enable value). This goes to the delay and counter blocks." },
 
   { "name": "delay",
-    "intro_text":   "The delay submodule, by default, slows an input clock down by a factor of $1/2^{10}$. This is so that an input clock of 50MHz (as in this design) is slowed to a frequency that is easier converted to 1Hz later on through division. This submodule also allows for 4 modes of speed (MEGA, Super, Double, and Normal speeds). MEGA is 2048, Super is 1024, and Double is 2 times as fast as the Normal speed. This is controlled by the values of two speed inputs that act as a select signal between these options.",
-    "input_text":   "An input clock to be slowed (50Mhz in this design); an active-high enable that allows the submodule to propagate signal; a reset signal to reset all flip_flops to 1 (such that the first signal overflows and sends all held values to 0); and two inputs (double_speed and super_speed) that combine as a select signal to choose between four possible output clock speeds (MEGA [1,1] , Super [1,0] , Double [0,1] , and Normal [0,0] speeds for the select signal [super_speed, double_speed]).",
-    "output_text":  "A clock that is $1/2^{10}$ slower than the input clock in normal mode, somewhat faster depending on the speed mode selected (described above)." },
+    "intro_text":   "The delay submodule, by default, slows an input clock down by a factor of 1/2 to the 10. This is so that an input clock of 50MHz (as in this design) is slowed to a frequency that is easier converted to 1Hz later on through division. This submodule also allows for 4 modes of speed (MEGA, Super, Double, and Normal speeds). MEGA is 2048, Super is 1024, and Double is 2 times as fast as the Normal speed. This is controlled by the values of two speed inputs that act as a select signal between these options.",
+    "input_text":   "An input clock to be slowed (50Mhz in this design); an active-high enable that allows the submodule to propagate signal; a reset signal to reset all flip_flops to 1 (such that the first signal overflows and sends all held values to 0); and two inputs (double_speed and super_speed) that combine as a select signal to choose between four possible output clock speeds (MEGA 1,1 , Super 1,0 , Double 0,1 , and Normal 0,0 speeds for the select signal super_speed, double_speed).",
+    "output_text":  "A clock that is 1/2 to the 10 slower than the input clock in normal mode, somewhat faster depending on the speed mode selected (described above)." },
 
   { "name": "mux4",
     "intro_text":   "The mux4 submodule is a 4-option mux (where each option in this design is a one-wide clock speed option). This accounts for the select signals in the delay block.",
-    "input_text":   "Four one-bit options to send to the output (the speed options of the delay block); and a 2-bit select signal that maps select values [11, 10, 01, and 00] to sending clock_options[3, 2, 1, and 0].",
+    "input_text":   "Four one-bit options to send to the output (the speed options of the delay block); and a 2-bit select signal that maps select values 11, 10, 01, and 00 to sending clock_options 3, 2, 1, and 0.",
     "output_text":  "One 1-bit output from the 4 options presented in the inputs, selected by the select signal. This is also the output of the delay block." },
 
   { "name": "counter",
@@ -34,8 +34,8 @@
 
   { "name": "comparator",
     "intro_text":   "The comparator submodule takes in the total seconds counted by the parsed clock since the last reset, and sends a signal to reset the system when it is greater than or equal to the number of seconds in 24 hours. This prevents the clock from outputting values over what is possible in the typical clock format (HH.MM.SS).",
-    "input_text":   "The total seconds counted by the parsed clock since the last reset (default max width of 30-bits, called a[MAX_WIDTH:0]).",
-    "output_text":  "Whether the total seconds input (a) is greater than or equal to the number of seconds in a day ($60*60*24=3600$)." },
+    "input_text":   "The total seconds counted by the parsed clock since the last reset (default max width of 30-bits, called a).",
+    "output_text":  "Whether the total seconds input (a) is greater than or equal to the number of seconds in a day ($60*60*24=3600$)." }
 ]
 
 }

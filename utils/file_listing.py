@@ -91,7 +91,7 @@ def list_files(functional_dir, extension, output_file):
 
 
     elif section_type == 'figures':
-        fig_num = 1
+        fig_num = 15
 
         # List all files in directory using pathlib
         for functional_unit_dir in Path(functional_dir).iterdir():
