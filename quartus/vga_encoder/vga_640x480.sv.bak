@@ -39,14 +39,10 @@ module vga_640x480	(input  logic clock_25, reset_frame,
 		
 		
 		// Flip flop for incrementing
-		always_ff @(posedge clock_25, posedge reset_frame)
+		always_ff @(posedge clock_25)
 		begin
-			if (!reset_frame) 
-				begin
-					h_count<=0;
-					v_count<=0;
-				end
-			else if (clock_25)
+			
+			if (clock_25)
 			begin
 				v_count <= (v_count >= screen) ? 0 : ((h_count >= line) ? v_count + 1: v_count);
 				h_count <= (clock_25 && (h_count >= line | v_count >= screen)) ? 0 : h_count + 1;
