@@ -1,0 +1,150 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Project Description}{6}{section.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Project Deliverables}{6}{subsection.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}High Level Description}{9}{section.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}decoder Functional Unit}{20}{subsection.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}seven\_seg\_6 Functional Unit}{21}{subsection.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}sevenseg Component Block}{24}{subsubsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}L293D\_encoder Functional Unit}{25}{subsection.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Counter Functional Unit}{26}{subsection.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5}vga\_encoder Functional Unit}{27}{subsection.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.1}color\textunderscore mux Component Block}{29}{subsubsection.2.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.2}clock\textunderscore modulator Component Block}{30}{subsubsection.2.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.3}vga\textunderscore 640x480 Component Block}{31}{subsubsection.2.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.4}rgb\textunderscore decoder Component Block}{33}{subsubsection.2.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6}vcr\_decoder Functional Unit}{34}{subsection.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1}mux2 Component Block}{37}{subsubsection.2.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2}ReadState Component Block}{38}{subsubsection.2.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.3}ShiftRegister Component Block}{41}{subsubsection.2.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.4}signalDecoder Component Block}{42}{subsubsection.2.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7}ps2\_keyboard Functional Unit}{43}{subsection.2.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.1}debounce Component Block}{45}{subsubsection.2.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.8}nes\_decoder Functional Unit}{46}{subsection.2.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9}parsed\_clock Functional Unit}{48}{subsection.2.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.1}enable\_flip\_flop Component Block}{50}{subsubsection.2.9.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.2}delay Component Block}{51}{subsubsection.2.9.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.3}mux4 Component Block}{53}{subsubsection.2.9.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.4}counter Component Block}{54}{subsubsection.2.9.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.5}parser Component Block}{55}{subsubsection.2.9.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.9.6}comparator Component Block}{56}{subsubsection.2.9.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.10}SquareWaveGenerator Functional Unit}{57}{subsection.2.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.10.1}SquareWaveGenerator Component Block}{58}{subsubsection.2.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.10.2}decoder Component Block}{59}{subsubsection.2.10.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.11}nes\_to\_motor Functional Unit}{60}{subsection.2.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.12}Comparator Functional Unit}{61}{subsection.2.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.13}DisplayDecoder Functional Unit}{62}{subsection.2.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}SystemVerilog Files}{63}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}decoder}{63}{subsection.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2}seven\_seg\_6}{63}{subsection.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.2.1}Component Blocks of seven\_seg\_6 Unit}{63}{subsubsection.A.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3}L293D\_encoder}{64}{subsection.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4}Counter}{64}{subsection.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.5}vga\_encoder}{64}{subsection.A.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.5.1}Component Blocks of vga\_encoder Unit}{64}{subsubsection.A.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6}vcr\_decoder}{67}{subsection.A.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.6.1}Component Blocks of vcr\_decoder Unit}{69}{subsubsection.A.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.7}ps2\_keyboard}{73}{subsection.A.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.7.1}Component Blocks of ps2\_keyboard Unit}{74}{subsubsection.A.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.8}nes\_decoder}{75}{subsection.A.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.9}parsed\_clock}{77}{subsection.A.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.9.1}Component Blocks of parsed\_clock Unit}{77}{subsubsection.A.9.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.10}SquareWaveGenerator}{79}{subsection.A.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.10.1}Component Blocks of SquareWaveGenerator Unit}{79}{subsubsection.A.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.11}nes\_to\_motor}{81}{subsection.A.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.12}Comparator}{81}{subsection.A.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.13}DisplayDecoder}{81}{subsection.A.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Simulation Files (Do Scripts)}{83}{appendix.B}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1}decoder}{83}{subsection.B.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2}seven\_seg\_6}{83}{subsection.B.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.2.1}Component Blocks of seven\_seg\_6 Unit}{83}{subsubsection.B.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3}L293D\_encoder}{85}{subsection.B.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4}Counter}{85}{subsection.B.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5}vga\_encoder}{85}{subsection.B.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.5.1}Component Blocks of vga\_encoder Unit}{85}{subsubsection.B.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.6}vcr\_decoder}{88}{subsection.B.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.6.1}Component Blocks of vcr\_decoder Unit}{89}{subsubsection.B.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.7}ps2\_keyboard}{95}{subsection.B.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.7.1}Component Blocks of ps2\_keyboard Unit}{96}{subsubsection.B.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.8}nes\_decoder}{103}{subsection.B.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.9}parsed\_clock}{103}{subsection.B.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.9.1}Component Blocks of parsed\_clock Unit}{103}{subsubsection.B.9.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.10}SquareWaveGenerator}{106}{subsection.B.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {B.10.1}Component Blocks of SquareWaveGenerator Unit}{106}{subsubsection.B.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.11}nes\_to\_motor}{108}{subsection.B.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.12}Comparator}{108}{subsection.B.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.13}DisplayDecoder}{108}{subsection.B.13}% 

@@ -96,11 +96,11 @@
 
   \vspace{.5cm}
 
-  \large\textbf{Nick Olson\\Michael ASD\\Sienna ASD}
+  \large\textbf{Nick Olson\\Michael Hathaway\\Sienna Han}
 
   \vfill
 
-  \normalsize November 30, 2019\\
+  \normalsize December 6, 2019\\
   Instructor Shuman\\
   Oregon State University
 
@@ -184,28 +184,28 @@ This section provides a Top level introduction to the project. The input and out
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{images/top_level_block_1.png}
+  \includegraphics[width=.98\textwidth]{images/top_level_block_1.png}
   \subcaption{Block 1 of top level. Includes the inputs to the Top Level of the design, the ps2\_keyboard Functional unit, and the Multiplexer Functional Unit that controls input to the seven segment display.}
   \label{fig:top-level-block-1}
 \end{figure}
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{images/top_level_block_2.png}
+  \includegraphics[width=.98\textwidth]{images/top_level_block_2.png}
   \subcaption{Block 2 of top level. Includes the decoder for the ps2\_keyboard functional unit, the square wave generator functional unit, the vcr\_decoder functional unit, and the DislayDecoder functional unit.}
   \label{fig:top-level-block-2}
 \end{figure}
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{images/top_level_block_3.png}
+  \includegraphics[width=.98\textwidth]{images/top_level_block_3.png}
   \subcaption{Block 3 of top level. Includes the nes\_decoder functional unit and the Counter and Comparator functional units used to generate the clock signal for the vcr\_decoder}
   \label{fig:top-level-block-3}
 \end{figure}
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=.8\textwidth]{images/top_level_block_4.png}
+  \includegraphics[width=.98\textwidth]{images/top_level_block_4.png}
   \subcaption{Block 4 of top level. Includes the parsed\_clock, seven\_seg\_6, nes\_to\_motor, L293D\_Encoder, and vga\_endocder functional units. In addition, it includes the outputs for the Top Level of the project.}
   \label{fig:top-level-block-4}
 \end{figure}
@@ -242,14 +242,14 @@ This section provides a Top level introduction to the project. The input and out
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png}
+  \includegraphics[height=.98\textheight]{sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png}
   \caption{The Simulation results for Top Level VCR output with expected value of 6.}
   \label{fig:top-level-block-1}
 \end{figure}
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png}
+  \includegraphics[height=.98\textheight]{sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png}
   \caption{The Simulation results for Top Level VCR output with expected value of 8.}
   \label{fig:top-level-block-1}
 \end{figure}
@@ -297,17 +297,17 @@ The seven\_seg\_6 module takes in six 4-bit binary values and converts them into
 \end{itemize}
 \begin{figure}[h]
 \centering
-\includegraphics[width=.8\textwidth]{functional_units/seven_seg_6/seven_seg_6_block.png}
+\includegraphics[width=.98\textwidth]{functional_units/seven_seg_6/seven_seg_6_block.png}
 \caption{The logic design of the seven\_seg\_6 functional unit used in the final design.}
 \end{figure}
 \begin{figure}[h]
 \centering
-\includegraphics[width=.48\textwidth]{functional_units/seven_seg_6/seven_seg_6_symbol.png}
+\includegraphics[width=.88\textwidth]{functional_units/seven_seg_6/seven_seg_6_symbol.png}
 \caption{The block symbol of the seven\_seg\_6 functional unit used in the final design.}
 \end{figure}
 \begin{figure}[h]
 \centering
-\includegraphics[width=.98\textwidth]{functional_units/seven_seg_6/seven_seg_6_sim.png}
+\includegraphics[height=.98\textheight]{functional_units/seven_seg_6/seven_seg_6_sim.png}
 \caption{The simulation results for the seven\_seg\_6 module.}
 \end{figure}
 \clearpage
@@ -379,14 +379,14 @@ The Counter Functional Unit increments a counter on every rising edge of the inp
 \def_{\textunderscore}
 \subsection{vga\_encoder Functional Unit}
 \catcode`_=8
-Intro text. A block diagram follows in \textbf{Figure 26}.  The logic symbol follows in \textbf{Figure 27}.
+VGA is a standard interface for controlling analog monitors. A vga\_encoder is a display shows a white screen when a nes\_A button is pushed. It generally has hsync and vsync values and their timing specification is for determining whether it is okay to draw on the screen. The screen in this project are designed to generate only a white screen, values of RGB are set to 1. When nes\_A has a value of logic 1, the screen shows a white screen. Otherwise, RGB values are 0 and it shows a black screen. A block diagram follows in \textbf{Figure 26}.  The logic symbol follows in \textbf{Figure 27}.
 \begin{itemize}
-\item \textbf{Inputs:  } Input text.
-\item \textbf{Outputs: } Output text.
+\item \textbf{Inputs:  } A vga\_encoder has three inputs, clock\_50MHz, reset, and display\_white\_in. A clock\_50MHz is the clock with a frequency of 50MHz, a reset is a switch to reset the h\_sync and v\_sync values, and display\_white\_in indicates a nes\_A button to change the screen into a white or black screen.
+\item \textbf{Outputs: } A vga\_encoder has four outputs, hsync, vsync, red\_out[3..0], green[3..0], and blue[3..0]. A value of hsync and vsync is compared to the time specification and indicates whether the user is able to draw on the screen. Other output signals become a 4-bit data for the colors.
 \end{itemize}
 \begin{figure}[h]
 \centering
-\includegraphics[width=.8\textwidth]{functional_units/vga_encoder/vga_encoder_block.png}
+\includegraphics[width=.98\textwidth]{functional_units/vga_encoder/vga_encoder_block.png}
 \caption{The logic design of the vga\_encoder functional unit used in the final design.}
 \end{figure}
 \begin{figure}[h]
@@ -395,6 +395,119 @@ Intro text. A block diagram follows in \textbf{Figure 26}.  The logic symbol fol
 \caption{The block symbol of the vga\_encoder functional unit used in the final design.}
 \end{figure}
 \clearpage
+\begin{figure}[h]
+\centering
+\includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png}
+\caption{The Simulation results of the vga\_encoder functional unit used in the final design.}
+\end{figure}
+\clearpage
+
+
+\catcode`\_=13
+\def_{\textunderscore}
+\subsubsection{color_mux Component Block}
+\catcode`_=8
+A color\_mux block generates 2-bit data, 00 or 11, depending on the nes\_A button. If nes\_A button is on, all the data for RGB becomes 11. Otherwise, they become 00.
+\begin{itemize}
+\item \textbf{Inputs:  } Input: A color\_mux block has 6 inputs, hdisplay, vdisplay, red\_in[1..0], green\_in[1..0], blue\_in[1..0], and display\_white\_in. A value of hdisplay and vdisplay indicates whether it is on the screen or not, and display\_white\_in indicates the nes\_A button. Other data is for RGB.
+\item \textbf{Outputs: } A color\_mux block has 3 output, red\_out[1..0], green\_out[1..0], and blue\_out[1..0]. As shown in the simulation below, they become 00 when the display\_white\_in is off even though h\_display and v\_display are 1. If display\_white\_in, h\_display, and v\_display are all 1, the data for RGB becomes 11.
+\end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/vga_encoder/individual_blocks/color_mux_block.png}
+\caption{The block symbol of the color\_mux module used in the vga\_encoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/color_mux_sim.png}
+  \caption{The simulation results of the color\_mux individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\clearpage
+
+
+
+\catcode`\_=13
+\def_{\textunderscore}
+\subsubsection{clock_modulator Component Block}
+\catcode`_=8
+Because a VGA operates with a clock with a frequency of 25MHz, a clock\_modulator slows down the 50MHz-clock to have a frequency of 25MHz. As shown in the simulation, the clock frequency has decreased by half.
+\begin{itemize}
+\item \textbf{Inputs:  } A clock\_modulator has one input, clock\_in. The clock\_in is the clock with a frequency of 50Mhz.
+\item \textbf{Outputs: } A clock\_modulator has one output, clock\_out. The clock\_out is the clock that is slowed down by half.
+\end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/vga_encoder/individual_blocks/clock_modulator_symbol.png}
+\caption{The block symbol of the clock\_modulator module used in the vga\_encoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/clock_modulator_sim.png}
+  \caption{The simulation results of the clock\_modulator individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\clearpage
+
+
+\catcode`\_=13
+\def_{\textunderscore}
+\subsubsection{vga_640x480 Component Block}
+\catcode`_=8
+A vga\_640x480 generates the h\_sync and v\_sync with the horizontal and vertical timing specification. If the internal counters v\_count and h\_count reach specific zone, h\_sync and v\_sync becomes 1 or 0 when the counter is smaller than the front porch. In the first simulation, it focuses on h\_sync with a simulation during (16+96+48+640+16+96+48)*40ns = 960*40ns = 38400ns. The h\_sync is 1 before it passes 800*40ns = 32000ns and becomes 0 after it passes. On the other hand, the second simulation focuses on v\_sync and it is 1 before it reaches 32000*525*40ns = 16800000ns and becomes 0 after it reaches.
+\begin{itemize}
+\item \textbf{Inputs:  } A vga\_640x480 block has two inputs, clock\_25, and reset\_frame. A clock\_25 is a clock with a frequency of 25MHz, and reset\_frame is the switch that resets the internal counters, v\_count and h\_count.
+\item \textbf{Outputs: }  A vga\_640x480 has four outputs, h\_sync, v\_sync, h\_display, and v\_display. The values of h\_sync and v\_sync depends on whether the clock cycle or lines are in the period of front porch or not. If they are, the values become 0. The values of h\_display and v\_display are the signals indicating whether it is able to draw on the screen or not.
+
+\end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/vga_encoder/individual_blocks/vga_640x480_symbol.png}
+\caption{The block symbol of the vga\_640x480 module used in the vga\_encoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png}
+  \caption{The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Hsync.png}
+  \caption{The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.png}
+  \caption{The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\clearpage
+
+
+\catcode`\_=13
+\def_{\textunderscore}
+\subsubsection{rgb_decoder Component Block}
+\catcode`_=8
+A rgb\_decoder decodes 2-bit inputs into 4-bit outputs by duplicating the data. For example, 00 becomes 0000, 01 becomes 0101, 10 becomes 1010, 11 becomes 1111. However, in this project, only 00 and 11 is used for the input because only the white and black color is used.
+\begin{itemize}
+\item \textbf{Inputs:  } A rgb\_decoder has three inputs, red\_in[1..0], green\_in[1..0], and blue\_in[1..0]. They are only 00 or 11 in this project to generate only white and black color.
+\item \textbf{Outputs: }  A rgb\_decoder has three outputs, red\_out[3..0], green\_out[3..0], and blue\_out[3..0]. They are decoded data from the inputs, and they are only 0000 and 1111 in this project to generate only white and black color.
+\end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/vga_encoder/individual_blocks/rgb_decoder_symbol.png}
+\caption{The block symbol of the rgb\_decoder module used in the vga\_encoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/vga_encoder/individual_blocks/rgb_decoder_sim.png}
+  \caption{The simulation results of the rgb\_decoder individual block used in the vga\_encoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\clearpage
+
 
 \catcode`\_=13
 \def_{\textunderscore}
@@ -410,6 +523,36 @@ The vcr\_decoder module converts an IR signal sent from a VCR remote into a deci
 \includegraphics[width=.48\textwidth]{functional_units/vcr_decoder/vcr_decoder_symbol.png}
 \caption{The block symbol of the vcr\_decoder functional unit used in the final design.}
 \end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{images/VCR_Decoder_state_diagram.png}
+	\caption{State Diagram for the vcr\_decoder Functional Unit. The state machine had five states: IDLE, C1, C2, READ, PUSH. The incoming IR signal from the VCR remote is a logic HIGH by default. If the vcr\_decoder is receiving a continuous logic HIGH from the remote, it will stay in the IDLE state indefinitely. When the signal goes LOW for the first time the state machine switches to the C1 state, which is a control signal state. It will stay in this state until the signal goes HIGH again at which point it will switch to the C2 control state. Both the control state have unique pulse lengths that are checked before moving to the next state. When in the C2 state, if the IR signal goes low, the state machine will begin the READ state and read the 32-bit value encoded for by the IR signal. Once the 32-bits have been read, the state machine will switch to the push state and output the value encoded for by the signal.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the IDLE state to the C1 control state following the first time the IR signal goes to a logic LOW.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the C1 control state to the C2 control state.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the C2 control state to the READ state, indicicating that it is currently reading a 32-bit IR signal corresponding the button on the VCR remote that was pressed.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png}
+	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the READ state to the PUSH state indicating that the full 32-bit input value has been processed and an output value is produced.}
+    \label{fig:top-level-sim}
+\end{figure}
 \clearpage
 
 \catcode`\_=13
@@ -421,6 +564,17 @@ The mux2 individual block is used to choose whether the seven segment display sh
 \item \textbf{Inputs:  } The mux2 individual block has 2 inputs: sel and in. in is the input signal which is 2 bits wide. sel is used to select which of the values goes to the output.
 \item \textbf{Outputs: } The mux2 individual block has 1 output: out. This is the value that is selected by the sel input signal.
 \end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/mux_1.jpg}
+\caption{The block symbol of the mux2 module used in the vcr\_decoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{functional_units/mux2_sim.png}
+  \caption{The simulation results of the mux2 individual block used in the vcr\_decoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
 \clearpage
 
 \catcode`\_=13
@@ -436,6 +590,31 @@ The ReadState Individual Block is used to implement the READ state within the vc
 \centering
 \includegraphics[width=.48\textwidth]{functional_units/vcr_decoder/individual_blocks/ReadState_symbol.png}
 \caption{The block symbol of the ReadState module used in the vcr\_decoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.98\textwidth]{images/ReadState_state_diagram.png}
+	\caption{State Diagram for the ReadState Individual Unit. The state machine has five states: IDLE, Reading, Processing, Waiting, and Done.
+  The IDLE state represents the initial logic LOW pulse at the beginning of the 32-bit sequence. Once this signal goes HIGH, the state machine will enter a cycle of Reading, Processing, and Waiting for each HIGH signal. The Reading state will measure the length of the pulse, the Processing state will assign the length either a 1 or 0 bit and shift the bit into the ShiftRegister Individual Unit, and the Waiting state will reset for the next HIGH signal. Once 32-bits have been read, the state machine will enter the Done state and outpit the 32-bit value as a hexadecimal value that uniquely identifies the button that was pressed on the VCR remote.}
+    \label{fig:top-level-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the IDLE state to the Reading State within the ReadState Module. This transition is in response to the initial HIGH IR signal that represents the 32-bit value encoding the button that was pressed.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows Processing State of the ReadState Module. When the state machine is in the Reading state, that means it is actively reading a HIGH signal for IR. As seen in this waveform, when IR goes LOW again, the state machine switches to the Processing state in which it checks the length of the signal to see if it is a logic 1 or a logic 0. The 1 or 0 is then shifted into the shift register on the rising edge of the shiftValue signal, as seen in the waveform. The state machine then switches into the Waiting state, while it waits for IR to go HIGH again.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png}
+  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the reading, Processing, Waiting cycle to the Done state in which it outputs the 32-bit hexadecimal value identified by the IR signal input. In each Waiting state, the state machine will check if 32-bits have been read into the shift register. If so, the state machine will switch to the Done state and output the value for the IR signal that it received as input. In addition, it will drive an output signal outputReady HIGH. This signal is used by the vcr\_decoder module, to know when to output a result.}
+    \label{fig:individual-1-2-sim}
 \end{figure}
 \clearpage
 
@@ -469,6 +648,17 @@ The SignalDecoder Individual Block is used to convert the 32-bit value generated
 \item \textbf{Inputs:  } The SignalDecoder Individual Block takes a single 32-bit input that corresponds to the complete IR signal that was read in by the ReadState Individual Block.
 \item \textbf{Outputs: } The SignalDecoder Individual Block outputs a 4-bit value betwee 0 and 15.
 \end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.48\textwidth]{functional_units/vcr_decoder/individual_blocks/SignalDecoder_symbol.png}
+\caption{The block symbol of the SignalDecoder module used in the vcr\_decoder functional unit.}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png}
+  \caption{The simulation results of the SignalDecoder individual block used in the vcr\_decoder functional unit.}
+    \label{fig:individual-1-2-sim}
+\end{figure}
 \clearpage
 
 \catcode`\_=13
@@ -501,7 +691,7 @@ PS/2 is an interface for keyboards and mice to PC via a 6-pin Mini-DIN connector
 \def_{\textunderscore}
 \subsubsection{debounce Component Block}
 \catcode`_=8
-When using mechanical switches, the signals often rebound, or bounce, off one another before settling into a stable state. The debounce component is used for successfully sending the data in a stable state. Two flip flops in the design check whether the data changes or not via the XOR gate. If the data changes, the counter block receives the signal to reset the counter. If not, the counter increases until it reaches the specified time and enables the output register. According to simulation, when the data remains stable for 40 ns, the data is sent to the last flip flop and the result signal is updated.  A block diagram follows in 	extbf{Figure 35}.  The simulation results follow in \textbf{Figure 36}.
+When using mechanical switches, the signals often rebound, or bounce, off one another before settling into a stable state. The debounce component is used for successfully sending the data in a stable state. Two flip flops in the design check whether the data changes or not via the XOR gate. If the data changes, the counter block receives the signal to reset the counter. If not, the counter increases until it reaches the specified time and enables the output register. According to simulation, when the data remains stable for 40 ns, the data is sent to the last flip flop and the result signal is updated.  A block diagram follows in 	\textbf{Figure 35}.  The simulation results follow in \textbf{Figure 36}.
 \begin{itemize}
 \item \textbf{Inputs:  } The debounce block has one input: button. It indicates the input from the keyboard.
 \item \textbf{Outputs: } The debounce block has one output: result. It has the debounced value of the button.
@@ -597,7 +787,7 @@ The delay submodule, by default, slows an input clock down by a factor of 1/2 to
 \end{itemize}
 \begin{figure}[h]
 \centering
-\includegraphics[width=.8\textwidth]{functional_units/parsed_clock/individual_blocks/delay_block.png}
+\includegraphics[width=.98\textwidth]{functional_units/parsed_clock/individual_blocks/delay_block.png}
 \caption{The logic design of the delay module used in the parsed\_clock functional unit.}
 \end{figure}
 \begin{figure}[h]
@@ -795,94 +985,26 @@ The Comparator Functional Unit is used to create a clock that operates at 10 KHz
 \def_{\textunderscore}
 \subsection{DisplayDecoder Functional Unit}
 \catcode`_=8
-The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is able to output a hexadecimal display value between 0 and F.
-\begin{itemize}
-\item \textbf{Inputs:  } The DisplayDecoder module takes a 4-bit binary value input, data, as its only input.
-\item \textbf{Outputs: } The DisplayDecoder module outputs a 7-bit binary value that is used to activate specific segments in the FPGA seven segment display.
-\end{itemize}
-\clearpage
-
-
-
-
-
-
-
-
-\clearpage
-
-
-
-\subsection{DisplaysDecoder Functional Unit}
-The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder is
-able to output a hexadecimal display value between 0 and F. A block diagram of the unit follows in \textbf{Figure A} and the simulation results for the unit follows in \textbf{Figure B}.
+The DisplayDecoder Module converts a 4-bit input value into a display value on the seven segment display of the FPGA. The DisplayDecoder isable to output a hexadecimal display value between 0 and F. A block diagram of the unit follows in \textbf{Figure A} and the simulation results for the unit follows in \textbf{Figure B}.
 \begin{itemize}
   \item \textbf{Inputs:  } The DisplayDecoder module takes a 4-bit binary value input, data, as its only input.
   \item \textbf{Outputs: } The DisplayDecoder module outputs a 7-bit binary value that is used to activate specific segments in the FPGA seven segment display.
 \end{itemize}
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
+    \includegraphics[width=.8\textwidth]{functional_units/DisplayDecoder/DisplayDecoder_symbol.png}
 	\caption{The logic design of the DisplayDecoder functional unit used in the final design.}
     \label{fig:functional-1}
 \end{figure}
 \begin{figure}[h]
   \centering
-    \includegraphics[width=.98\textwidth]{sims/functional_1.png}
+\includegraphics[width=.98\textwidth]{functional_units/DisplayDecoder/DisplayDecoderTest.png}
 	\caption{The simulation results for the DisplayDecoder Individual Unit.}
     \label{fig:top-level-sim}
 \end{figure}
 
 
 
-\clearpage
-
-
-
-\subsection{vcr\_decoder Functional Unit}
-The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}. A state diagram describing the unit as well as the simulation results for the unit follow in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\subsection{vcr decoder Functional Unit}
-The vcr\_decoder module converts an IR signal sent from a VCR remote into a decimal value between 0 and 9. A block diagram of the unit follows in \textbf{Figure A}, the simulation results for the unit follows in \textbf{Figure B}, and the details for each individual block comprising the unit follow after.
-\begin{itemize}
-  \item \textbf{Inputs:  } The vcr\_decoder module two inputs, clk and IR. clk is a 10 KHz clock signal that is used to drive the module. IR is the Infrared signal coming from the VCR remote that will be translated by the module.
-  \item \textbf{Outputs: } The vcr\_decoder module has a single output, displayValue, which is the 0-9 representing the IR signal that was received by the module as input.
-\end{itemize}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The logic design of the vcr\_decoder functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.8\textwidth]{images/functional_1.png}
-	\caption{The State Diagram for the vcr\_decoder functional unit used in the final design.}
-    \label{fig:functional-1}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png}
-	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the IDLE state to the C1 control state following the first time the IR signal goes to a logic LOW.}
-    \label{fig:top-level-sim}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png}
-	\caption{Simulation results of the vcr\_decoder Functional Unit showing the state transition from the C1 control state to the C2 control state.}
-    \label{fig:top-level-sim}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png}
-	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the C2 control state to the READ state, indicicating that it is currently reading a 32-bit IR signal corresponding the button on the VCR remote that was pressed.}
-    \label{fig:top-level-sim}
-\end{figure}
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png}
-	\caption{Simulation results of the vcr\_decoder Functional Unit showing the transition from the READ state to the PUSH state indicating that the full 32-bit input value has been processed and an output value is produced.}
-    \label{fig:top-level-sim}
-\end{figure}
 
 
 
@@ -890,91 +1012,6 @@ The vcr\_decoder module converts an IR signal sent from a VCR remote into a deci
 \clearpage
 
 
-
-\subsubsection{ReadState Individual Block}
-The ReadState Individual Block is used to implement the READ state within the vcr\_decoder Module. The block diagram (\textbf{Figure C}), State Diagram, and simulation results \textbf{Figure D} are provided below.
-\begin{itemize}
-  \item \textbf{Inputs:  } inputs
-  \item \textbf{Outputs: } outputs
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
-  \caption{The block symbol of the ReadState individual block used in the vcr\_decoder functional unit.}
-    \label{fig:individual-1-2-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png}
-  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the IDLE state to the Reading State within the ReadState Module. This transition is in response to the initial HIGH IR signal that represents the 32-bit value encoding the button that was pressed.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png}
-  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows Processing State of the ReadState Module. When the state machine is in the Reading state, that means it is actively reading a HIGH signal for IR. As seen in this waveform, when IR goes LOW again, the state machine switches to the Processing state in which it checks the length of the signal to see if it is a logic 1 or a logic 0. The 1 or 0 is then shifted into the shift register on the rising edge of the shiftValue signal, as seen in the waveform. The state machine then switches into the Waiting state, while it waits for IR to go HIGH again.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png}
-  \caption{Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the reading, Processing, Waiting cycle to the Done state in which it outputs the 32-bit hexadecimal value identified by the IR signal input. In each Waiting state, the state machine will check if 32-bits have been read into the shift register. If so, the state machine will switch to the Done state and output the value for the IR signal that it received as input. In addition, it will drive an output signal outputReady HIGH. This signal is used by the vcr\_decoder module, to know when to output a result.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{SignalDecoder Individual Block}
-The SignalDecoder Individual Block is used to convert the 32-bit value generated by the ReadState Individual Block into a 4-bit value by 0 and 15 that indicated which button on the VCR remote was pressed. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } The SignalDecoder Individual Block takes a single 32-bit input that corresponds to the complete IR signal that was read in by the ReadState Individual Block
-  \item \textbf{Outputs: } The SignalDecoder Individual Block outputs a 4-bit value betwee 0 and 15.
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
-  \caption{The block symbol of the (NAME) individual block used in the (NAME) functional unit.}
-    \label{fig:individual-1-2-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png}
-  \caption{The simulation results of the SignalDecoder individual block used in the vcr\_decoder functional unit.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-
-
-
-\clearpage
-
-
-
-\subsubsection{ShiftRegister Individual Block}
-The ShiftRegister Individual Block is used to store the 32-bit IR signal value bit by bit as as it is read in by the ReadState Module. The input and output specifications follow, as well as the block diagram (\textbf{Figure C}), and simulation results \textbf{Figure D} for the individual block.
-\begin{itemize}
-  \item \textbf{Inputs:  } Inputs
-  \item \textbf{Outputs: } Output
-\end{itemize}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.48\textwidth]{symbols/individual_placeholder.png}
-  \caption{The block symbol of the ShiftRegister individual block used in the vcr\_decoder functional unit.}
-    \label{fig:individual-1-2-block}
-\end{figure}
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.98\textwidth]{sims/vcr_testing/moduleTests/shiftRegister/ShiftRegister_sim.png}
-  \caption{The simulation results of the ShiftRegister individual block used in the vcr\_decoder functional unit.}
-    \label{fig:individual-1-2-sim}
-\end{figure}
-
-
-
-\clearpage
 
 
 

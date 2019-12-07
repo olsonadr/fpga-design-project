@@ -1,0 +1,74 @@
+\BOOKMARK [1][-]{section.1}{Project Description}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Project Deliverables}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{High Level Description}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{decoder Functional Unit}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{seven\137seg\1376 Functional Unit}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{sevenseg Component Block}{subsection.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{L293D\137encoder Functional Unit}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Counter Functional Unit}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{vga\137encoder Functional Unit}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.5.1}{color\137mux Component Block}{subsection.2.5}% 10
+\BOOKMARK [3][-]{subsubsection.2.5.2}{clock\137modulator Component Block}{subsection.2.5}% 11
+\BOOKMARK [3][-]{subsubsection.2.5.3}{vga\137640x480 Component Block}{subsection.2.5}% 12
+\BOOKMARK [3][-]{subsubsection.2.5.4}{rgb\137decoder Component Block}{subsection.2.5}% 13
+\BOOKMARK [2][-]{subsection.2.6}{vcr\137decoder Functional Unit}{section.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.6.1}{mux2 Component Block}{subsection.2.6}% 15
+\BOOKMARK [3][-]{subsubsection.2.6.2}{ReadState Component Block}{subsection.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.6.3}{ShiftRegister Component Block}{subsection.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.2.6.4}{signalDecoder Component Block}{subsection.2.6}% 18
+\BOOKMARK [2][-]{subsection.2.7}{ps2\137keyboard Functional Unit}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.7.1}{debounce Component Block}{subsection.2.7}% 20
+\BOOKMARK [2][-]{subsection.2.8}{nes\137decoder Functional Unit}{section.2}% 21
+\BOOKMARK [2][-]{subsection.2.9}{parsed\137clock Functional Unit}{section.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.9.1}{enable\137flip\137flop Component Block}{subsection.2.9}% 23
+\BOOKMARK [3][-]{subsubsection.2.9.2}{delay Component Block}{subsection.2.9}% 24
+\BOOKMARK [3][-]{subsubsection.2.9.3}{mux4 Component Block}{subsection.2.9}% 25
+\BOOKMARK [3][-]{subsubsection.2.9.4}{counter Component Block}{subsection.2.9}% 26
+\BOOKMARK [3][-]{subsubsection.2.9.5}{parser Component Block}{subsection.2.9}% 27
+\BOOKMARK [3][-]{subsubsection.2.9.6}{comparator Component Block}{subsection.2.9}% 28
+\BOOKMARK [2][-]{subsection.2.10}{SquareWaveGenerator Functional Unit}{section.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.10.1}{SquareWaveGenerator Component Block}{subsection.2.10}% 30
+\BOOKMARK [3][-]{subsubsection.2.10.2}{decoder Component Block}{subsection.2.10}% 31
+\BOOKMARK [2][-]{subsection.2.11}{nes\137to\137motor Functional Unit}{section.2}% 32
+\BOOKMARK [2][-]{subsection.2.12}{Comparator Functional Unit}{section.2}% 33
+\BOOKMARK [2][-]{subsection.2.13}{DisplayDecoder Functional Unit}{section.2}% 34
+\BOOKMARK [1][-]{appendix.A}{SystemVerilog Files}{}% 35
+\BOOKMARK [2][-]{subsection.A.1}{decoder}{appendix.A}% 36
+\BOOKMARK [2][-]{subsection.A.2}{seven\137seg\1376}{appendix.A}% 37
+\BOOKMARK [3][-]{subsubsection.A.2.1}{Component Blocks of seven\137seg\1376 Unit}{subsection.A.2}% 38
+\BOOKMARK [2][-]{subsection.A.3}{L293D\137encoder}{appendix.A}% 39
+\BOOKMARK [2][-]{subsection.A.4}{Counter}{appendix.A}% 40
+\BOOKMARK [2][-]{subsection.A.5}{vga\137encoder}{appendix.A}% 41
+\BOOKMARK [3][-]{subsubsection.A.5.1}{Component Blocks of vga\137encoder Unit}{subsection.A.5}% 42
+\BOOKMARK [2][-]{subsection.A.6}{vcr\137decoder}{appendix.A}% 43
+\BOOKMARK [3][-]{subsubsection.A.6.1}{Component Blocks of vcr\137decoder Unit}{subsection.A.6}% 44
+\BOOKMARK [2][-]{subsection.A.7}{ps2\137keyboard}{appendix.A}% 45
+\BOOKMARK [3][-]{subsubsection.A.7.1}{Component Blocks of ps2\137keyboard Unit}{subsection.A.7}% 46
+\BOOKMARK [2][-]{subsection.A.8}{nes\137decoder}{appendix.A}% 47
+\BOOKMARK [2][-]{subsection.A.9}{parsed\137clock}{appendix.A}% 48
+\BOOKMARK [3][-]{subsubsection.A.9.1}{Component Blocks of parsed\137clock Unit}{subsection.A.9}% 49
+\BOOKMARK [2][-]{subsection.A.10}{SquareWaveGenerator}{appendix.A}% 50
+\BOOKMARK [3][-]{subsubsection.A.10.1}{Component Blocks of SquareWaveGenerator Unit}{subsection.A.10}% 51
+\BOOKMARK [2][-]{subsection.A.11}{nes\137to\137motor}{appendix.A}% 52
+\BOOKMARK [2][-]{subsection.A.12}{Comparator}{appendix.A}% 53
+\BOOKMARK [2][-]{subsection.A.13}{DisplayDecoder}{appendix.A}% 54
+\BOOKMARK [1][-]{appendix.B}{Simulation Files \(Do Scripts\)}{}% 55
+\BOOKMARK [2][-]{subsection.B.1}{decoder}{appendix.B}% 56
+\BOOKMARK [2][-]{subsection.B.2}{seven\137seg\1376}{appendix.B}% 57
+\BOOKMARK [3][-]{subsubsection.B.2.1}{Component Blocks of seven\137seg\1376 Unit}{subsection.B.2}% 58
+\BOOKMARK [2][-]{subsection.B.3}{L293D\137encoder}{appendix.B}% 59
+\BOOKMARK [2][-]{subsection.B.4}{Counter}{appendix.B}% 60
+\BOOKMARK [2][-]{subsection.B.5}{vga\137encoder}{appendix.B}% 61
+\BOOKMARK [3][-]{subsubsection.B.5.1}{Component Blocks of vga\137encoder Unit}{subsection.B.5}% 62
+\BOOKMARK [2][-]{subsection.B.6}{vcr\137decoder}{appendix.B}% 63
+\BOOKMARK [3][-]{subsubsection.B.6.1}{Component Blocks of vcr\137decoder Unit}{subsection.B.6}% 64
+\BOOKMARK [2][-]{subsection.B.7}{ps2\137keyboard}{appendix.B}% 65
+\BOOKMARK [3][-]{subsubsection.B.7.1}{Component Blocks of ps2\137keyboard Unit}{subsection.B.7}% 66
+\BOOKMARK [2][-]{subsection.B.8}{nes\137decoder}{appendix.B}% 67
+\BOOKMARK [2][-]{subsection.B.9}{parsed\137clock}{appendix.B}% 68
+\BOOKMARK [3][-]{subsubsection.B.9.1}{Component Blocks of parsed\137clock Unit}{subsection.B.9}% 69
+\BOOKMARK [2][-]{subsection.B.10}{SquareWaveGenerator}{appendix.B}% 70
+\BOOKMARK [3][-]{subsubsection.B.10.1}{Component Blocks of SquareWaveGenerator Unit}{subsection.B.10}% 71
+\BOOKMARK [2][-]{subsection.B.11}{nes\137to\137motor}{appendix.B}% 72
+\BOOKMARK [2][-]{subsection.B.12}{Comparator}{appendix.B}% 73
+\BOOKMARK [2][-]{subsection.B.13}{DisplayDecoder}{appendix.B}% 74

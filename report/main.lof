@@ -1,0 +1,168 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Top Level Diagram for the project. The Diagram shows all the Functional Units used in the project and how they are connected from input to output.\relax }}{7}{figure.caption.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces The hardware diagram shows which pins are used on the FPGA, module boards, and relevant supply voltages for the different pieces of hardware used in the system.\relax }}{8}{figure.caption.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces The top level design for the project.\relax }}{9}{figure.caption.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces The simulation results for the L293D DC Motor in the Top Level.\relax }}{13}{figure.caption.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces The simulation results for the NES Controller to seven segment display in Top Level.\relax }}{14}{figure.caption.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces The simulation results for the NES Controller to seven segment display in Top Level.\relax }}{15}{figure.caption.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces The simulation results for the PS2 Keyboard to the LM386N-4 Audio IC in Top Level.\relax }}{16}{figure.caption.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces The Simulation results for Top Level VCR output with expected value of 6.\relax }}{17}{figure.caption.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {13}{\ignorespaces The Simulation results for Top Level VCR output with expected value of 8.\relax }}{18}{figure.caption.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces The block symbol of the decoder functional unit used in the final design.\relax }}{20}{figure.caption.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces The simulation results for the decoder module.\relax }}{20}{figure.caption.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces The logic design of the seven\_seg\_6 functional unit used in the final design.\relax }}{21}{figure.caption.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces The block symbol of the seven\_seg\_6 functional unit used in the final design.\relax }}{22}{figure.caption.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces The simulation results for the seven\_seg\_6 module.\relax }}{23}{figure.caption.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces The block symbol of the sevenseg module used in the seven\_seg\_6 functional unit.\relax }}{24}{figure.caption.21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces The simulation results for the sevenseg module used in the seven\_seg\_6 functional unit.\relax }}{24}{figure.caption.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces The block symbol of the L293D\_encoder functional unit used in the final design.\relax }}{25}{figure.caption.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {22}{\ignorespaces The simulation results for the L293D\_encoder module.\relax }}{25}{figure.caption.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {23}{\ignorespaces The block symbol of the Counter functional unit used in the final design.\relax }}{26}{figure.caption.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {24}{\ignorespaces The simulation results for the Counter module.\relax }}{26}{figure.caption.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {25}{\ignorespaces The logic design of the vga\_encoder functional unit used in the final design.\relax }}{27}{figure.caption.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {26}{\ignorespaces The block symbol of the vga\_encoder functional unit used in the final design.\relax }}{27}{figure.caption.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {27}{\ignorespaces The Simulation results of the vga\_encoder functional unit used in the final design.\relax }}{28}{figure.caption.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {28}{\ignorespaces The block symbol of the color\_mux module used in the vga\_encoder functional unit.\relax }}{29}{figure.caption.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {29}{\ignorespaces The simulation results of the color\_mux individual block used in the vga\_encoder functional unit.\relax }}{29}{figure.caption.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces The block symbol of the clock\_modulator module used in the vga\_encoder functional unit.\relax }}{30}{figure.caption.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {31}{\ignorespaces The simulation results of the clock\_modulator individual block used in the vga\_encoder functional unit.\relax }}{30}{figure.caption.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {32}{\ignorespaces The block symbol of the vga\_640x480 module used in the vga\_encoder functional unit.\relax }}{31}{figure.caption.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {33}{\ignorespaces The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.\relax }}{31}{figure.caption.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {34}{\ignorespaces The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.\relax }}{32}{figure.caption.36}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {35}{\ignorespaces The simulation results of the vga\_640x480 individual block used in the vga\_encoder functional unit.\relax }}{32}{figure.caption.37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {36}{\ignorespaces The block symbol of the rgb\_decoder module used in the vga\_encoder functional unit.\relax }}{33}{figure.caption.38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {37}{\ignorespaces The simulation results of the rgb\_decoder individual block used in the vga\_encoder functional unit.\relax }}{33}{figure.caption.39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {38}{\ignorespaces The block symbol of the vcr\_decoder functional unit used in the final design.\relax }}{34}{figure.caption.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {39}{\ignorespaces State Diagram for the vcr\_decoder Functional Unit. The state machine had five states: IDLE, C1, C2, READ, PUSH. The incoming IR signal from the VCR remote is a logic HIGH by default. If the vcr\_decoder is receiving a continuous logic HIGH from the remote, it will stay in the IDLE state indefinitely. When the signal goes LOW for the first time the state machine switches to the C1 state, which is a control signal state. It will stay in this state until the signal goes HIGH again at which point it will switch to the C2 control state. Both the control state have unique pulse lengths that are checked before moving to the next state. When in the C2 state, if the IR signal goes low, the state machine will begin the READ state and read the 32-bit value encoded for by the IR signal. Once the 32-bits have been read, the state machine will switch to the push state and output the value encoded for by the signal.\relax }}{35}{figure.caption.41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {40}{\ignorespaces Simulation results of the vcr\_decoder Functional Unit showing the state transition from the IDLE state to the C1 control state following the first time the IR signal goes to a logic LOW.\relax }}{35}{figure.caption.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {41}{\ignorespaces Simulation results of the vcr\_decoder Functional Unit showing the state transition from the C1 control state to the C2 control state.\relax }}{36}{figure.caption.43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {42}{\ignorespaces Simulation results of the vcr\_decoder Functional Unit showing the transition from the C2 control state to the READ state, indicicating that it is currently reading a 32-bit IR signal corresponding the button on the VCR remote that was pressed.\relax }}{36}{figure.caption.44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {43}{\ignorespaces Simulation results of the vcr\_decoder Functional Unit showing the transition from the READ state to the PUSH state indicating that the full 32-bit input value has been processed and an output value is produced.\relax }}{36}{figure.caption.45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {44}{\ignorespaces The block symbol of the mux2 module used in the vcr\_decoder functional unit.\relax }}{37}{figure.caption.46}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {45}{\ignorespaces The simulation results of the mux2 individual block used in the vcr\_decoder functional unit.\relax }}{37}{figure.caption.47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {46}{\ignorespaces The block symbol of the ReadState module used in the vcr\_decoder functional unit.\relax }}{38}{figure.caption.48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {47}{\ignorespaces State Diagram for the ReadState Individual Unit. The state machine has five states: IDLE, Reading, Processing, Waiting, and Done. The IDLE state represents the initial logic LOW pulse at the beginning of the 32-bit sequence. Once this signal goes HIGH, the state machine will enter a cycle of Reading, Processing, and Waiting for each HIGH signal. The Reading state will measure the length of the pulse, the Processing state will assign the length either a 1 or 0 bit and shift the bit into the ShiftRegister Individual Unit, and the Waiting state will reset for the next HIGH signal. Once 32-bits have been read, the state machine will enter the Done state and outpit the 32-bit value as a hexadecimal value that uniquely identifies the button that was pressed on the VCR remote.\relax }}{39}{figure.caption.49}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {48}{\ignorespaces Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the IDLE state to the Reading State within the ReadState Module. This transition is in response to the initial HIGH IR signal that represents the 32-bit value encoding the button that was pressed.\relax }}{39}{figure.caption.50}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {49}{\ignorespaces Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows Processing State of the ReadState Module. When the state machine is in the Reading state, that means it is actively reading a HIGH signal for IR. As seen in this waveform, when IR goes LOW again, the state machine switches to the Processing state in which it checks the length of the signal to see if it is a logic 1 or a logic 0. The 1 or 0 is then shifted into the shift register on the rising edge of the shiftValue signal, as seen in the waveform. The state machine then switches into the Waiting state, while it waits for IR to go HIGH again.\relax }}{40}{figure.caption.51}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {50}{\ignorespaces Simulation results of the ReadState individual block used in the vcr\_decoder functional unit. The simulation shows the transition from the reading, Processing, Waiting cycle to the Done state in which it outputs the 32-bit hexadecimal value identified by the IR signal input. In each Waiting state, the state machine will check if 32-bits have been read into the shift register. If so, the state machine will switch to the Done state and output the value for the IR signal that it received as input. In addition, it will drive an output signal outputReady HIGH. This signal is used by the vcr\_decoder module, to know when to output a result.\relax }}{40}{figure.caption.52}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {51}{\ignorespaces The block symbol of the ShiftRegister module used in the vcr\_decoder functional unit.\relax }}{41}{figure.caption.53}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {52}{\ignorespaces The simulation results for the ShiftRegister module used in the vcr\_decoder functional unit.\relax }}{41}{figure.caption.54}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {53}{\ignorespaces The block symbol of the SignalDecoder module used in the vcr\_decoder functional unit.\relax }}{42}{figure.caption.55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {54}{\ignorespaces The simulation results of the SignalDecoder individual block used in the vcr\_decoder functional unit.\relax }}{42}{figure.caption.56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {55}{\ignorespaces The logic design of the ps2\_keyboard functional unit used in the final design.\relax }}{43}{figure.caption.57}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {56}{\ignorespaces The block symbol of the ps2\_keyboard functional unit used in the final design.\relax }}{44}{figure.caption.58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {57}{\ignorespaces The simulation results for the ps2\_keyboard module.\relax }}{44}{figure.caption.59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {58}{\ignorespaces The logic design of the debounce module used in the ps2\_keyboard functional unit.\relax }}{45}{figure.caption.60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {59}{\ignorespaces The simulation results for the debounce module used in the ps2\_keyboard functional unit.\relax }}{45}{figure.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {60}{\ignorespaces The block symbol of the nes\_decoder functional unit used in the final design.\relax }}{46}{figure.caption.62}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {61}{\ignorespaces The simulation results for the nes\_decoder module.\relax }}{47}{figure.caption.63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {62}{\ignorespaces The logic design of the parsed\_clock functional unit used in the final design.\relax }}{48}{figure.caption.64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {63}{\ignorespaces The block symbol of the parsed\_clock functional unit used in the final design.\relax }}{48}{figure.caption.65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {64}{\ignorespaces The simulation results for the parsed\_clock module.\relax }}{49}{figure.caption.66}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {65}{\ignorespaces The block symbol of the enable\_flip\_flop module used in the parsed\_clock functional unit.\relax }}{50}{figure.caption.67}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {66}{\ignorespaces The simulation results for the enable\_flip\_flop module used in the parsed\_clock functional unit.\relax }}{50}{figure.caption.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {67}{\ignorespaces The logic design of the delay module used in the parsed\_clock functional unit.\relax }}{51}{figure.caption.69}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {68}{\ignorespaces The block symbol of the delay module used in the parsed\_clock functional unit.\relax }}{51}{figure.caption.70}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {69}{\ignorespaces The simulation results for the delay module used in the parsed\_clock functional unit.\relax }}{52}{figure.caption.71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {70}{\ignorespaces The block symbol of the mux4 module used in the parsed\_clock functional unit.\relax }}{53}{figure.caption.72}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {71}{\ignorespaces The simulation results for the mux4 module used in the parsed\_clock functional unit.\relax }}{53}{figure.caption.73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {72}{\ignorespaces The block symbol of the counter module used in the parsed\_clock functional unit.\relax }}{54}{figure.caption.74}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {73}{\ignorespaces The simulation results for the counter module used in the parsed\_clock functional unit.\relax }}{54}{figure.caption.75}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {74}{\ignorespaces The block symbol of the parser module used in the parsed\_clock functional unit.\relax }}{55}{figure.caption.76}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {75}{\ignorespaces The simulation results for the parser module used in the parsed\_clock functional unit.\relax }}{55}{figure.caption.77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {76}{\ignorespaces The block symbol of the comparator module used in the parsed\_clock functional unit.\relax }}{56}{figure.caption.78}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {77}{\ignorespaces The simulation results for the comparator module used in the parsed\_clock functional unit.\relax }}{56}{figure.caption.79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {78}{\ignorespaces The block symbol of the SquareWaveGenerator module used in the SquareWaveGenerator functional unit.\relax }}{58}{figure.caption.80}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {79}{\ignorespaces The simulation results for the SquareWaveGenerator module used in the SquareWaveGenerator functional unit.\relax }}{58}{figure.caption.81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {80}{\ignorespaces The block symbol of the decoder module used in the SquareWaveGenerator functional unit.\relax }}{59}{figure.caption.82}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {81}{\ignorespaces The simulation results for the decoder module used in the SquareWaveGenerator functional unit.\relax }}{59}{figure.caption.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {82}{\ignorespaces The block symbol of the nes\_to\_motor functional unit used in the final design.\relax }}{60}{figure.caption.84}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {83}{\ignorespaces The simulation results for the nes\_to\_motor module.\relax }}{60}{figure.caption.85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {84}{\ignorespaces The block symbol of the Comparator functional unit used in the final design.\relax }}{61}{figure.caption.86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {85}{\ignorespaces The simulation results for the Comparator module.\relax }}{61}{figure.caption.87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {86}{\ignorespaces The logic design of the DisplayDecoder functional unit used in the final design.\relax }}{62}{figure.caption.88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {87}{\ignorespaces The simulation results for the DisplayDecoder Individual Unit.\relax }}{62}{figure.caption.89}% 

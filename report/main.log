@@ -1,0 +1,3256 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  6 DEC 2019 21:32
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/05/04 3.31 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@tempdima=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count92
+\c@subtable=\count93
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+\csq@reset=\count95
+\csq@gtype=\count96
+\csq@glevel=\count97
+\csq@qlevel=\count98
+\csq@maxlvl=\count99
+\csq@tshold=\count100
+\csq@ltx@everypar=\toks17
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks18
+\SOUL@lasttoken=\toks19
+\SOUL@cmds=\toks20
+\SOUL@buffer=\toks21
+\SOUL@token=\toks22
+\SOUL@spaceskip=\skip43
+\SOUL@ttwidth=\dimen113
+\SOUL@uldp=\dimen114
+\SOUL@ulht=\dimen115
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks25
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen124
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
+\dotsspace@=\muskip10
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks27
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks28
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks29
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count116
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen133
+\pgfutil@tempdimb=\dimen134
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box29
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
+))
+Package: pgf 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks36
+))
+\pgf@x=\dimen135
+\pgf@y=\dimen136
+\pgf@xa=\dimen137
+\pgf@ya=\dimen138
+\pgf@xb=\dimen139
+\pgf@yb=\dimen140
+\pgf@xc=\dimen141
+\pgf@yc=\dimen142
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count117
+\c@pgf@countb=\count118
+\c@pgf@countc=\count119
+\c@pgf@countd=\count120
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+\pgf@sys@id@count=\count121
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfsyssoftpath@smallbuffer@items=\count122
+\pgfsyssoftpath@bigbuffer@items=\count123
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen143
+\pgfmath@count=\count124
+\pgfmath@box=\box30
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count125
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@picminx=\dimen144
+\pgf@picmaxx=\dimen145
+\pgf@picminy=\dimen146
+\pgf@picmaxy=\dimen147
+\pgf@pathminx=\dimen148
+\pgf@pathmaxx=\dimen149
+\pgf@pathminy=\dimen150
+\pgf@pathmaxy=\dimen151
+\pgf@xx=\dimen152
+\pgf@xy=\dimen153
+\pgf@yx=\dimen154
+\pgf@yy=\dimen155
+\pgf@zx=\dimen156
+\pgf@zy=\dimen157
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@path@lastx=\dimen158
+\pgf@path@lasty=\dimen159
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@shorten@end@additional=\dimen160
+\pgf@shorten@start@additional=\dimen161
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count126
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgflinewidth=\dimen162
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@pt@x=\dimen163
+\pgf@pt@y=\dimen164
+\pgf@pt@temp=\dimen165
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfarrowsep=\dimen166
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count127
+\pgf@shadingcount=\count128
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfexternal@startupbox=\box34
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfnodeparttextbox=\box35
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@plot@mark@count=\count129
+\pgfplotmarksize=\dimen172
+)
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box36
+\tikz@figbox@bg=\box37
+\tikz@tempbox=\box38
+\tikz@tempbox@bg=\box39
+\tikztreelevel=\count130
+\tikznumberofchildren=\count131
+\tikznumberofcurrentchild=\count132
+\tikz@fig@count=\count133
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfmatrixcurrentrow=\count134
+\pgfmatrixcurrentcolumn=\count135
+\pgf@matrix@numberofcolumns=\count136
+)
+\tikz@expandcount=\count137
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2019/04/04 v3.1.2 (3.1.2)
+))) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count138
+\calc@Bcount=\count139
+\calc@Adimen=\dimen179
+\calc@Bdimen=\dimen180
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count140
+\calc@Cskip=\skip49
+)
+\c@@todonotes@numberoftodonotes=\count141
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count142
+\Hy@pagecounter=\count143
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count144
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count145
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen182
+\Fld@menulength=\count146
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring ON on input line 6398.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count147
+\c@Item=\count148
+\c@Hfootnote=\count149
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count150
+\c@bookmark@seq@number=\count151
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count152
+\multirow@dima=\skip52
+\bigstrutjot=\dimen185
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count153
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count154
+\c@listtotal=\count155
+\c@listcount=\count156
+\c@liststart=\count157
+\c@liststop=\count158
+\c@citecount=\count159
+\c@citetotal=\count160
+\c@multicitecount=\count161
+\c@multicitetotal=\count162
+\c@instcount=\count163
+\c@maxnames=\count164
+\c@minnames=\count165
+\c@maxitems=\count166
+\c@minitems=\count167
+\c@citecounter=\count168
+\c@maxcitecounter=\count169
+\c@savedcitecounter=\count170
+\c@uniquelist=\count171
+\c@uniquename=\count172
+\c@refsection=\count173
+\c@refsegment=\count174
+\c@maxextratitle=\count175
+\c@maxextratitleyear=\count176
+\c@maxextraname=\count177
+\c@maxextradate=\count178
+\c@maxextraalpha=\count179
+\c@abbrvpenalty=\count180
+\c@highnamepenalty=\count181
+\c@lownamepenalty=\count182
+\c@maxparens=\count183
+\c@parenlevel=\count184
+\blx@tempcnta=\count185
+\blx@tempcntb=\count186
+\blx@tempcntc=\count187
+\blx@maxsection=\count188
+\blx@maxsegment@0=\count189
+\blx@notetype=\count190
+\blx@parenlevel@text=\count191
+\blx@parenlevel@foot=\count192
+\blx@sectionciteorder@0=\count193
+\blx@entrysetcounter=\count194
+\labelnumberwidth=\skip53
+\labelalphawidth=\skip54
+\biblabelsep=\skip55
+\bibitemsep=\skip56
+\bibnamesep=\skip57
+\bibinitsep=\skip58
+\bibparsep=\skip59
+\bibhang=\skip60
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\c@mincomprange=\count195
+\c@maxcomprange=\count196
+\c@mincompwidth=\count197
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count198
+\c@savedafterword=\count199
+\c@annotator=\count266
+\c@savedannotator=\count267
+\c@author=\count268
+\c@savedauthor=\count269
+\c@bookauthor=\count270
+\c@savedbookauthor=\count271
+\c@commentator=\count272
+\c@savedcommentator=\count273
+\c@editor=\count274
+\c@savededitor=\count275
+\c@editora=\count276
+\c@savededitora=\count277
+\c@editorb=\count278
+\c@savededitorb=\count279
+\c@editorc=\count280
+\c@savededitorc=\count281
+\c@foreword=\count282
+\c@savedforeword=\count283
+\c@holder=\count284
+\c@savedholder=\count285
+\c@introduction=\count286
+\c@savedintroduction=\count287
+\c@namea=\count288
+\c@savednamea=\count289
+\c@nameb=\count290
+\c@savednameb=\count291
+\c@namec=\count292
+\c@savednamec=\count293
+\c@translator=\count294
+\c@savedtranslator=\count295
+\c@shortauthor=\count296
+\c@savedshortauthor=\count297
+\c@shorteditor=\count298
+\c@savedshorteditor=\count299
+\c@labelname=\count300
+\c@savedlabelname=\count301
+\c@institution=\count302
+\c@savedinstitution=\count303
+\c@lista=\count304
+\c@savedlista=\count305
+\c@listb=\count306
+\c@savedlistb=\count307
+\c@listc=\count308
+\c@savedlistc=\count309
+\c@listd=\count310
+\c@savedlistd=\count311
+\c@liste=\count312
+\c@savedliste=\count313
+\c@listf=\count314
+\c@savedlistf=\count315
+\c@location=\count316
+\c@savedlocation=\count317
+\c@organization=\count318
+\c@savedorganization=\count319
+\c@origlocation=\count320
+\c@savedoriglocation=\count321
+\c@origpublisher=\count322
+\c@savedorigpublisher=\count323
+\c@publisher=\count324
+\c@savedpublisher=\count325
+\c@language=\count326
+\c@savedlanguage=\count327
+\c@origlanguage=\count328
+\c@savedoriglanguage=\count329
+\c@pageref=\count330
+\c@savedpageref=\count331
+\shorthandwidth=\skip61
+\shortjournalwidth=\skip62
+\shortserieswidth=\skip63
+\shorttitlewidth=\skip64
+\shortauthorwidth=\skip65
+\shorteditorwidth=\skip66
+\locallabelnumberwidth=\skip67
+\locallabelalphawidth=\skip68
+\localshorthandwidth=\skip69
+\localshortjournalwidth=\skip70
+\localshortserieswidth=\skip71
+\localshorttitlewidth=\skip72
+\localshortauthorwidth=\skip73
+\localshorteditorwidth=\skip74
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count332
+\c@textcitetotal=\count333
+\c@textcitemaxnames=\count334
+\c@biburlnumpenalty=\count335
+\c@biburlucpenalty=\count336
+\c@biburllcpenalty=\count337
+\c@smartand=\count338
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2018/08/20 v1.3 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count339
+\c@bbx:relatedtotal=\count340
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2018/08/20 v1.3 biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count341
+\c@cbx@tempcntb=\count342
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/filecontents/filecontents.sty
+Package: filecontents 2018/05/30 v1.4 Create an external file from within a LaT
+eX document
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count343
+\lst@gtempboxa=\box40
+\lst@token=\toks45
+\lst@length=\count344
+\lst@currlwidth=\dimen186
+\lst@column=\count345
+\lst@pos=\count346
+\lst@lostspace=\dimen187
+\lst@width=\dimen188
+\lst@newlines=\count347
+\lst@lineno=\count348
+\lst@maxwidth=\dimen189
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count349
+\lst@skipnumbers=\count350
+\lst@framebox=\box41
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+
+LaTeX Warning: Overwriting file `./references.bib'.
+
+\openout15 = `references.bib'.
+
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+
+Package biblatex Warning: File 'english-ieee.lbx' not found!
+(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+(./main.aux
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-block-1' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-block-1' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:individual-1-2-sim' multiply defined.
+
+
+LaTeX Warning: Label `fig:top-level-sim' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count351
+\scratchdimen=\dimen190
+\scratchbox=\box42
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen191
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=56.9055pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box43
+Package hyperref Info: Link coloring ON on input line 83.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count357
+)
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
+\c@lstlisting=\count358
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main
+.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.114 ...berline {B.1}decoder}{83}{subsection.B.1}
+                                                  % [1])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ (./main.lof
+Overfull \hbox (14.12878pt too wide) in paragraph at lines 56--56
+ [][] [][][]\T1/cmr/m/n/10 The sim-u-la-tion re-sults of the clock_modulator in
+-di-vid-ual block used in the vga_encoder 
+ []
+
+[2] [3] [4])
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [5]
+<images/project_description.png, id=673, 516.93124pt x 784.9325pt>
+File: images/project_description.png Graphic file (type png)
+<use images/project_description.png>
+Package pdftex.def Info: images/project_description.png  used on input line 139
+.
+(pdftex.def)             Requested size: 341.43437pt x 518.46426pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/hardware_diagram.png, id=675, 171.64125pt x 289.58188pt>
+File: images/hardware_diagram.png Graphic file (type png)
+<use images/hardware_diagram.png>
+Package pdftex.def Info: images/hardware_diagram.png  used on input line 146.
+(pdftex.def)             Requested size: 341.43437pt x 576.09576pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+] [7 <./images/project_description.png>] [8 <./images/hardware_diagram.png>]
+<images/top_level.png, id=691, 909.3975pt x 665.48625pt>
+File: images/top_level.png Graphic file (type png)
+<use images/top_level.png>
+Package pdftex.def Info: images/top_level.png  used on input line 177.
+(pdftex.def)             Requested size: 418.2537pt x 306.07661pt.
+
+[9
+
+ <./images/top_level.png>]
+<images/top_level_block_1.png, id=697, 1895.08pt x 881.2925pt>
+File: images/top_level_block_1.png Graphic file (type png)
+<use images/top_level_block_1.png>
+Package pdftex.def Info: images/top_level_block_1.png  used on input line 187.
+(pdftex.def)             Requested size: 418.2537pt x 194.50352pt.
+
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 188.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 188.
+See the caption package documentation for explanation.
+
+<images/top_level_block_2.png, id=698, 1492.57625pt x 889.3225pt>
+File: images/top_level_block_2.png Graphic file (type png)
+<use images/top_level_block_2.png>
+Package pdftex.def Info: images/top_level_block_2.png  used on input line 194.
+(pdftex.def)             Requested size: 418.2537pt x 249.19858pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 195.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 195.
+See the caption package documentation for explanation.
+
+<images/top_level_block_3.png, id=699, 720.6925pt x 885.3075pt>
+File: images/top_level_block_3.png Graphic file (type png)
+<use images/top_level_block_3.png>
+Package pdftex.def Info: images/top_level_block_3.png  used on input line 201.
+(pdftex.def)             Requested size: 418.2537pt x 513.7894pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 202.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 202.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/top_level_block_4.png, id=700, 1198.4775pt x 887.315pt>
+File: images/top_level_block_4.png Graphic file (type png)
+<use images/top_level_block_4.png>
+Package pdftex.def Info: images/top_level_block_4.png  used on input line 208.
+(pdftex.def)             Requested size: 418.2537pt x 309.65776pt.
+
+Package caption Warning: \captionsetup{subtype*=...} or \subcaptionof
+(caption)                outside box or environment on input line 209.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 209.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/top_level_motor_sim.png, id=701, 571.13374pt x 1735.48375pt>
+File: sims/top_level_motor_sim.png Graphic file (type png)
+<use sims/top_level_motor_sim.png>
+Package pdftex.def Info: sims/top_level_motor_sim.png  used on input line 216.
+(pdftex.def)             Requested size: 226.6542pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 219.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/top_level_clock_sim_1.png, id=702, 614.295pt x 1779.64874pt>
+File: sims/top_level_clock_sim_1.png Graphic file (type png)
+<use sims/top_level_clock_sim_1.png>
+Package pdftex.def Info: sims/top_level_clock_sim_1.png  used on input line 223
+.
+(pdftex.def)             Requested size: 237.72752pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 226.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/top_level_clock_sim_2.png, id=703, 630.355pt x 1724.4425pt>
+File: sims/top_level_clock_sim_2.png Graphic file (type png)
+<use sims/top_level_clock_sim_2.png>
+Package pdftex.def Info: sims/top_level_clock_sim_2.png  used on input line 230
+.
+(pdftex.def)             Requested size: 251.75279pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 233.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/square_wave_generator/SquareWaveGenerator.png, id=704, 516.42938pt x 198.
+7425pt>
+File: sims/square_wave_generator/SquareWaveGenerator.png Graphic file (type png
+)
+<use sims/square_wave_generator/SquareWaveGenerator.png>
+Package pdftex.def Info: sims/square_wave_generator/SquareWaveGenerator.png  us
+ed on input line 237.
+(pdftex.def)             Requested size: 418.2537pt x 160.96536pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png, id=705, 408.5262
+5pt x 1225.57875pt>
+File: sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png Graphic file
+ (type png)
+<use sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png>
+Package pdftex.def Info: sims/vcr_testing/functionalUnitTest/FunctionalUnitTest
+_6.png  used on input line 245.
+(pdftex.def)             Requested size: 229.57727pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 248.
+
+<sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png, id=706, 412.5412
+4pt x 1214.5375pt>
+File: sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png Graphic file
+ (type png)
+<use sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png>
+Package pdftex.def Info: sims/vcr_testing/functionalUnitTest/FunctionalUnitTest
+_8.png  used on input line 252.
+(pdftex.def)             Requested size: 233.94234pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 255.
+
+[10
+
+ <./images/top_level_block_1.png> <./images/top_level_block_2.png>] [11 <./imag
+es/top_level_block_3.png>] [12 <./images/top_level_block_4.png>] [13 <./sims/to
+p_level_motor_sim.png>] [14 <./sims/top_level_clock_sim_1.png>] [15 <./sims/top
+_level_clock_sim_2.png>] [16 <./sims/square_wave_generator/SquareWaveGenerator.
+png>] [17 <./sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_6.png>]
+[18 <./sims/vcr_testing/functionalUnitTest/FunctionalUnitTest_8.png>] [19
+
+]
+<functional_units/decoder/decoder_symbol.png, id=763, 105.39375pt x 64.74188pt>
+
+File: functional_units/decoder/decoder_symbol.png Graphic file (type png)
+<use functional_units/decoder/decoder_symbol.png>
+Package pdftex.def Info: functional_units/decoder/decoder_symbol.png  used on i
+nput line 279.
+(pdftex.def)             Requested size: 204.85802pt x 125.84407pt.
+<functional_units/decoder/decoder_sim.png, id=764, 564.1075pt x 199.24437pt>
+File: functional_units/decoder/decoder_sim.png Graphic file (type png)
+<use functional_units/decoder/decoder_sim.png>
+Package pdftex.def Info: functional_units/decoder/decoder_sim.png  used on inpu
+t line 284.
+(pdftex.def)             Requested size: 418.2537pt x 147.73038pt.
+
+[20
+
+ <./functional_units/decoder/decoder_symbol.png> <./functional_units/decoder/de
+coder_sim.png>]
+<functional_units/seven_seg_6/seven_seg_6_block.png, id=769, 1031.855pt x 695.5
+9875pt>
+File: functional_units/seven_seg_6/seven_seg_6_block.png Graphic file (type png
+)
+<use functional_units/seven_seg_6/seven_seg_6_block.png>
+Package pdftex.def Info: functional_units/seven_seg_6/seven_seg_6_block.png  us
+ed on input line 300.
+(pdftex.def)             Requested size: 418.2537pt x 281.94946pt.
+<functional_units/seven_seg_6/seven_seg_6_symbol.png, id=770, 233.87375pt x 211
+.79124pt>
+File: functional_units/seven_seg_6/seven_seg_6_symbol.png Graphic file (type pn
+g)
+<use functional_units/seven_seg_6/seven_seg_6_symbol.png>
+Package pdftex.def Info: functional_units/seven_seg_6/seven_seg_6_symbol.png  u
+sed on input line 305.
+(pdftex.def)             Requested size: 375.57846pt x 340.15588pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<functional_units/seven_seg_6/seven_seg_6_sim.png, id=771, 564.1075pt x 1854.93
+pt>
+File: functional_units/seven_seg_6/seven_seg_6_sim.png Graphic file (type png)
+<use functional_units/seven_seg_6/seven_seg_6_sim.png>
+Package pdftex.def Info: functional_units/seven_seg_6/seven_seg_6_sim.png  used
+ on input line 310.
+(pdftex.def)             Requested size: 209.44814pt x 688.72441pt.
+
+LaTeX Warning: Float too large for page by 7.94133pt on input line 312.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21
+
+ <./functional_units/seven_seg_6/seven_seg_6_block.png>] [22 <./functional_unit
+s/seven_seg_6/seven_seg_6_symbol.png>] [23 <./functional_units/seven_seg_6/seve
+n_seg_6_sim.png>]
+<functional_units/seven_seg_6/individual_blocks/sevenseg_symbol.png, id=787, 42
+9.605pt x 194.7275pt>
+File: functional_units/seven_seg_6/individual_blocks/sevenseg_symbol.png Graphi
+c file (type png)
+<use functional_units/seven_seg_6/individual_blocks/sevenseg_symbol.png>
+Package pdftex.def Info: functional_units/seven_seg_6/individual_blocks/sevense
+g_symbol.png  used on input line 326.
+(pdftex.def)             Requested size: 204.85802pt x 92.85603pt.
+<functional_units/seven_seg_6/individual_blocks/sevenseg_sim.png, id=788, 998.7
+3125pt x 289.08pt>
+File: functional_units/seven_seg_6/individual_blocks/sevenseg_sim.png Graphic f
+ile (type png)
+<use functional_units/seven_seg_6/individual_blocks/sevenseg_sim.png>
+Package pdftex.def Info: functional_units/seven_seg_6/individual_blocks/sevense
+g_sim.png  used on input line 331.
+(pdftex.def)             Requested size: 418.2537pt x 121.05988pt.
+ [24
+
+ <./functional_units/seven_seg_6/individual_blocks/sevenseg_symbol.png> <./func
+tional_units/seven_seg_6/individual_blocks/sevenseg_sim.png>]
+<functional_units/L293D_encoder/L293D_encoder_symbol.png, id=796, 243.91125pt x
+ 194.7275pt>
+File: functional_units/L293D_encoder/L293D_encoder_symbol.png Graphic file (typ
+e png)
+<use functional_units/L293D_encoder/L293D_encoder_symbol.png>
+Package pdftex.def Info: functional_units/L293D_encoder/L293D_encoder_symbol.pn
+g  used on input line 347.
+(pdftex.def)             Requested size: 204.85802pt x 163.54916pt.
+<functional_units/L293D_encoder/L293D_encoder_sim.png, id=797, 1094.0875pt x 50
+6.89375pt>
+File: functional_units/L293D_encoder/L293D_encoder_sim.png Graphic file (type p
+ng)
+<use functional_units/L293D_encoder/L293D_encoder_sim.png>
+Package pdftex.def Info: functional_units/L293D_encoder/L293D_encoder_sim.png  
+used on input line 352.
+(pdftex.def)             Requested size: 418.2537pt x 193.78181pt.
+ [25
+
+ <./functional_units/L293D_encoder/L293D_encoder_symbol.png> <./functional_unit
+s/L293D_encoder/L293D_encoder_sim.png>]
+<functional_units/Counter/Counter_symbol.png, id=804, 290.08376pt x 144.54pt>
+File: functional_units/Counter/Counter_symbol.png Graphic file (type png)
+<use functional_units/Counter/Counter_symbol.png>
+Package pdftex.def Info: functional_units/Counter/Counter_symbol.png  used on i
+nput line 368.
+(pdftex.def)             Requested size: 204.85802pt x 102.07494pt.
+<functional_units/Counter/Counter_sim.png, id=805, 1216.545pt x 411.5375pt>
+File: functional_units/Counter/Counter_sim.png Graphic file (type png)
+<use functional_units/Counter/Counter_sim.png>
+Package pdftex.def Info: functional_units/Counter/Counter_sim.png  used on inpu
+t line 373.
+(pdftex.def)             Requested size: 418.2537pt x 141.4845pt.
+ [26
+
+ <./functional_units/Counter/Counter_symbol.png> <./functional_units/Counter/Co
+unter_sim.png>]
+<functional_units/vga_encoder/vga_encoder_block.png, id=813, 1383.1675pt x 514.
+92375pt>
+File: functional_units/vga_encoder/vga_encoder_block.png Graphic file (type png
+)
+<use functional_units/vga_encoder/vga_encoder_block.png>
+Package pdftex.def Info: functional_units/vga_encoder/vga_encoder_block.png  us
+ed on input line 389.
+(pdftex.def)             Requested size: 418.2537pt x 155.70401pt.
+<functional_units/vga_encoder/vga_encoder_symbol.png, id=814, 351.3125pt x 176.
+66pt>
+File: functional_units/vga_encoder/vga_encoder_symbol.png Graphic file (type pn
+g)
+<use functional_units/vga_encoder/vga_encoder_symbol.png>
+Package pdftex.def Info: functional_units/vga_encoder/vga_encoder_symbol.png  u
+sed on input line 394.
+(pdftex.def)             Requested size: 204.85802pt x 103.01816pt.
+ [27
+
+ <./functional_units/vga_encoder/vga_encoder_block.png> <./functional_units/vga
+_encoder/vga_encoder_symbol.png>]
+<functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png, id=821, 12
+13.53375pt x 408.52625pt>
+File: functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png Graphi
+c file (type png)
+<use functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/vga_640
+x480_sim.png  used on input line 400.
+(pdftex.def)             Requested size: 418.2537pt x 140.80457pt.
+ [28
+
+ <./functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png>]
+Overfull \hbox (15.05856pt too wide) in paragraph at lines 412--413
+[]\T1/cmr/bx/n/10 Inputs:  \T1/cmr/m/n/10 In-put: A color_mux block has 6 in-pu
+ts, hdis-play, vdis-play, red_in[1..0], green_in[1..0],
+ []
+
+
+Overfull \hbox (11.75381pt too wide) in paragraph at lines 413--414
+[]\T1/cmr/bx/n/10 Outputs:  \T1/cmr/m/n/10 A color_mux block has 3 out-put, red
+_out[1..0], green_out[1..0], and blue_out[1..0].
+ []
+
+<functional_units/vga_encoder/individual_blocks/color_mux_block.png, id=827, 14
+91.5725pt x 641.39626pt>
+File: functional_units/vga_encoder/individual_blocks/color_mux_block.png Graphi
+c file (type png)
+<use functional_units/vga_encoder/individual_blocks/color_mux_block.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/color_m
+ux_block.png  used on input line 417.
+(pdftex.def)             Requested size: 204.85802pt x 88.09193pt.
+<functional_units/vga_encoder/individual_blocks/color_mux_sim.png, id=828, 534.
+49687pt x 230.36063pt>
+File: functional_units/vga_encoder/individual_blocks/color_mux_sim.png Graphic 
+file (type png)
+<use functional_units/vga_encoder/individual_blocks/color_mux_sim.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/color_m
+ux_sim.png  used on input line 422.
+(pdftex.def)             Requested size: 418.2537pt x 180.26755pt.
+[29
+
+ <./functional_units/vga_encoder/individual_blocks/color_mux_block.png> <./func
+tional_units/vga_encoder/individual_blocks/color_mux_sim.png>]
+<functional_units/vga_encoder/individual_blocks/clock_modulator_symbol.png, id=
+834, 358.33875pt x 188.705pt>
+File: functional_units/vga_encoder/individual_blocks/clock_modulator_symbol.png
+ Graphic file (type png)
+<use functional_units/vga_encoder/individual_blocks/clock_modulator_symbol.png>
+
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/clock_m
+odulator_symbol.png  used on input line 441.
+(pdftex.def)             Requested size: 204.85802pt x 107.88257pt.
+<functional_units/vga_encoder/individual_blocks/clock_modulator_sim.png, id=835
+, 1216.545pt x 412.54124pt>
+File: functional_units/vga_encoder/individual_blocks/clock_modulator_sim.png Gr
+aphic file (type png)
+<use functional_units/vga_encoder/individual_blocks/clock_modulator_sim.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/clock_m
+odulator_sim.png  used on input line 446.
+(pdftex.def)             Requested size: 418.2537pt x 141.82959pt.
+ [30
+
+ <./functional_units/vga_encoder/individual_blocks/clock_modulator_symbol.png> 
+<./functional_units/vga_encoder/individual_blocks/clock_modulator_sim.png>]
+<functional_units/vga_encoder/individual_blocks/vga_640x480_symbol.png, id=843,
+ 410.53375pt x 253.94875pt>
+File: functional_units/vga_encoder/individual_blocks/vga_640x480_symbol.png Gra
+phic file (type png)
+<use functional_units/vga_encoder/individual_blocks/vga_640x480_symbol.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/vga_640
+x480_symbol.png  used on input line 465.
+(pdftex.def)             Requested size: 204.85802pt x 126.7183pt.
+File: functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png Graphi
+c file (type png)
+<use functional_units/vga_encoder/individual_blocks/vga_640x480_sim.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/vga_640
+x480_sim.png  used on input line 470.
+(pdftex.def)             Requested size: 418.2537pt x 140.80457pt.
+<functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Hsync.png, id=8
+44, 538.01pt x 233.37187pt>
+File: functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Hsync.png 
+Graphic file (type png)
+<use functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Hsync.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/vga_640
+x480_sim_Hsync.png  used on input line 476.
+(pdftex.def)             Requested size: 418.2537pt x 181.4275pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.png, id=8
+45, 535.50063pt x 234.37563pt>
+File: functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.png 
+Graphic file (type png)
+<use functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/vga_640
+x480_sim_Vsync.png  used on input line 482.
+(pdftex.def)             Requested size: 418.2537pt x 183.06972pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31
+
+ <./functional_units/vga_encoder/individual_blocks/vga_640x480_symbol.png>]
+[32 <./functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Hsync.png
+> <./functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.png>]
+
+Overfull \hbox (15.75284pt too wide) in paragraph at lines 496--497
+[]\T1/cmr/bx/n/10 Outputs:  \T1/cmr/m/n/10 A rgb_decoder has three out-puts, re
+d_out[3..0], green_out[3..0], and blue_out[3..0].
+ []
+
+<functional_units/vga_encoder/individual_blocks/rgb_decoder_symbol.png, id=855,
+ 458.71375pt x 254.9525pt>
+File: functional_units/vga_encoder/individual_blocks/rgb_decoder_symbol.png Gra
+phic file (type png)
+<use functional_units/vga_encoder/individual_blocks/rgb_decoder_symbol.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/rgb_dec
+oder_symbol.png  used on input line 500.
+(pdftex.def)             Requested size: 204.85802pt x 113.86002pt.
+<functional_units/vga_encoder/individual_blocks/rgb_decoder_sim.png, id=856, 53
+3.995pt x 229.35687pt>
+File: functional_units/vga_encoder/individual_blocks/rgb_decoder_sim.png Graphi
+c file (type png)
+<use functional_units/vga_encoder/individual_blocks/rgb_decoder_sim.png>
+Package pdftex.def Info: functional_units/vga_encoder/individual_blocks/rgb_dec
+oder_sim.png  used on input line 505.
+(pdftex.def)             Requested size: 418.2537pt x 179.65007pt.
+[33
+
+ <./functional_units/vga_encoder/individual_blocks/rgb_decoder_symbol.png> <./f
+unctional_units/vga_encoder/individual_blocks/rgb_decoder_sim.png>]
+<functional_units/vcr_decoder/vcr_decoder_symbol.png, id=862, 369.38pt x 178.66
+75pt>
+File: functional_units/vcr_decoder/vcr_decoder_symbol.png Graphic file (type pn
+g)
+<use functional_units/vcr_decoder/vcr_decoder_symbol.png>
+Package pdftex.def Info: functional_units/vcr_decoder/vcr_decoder_symbol.png  u
+sed on input line 523.
+(pdftex.def)             Requested size: 204.85802pt x 99.08801pt.
+<images/VCR_Decoder_state_diagram.png, id=863, 912.40875pt x 688.5725pt>
+File: images/VCR_Decoder_state_diagram.png Graphic file (type png)
+<use images/VCR_Decoder_state_diagram.png>
+Package pdftex.def Info: images/VCR_Decoder_state_diagram.png  used on input li
+ne 528.
+(pdftex.def)             Requested size: 418.2537pt x 315.64397pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png, id=864, 12
+17.54875pt x 410.53375pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png Graphi
+c file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_Tr
+ansition.png  used on input line 534.
+(pdftex.def)             Requested size: 418.2537pt x 141.02666pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png, id=865, 1210
+.5225pt x 403.5075pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png Graphic 
+file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_tran
+sition.png  used on input line 540.
+(pdftex.def)             Requested size: 418.2537pt x 139.41957pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png, id=866, 12
+09.51875pt x 410.53375pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png Graphi
+c file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_tr
+ansition.png  used on input line 546.
+(pdftex.def)             Requested size: 418.2537pt x 141.96004pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png, id=867, 
+1212.53pt x 416.55624pt>
+File: sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png Grap
+hic file (type png)
+<use sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_
+transition.png  used on input line 552.
+(pdftex.def)             Requested size: 418.2537pt x 143.68663pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+ <./functional_units/vcr_decoder/vcr_decoder_symbol.png>] [35 <./images/VCR_Dec
+oder_state_diagram.png> <./sims/vcr_testing/moduleTests/vcr_decoder/IDLE_to_C1_
+Transition.png>] [36 <./sims/vcr_testing/moduleTests/vcr_decoder/C1_to_C2_trans
+ition.png> <./sims/vcr_testing/moduleTests/vcr_decoder/C2_to_READ_transition.pn
+g> <./sims/vcr_testing/moduleTests/vcr_decoder/READ_to_PUSH_transition.png>]
+<functional_units/mux_1.jpg, id=887, 1537.745pt x 1654.18pt>
+File: functional_units/mux_1.jpg Graphic file (type jpg)
+<use functional_units/mux_1.jpg>
+Package pdftex.def Info: functional_units/mux_1.jpg  used on input line 569.
+(pdftex.def)             Requested size: 204.85802pt x 220.3515pt.
+<functional_units/mux2_sim.png, id=888, 828.09375pt x 411.5375pt>
+File: functional_units/mux2_sim.png Graphic file (type png)
+<use functional_units/mux2_sim.png>
+Package pdftex.def Info: functional_units/mux2_sim.png  used on input line 574.
+
+(pdftex.def)             Requested size: 418.2537pt x 207.86562pt.
+[37
+
+ <./functional_units/mux_1.jpg> <./functional_units/mux2_sim.png>]
+<functional_units/vcr_decoder/individual_blocks/ReadState_symbol.png, id=894, 3
+74.39874pt x 169.63374pt>
+File: functional_units/vcr_decoder/individual_blocks/ReadState_symbol.png Graph
+ic file (type png)
+<use functional_units/vcr_decoder/individual_blocks/ReadState_symbol.png>
+Package pdftex.def Info: functional_units/vcr_decoder/individual_blocks/ReadSta
+te_symbol.png  used on input line 591.
+(pdftex.def)             Requested size: 204.85802pt x 92.8174pt.
+<images/ReadState_state_diagram.png, id=895, 828.09375pt x 646.415pt>
+File: images/ReadState_state_diagram.png Graphic file (type png)
+<use images/ReadState_state_diagram.png>
+Package pdftex.def Info: images/ReadState_state_diagram.png  used on input line
+ 596.
+(pdftex.def)             Requested size: 418.2537pt x 326.50111pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png, id=896,
+ 1222.5675pt x 415.5525pt>
+File: sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png Gra
+phic file (type png)
+<use sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING_Transition.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/IDLE_to_READING
+_Transition.png  used on input line 603.
+(pdftex.def)             Requested size: 418.2537pt x 142.16101pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png, id=897, 1217.5487
+5pt x 411.5375pt>
+File: sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png Graphic file 
+(type png)
+<use sims/vcr_testing/moduleTests/ReadState/PROCESSING_State.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/PROCESSING_Stat
+e.png  used on input line 609.
+(pdftex.def)             Requested size: 418.2537pt x 141.37148pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png, id=898, 1213.53
+375pt x 413.545pt>
+File: sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png Graphic fil
+e (type png)
+<use sims/vcr_testing/moduleTests/ReadState/Transition_to_DONE.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/ReadState/Transition_to_D
+ONE.png  used on input line 615.
+(pdftex.def)             Requested size: 418.2537pt x 142.53435pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38
+
+ <./functional_units/vcr_decoder/individual_blocks/ReadState_symbol.png>]
+[39 <./images/ReadState_state_diagram.png> <./sims/vcr_testing/moduleTests/Read
+State/IDLE_to_READING_Transition.png>] [40 <./sims/vcr_testing/moduleTests/Read
+State/PROCESSING_State.png> <./sims/vcr_testing/moduleTests/ReadState/Transitio
+n_to_DONE.png>]
+<functional_units/vcr_decoder/individual_blocks/ShiftRegister_symbol.png, id=91
+6, 329.23pt x 223.83624pt>
+File: functional_units/vcr_decoder/individual_blocks/ShiftRegister_symbol.png G
+raphic file (type png)
+<use functional_units/vcr_decoder/individual_blocks/ShiftRegister_symbol.png>
+Package pdftex.def Info: functional_units/vcr_decoder/individual_blocks/ShiftRe
+gister_symbol.png  used on input line 632.
+(pdftex.def)             Requested size: 204.85802pt x 139.28252pt.
+<functional_units/vcr_decoder/individual_blocks/ShiftRegister_sim.png, id=917, 
+1215.54124pt x 409.53pt>
+File: functional_units/vcr_decoder/individual_blocks/ShiftRegister_sim.png Grap
+hic file (type png)
+<use functional_units/vcr_decoder/individual_blocks/ShiftRegister_sim.png>
+Package pdftex.def Info: functional_units/vcr_decoder/individual_blocks/ShiftRe
+gister_sim.png  used on input line 637.
+(pdftex.def)             Requested size: 418.2537pt x 140.91306pt.
+ [41
+
+ <./functional_units/vcr_decoder/individual_blocks/ShiftRegister_symbol.png> <.
+/functional_units/vcr_decoder/individual_blocks/ShiftRegister_sim.png>]
+<functional_units/vcr_decoder/individual_blocks/SignalDecoder_symbol.png, id=92
+4, 346.29375pt x 164.615pt>
+File: functional_units/vcr_decoder/individual_blocks/SignalDecoder_symbol.png G
+raphic file (type png)
+<use functional_units/vcr_decoder/individual_blocks/SignalDecoder_symbol.png>
+Package pdftex.def Info: functional_units/vcr_decoder/individual_blocks/SignalD
+ecoder_symbol.png  used on input line 653.
+(pdftex.def)             Requested size: 204.85802pt x 97.38322pt.
+<sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png, id=925, 1218
+.5525pt x 408.52625pt>
+File: sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png Graphic 
+file (type png)
+<use sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png>
+Package pdftex.def Info: sims/vcr_testing/moduleTests/SignalDecoder/SignalDecod
+er_sim.png  used on input line 658.
+(pdftex.def)             Requested size: 418.2537pt x 140.21861pt.
+ [42
+
+ <./functional_units/vcr_decoder/individual_blocks/SignalDecoder_symbol.png> <.
+/sims/vcr_testing/moduleTests/SignalDecoder/SignalDecoder_sim.png>]
+<functional_units/ps2_keyboard/ps2_keyboard_block.png, id=933, 581.92406pt x 26
+4.99pt>
+File: functional_units/ps2_keyboard/ps2_keyboard_block.png Graphic file (type p
+ng)
+<use functional_units/ps2_keyboard/ps2_keyboard_block.png>
+Package pdftex.def Info: functional_units/ps2_keyboard/ps2_keyboard_block.png  
+used on input line 675.
+(pdftex.def)             Requested size: 341.43437pt x 155.48149pt.
+<functional_units/ps2_keyboard/ps2_keyboard_symbol.png, id=934, 157.08687pt x 1
+08.405pt>
+File: functional_units/ps2_keyboard/ps2_keyboard_symbol.png Graphic file (type 
+png)
+<use functional_units/ps2_keyboard/ps2_keyboard_symbol.png>
+Package pdftex.def Info: functional_units/ps2_keyboard/ps2_keyboard_symbol.png 
+ used on input line 680.
+(pdftex.def)             Requested size: 204.85802pt x 141.37804pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<functional_units/ps2_keyboard/ps2_keyboard_sim.png, id=935, 484.30937pt x 232.
+87pt>
+File: functional_units/ps2_keyboard/ps2_keyboard_sim.png Graphic file (type png
+)
+<use functional_units/ps2_keyboard/ps2_keyboard_sim.png>
+Package pdftex.def Info: functional_units/ps2_keyboard/ps2_keyboard_sim.png  us
+ed on input line 685.
+(pdftex.def)             Requested size: 418.2537pt x 201.11707pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43
+
+ <./functional_units/ps2_keyboard/ps2_keyboard_block.png>] [44 <./functional_un
+its/ps2_keyboard/ps2_keyboard_symbol.png> <./functional_units/ps2_keyboard/ps2_
+keyboard_sim.png>]
+<functional_units/ps2_keyboard/individual_blocks/debounce_block.png, id=944, 84
+6.91406pt x 249.18094pt>
+File: functional_units/ps2_keyboard/individual_blocks/debounce_block.png Graphi
+c file (type png)
+<use functional_units/ps2_keyboard/individual_blocks/debounce_block.png>
+Package pdftex.def Info: functional_units/ps2_keyboard/individual_blocks/deboun
+ce_block.png  used on input line 701.
+(pdftex.def)             Requested size: 341.43437pt x 100.45766pt.
+<functional_units/ps2_keyboard/individual_blocks/debounce_sim.png, id=945, 553.
+06625pt x 197.23688pt>
+File: functional_units/ps2_keyboard/individual_blocks/debounce_sim.png Graphic 
+file (type png)
+<use functional_units/ps2_keyboard/individual_blocks/debounce_sim.png>
+Package pdftex.def Info: functional_units/ps2_keyboard/individual_blocks/deboun
+ce_sim.png  used on input line 706.
+(pdftex.def)             Requested size: 418.2537pt x 149.15819pt.
+ [45
+
+ <./functional_units/ps2_keyboard/individual_blocks/debounce_block.png> <./func
+tional_units/ps2_keyboard/individual_blocks/debounce_sim.png>]
+<functional_units/nes_decoder/nes_decoder_symbol.png, id=951, 262.9825pt x 317.
+185pt>
+File: functional_units/nes_decoder/nes_decoder_symbol.png Graphic file (type pn
+g)
+<use functional_units/nes_decoder/nes_decoder_symbol.png>
+Package pdftex.def Info: functional_units/nes_decoder/nes_decoder_symbol.png  u
+sed on input line 722.
+(pdftex.def)             Requested size: 204.85802pt x 247.0887pt.
+<functional_units/nes_decoder/nes_decoder_sim.png, id=952, 1209.51875pt x 635.3
+7375pt>
+File: functional_units/nes_decoder/nes_decoder_sim.png Graphic file (type png)
+<use functional_units/nes_decoder/nes_decoder_sim.png>
+Package pdftex.def Info: functional_units/nes_decoder/nes_decoder_sim.png  used
+ on input line 727.
+(pdftex.def)             Requested size: 418.2537pt x 219.70831pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46
+
+ <./functional_units/nes_decoder/nes_decoder_symbol.png>] [47 <./functional_uni
+ts/nes_decoder/nes_decoder_sim.png>]
+<functional_units/parsed_clock/parsed_clock_block.png, id=963, 1115.16624pt x 7
+23.70375pt>
+File: functional_units/parsed_clock/parsed_clock_block.png Graphic file (type p
+ng)
+<use functional_units/parsed_clock/parsed_clock_block.png>
+Package pdftex.def Info: functional_units/parsed_clock/parsed_clock_block.png  
+used on input line 743.
+(pdftex.def)             Requested size: 341.43437pt x 221.5741pt.
+<functional_units/parsed_clock/parsed_clock_symbol.png, id=964, 490.83376pt x 2
+75.0275pt>
+File: functional_units/parsed_clock/parsed_clock_symbol.png Graphic file (type 
+png)
+<use functional_units/parsed_clock/parsed_clock_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/parsed_clock_symbol.png 
+ used on input line 748.
+(pdftex.def)             Requested size: 204.85802pt x 114.78474pt.
+<functional_units/parsed_clock/parsed_clock_sim.png, id=965, 1204.5pt x 612.287
+5pt>
+File: functional_units/parsed_clock/parsed_clock_sim.png Graphic file (type png
+)
+<use functional_units/parsed_clock/parsed_clock_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/parsed_clock_sim.png  us
+ed on input line 753.
+(pdftex.def)             Requested size: 418.2537pt x 212.6128pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48
+
+ <./functional_units/parsed_clock/parsed_clock_block.png> <./functional_units/p
+arsed_clock/parsed_clock_symbol.png>] [49 <./functional_units/parsed_clock/pars
+ed_clock_sim.png>]
+<functional_units/parsed_clock/individual_blocks/enable_flip_flop_symbol.png, i
+d=978, 410.53375pt x 231.86626pt>
+File: functional_units/parsed_clock/individual_blocks/enable_flip_flop_symbol.p
+ng Graphic file (type png)
+<use functional_units/parsed_clock/individual_blocks/enable_flip_flop_symbol.pn
+g>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/enable
+_flip_flop_symbol.png  used on input line 769.
+(pdftex.def)             Requested size: 204.85802pt x 115.69933pt.
+<functional_units/parsed_clock/individual_blocks/enable_flip_flop_sim.png, id=9
+79, 960.58875pt x 279.0425pt>
+File: functional_units/parsed_clock/individual_blocks/enable_flip_flop_sim.png 
+Graphic file (type png)
+<use functional_units/parsed_clock/individual_blocks/enable_flip_flop_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/enable
+_flip_flop_sim.png  used on input line 774.
+(pdftex.def)             Requested size: 418.2537pt x 121.50172pt.
+ [50
+
+ <./functional_units/parsed_clock/individual_blocks/enable_flip_flop_symbol.png
+> <./functional_units/parsed_clock/individual_blocks/enable_flip_flop_sim.png>]
+<functional_units/parsed_clock/individual_blocks/delay_block.png, id=986, 1346.
+02875pt x 779.91376pt>
+File: functional_units/parsed_clock/individual_blocks/delay_block.png Graphic f
+ile (type png)
+<use functional_units/parsed_clock/individual_blocks/delay_block.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/delay_
+block.png  used on input line 790.
+(pdftex.def)             Requested size: 418.2537pt x 242.342pt.
+<functional_units/parsed_clock/individual_blocks/delay_symbol.png, id=987, 442.
+65375pt x 286.06876pt>
+File: functional_units/parsed_clock/individual_blocks/delay_symbol.png Graphic 
+file (type png)
+<use functional_units/parsed_clock/individual_blocks/delay_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/delay_
+symbol.png  used on input line 795.
+(pdftex.def)             Requested size: 204.85802pt x 132.39203pt.
+<functional_units/parsed_clock/individual_blocks/delay_sim.png, id=988, 1347.03
+25pt x 551.05875pt>
+File: functional_units/parsed_clock/individual_blocks/delay_sim.png Graphic fil
+e (type png)
+<use functional_units/parsed_clock/individual_blocks/delay_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/delay_
+sim.png  used on input line 800.
+(pdftex.def)             Requested size: 418.2537pt x 171.10391pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51
+
+ <./functional_units/parsed_clock/individual_blocks/delay_block.png> <./functio
+nal_units/parsed_clock/individual_blocks/delay_symbol.png>] [52 <./functional_u
+nits/parsed_clock/individual_blocks/delay_sim.png>]
+<functional_units/parsed_clock/individual_blocks/mux4_symbol.png, id=1000, 732.
+7375pt x 241.90375pt>
+File: functional_units/parsed_clock/individual_blocks/mux4_symbol.png Graphic f
+ile (type png)
+<use functional_units/parsed_clock/individual_blocks/mux4_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/mux4_s
+ymbol.png  used on input line 816.
+(pdftex.def)             Requested size: 204.85802pt x 67.62923pt.
+<functional_units/parsed_clock/individual_blocks/mux4_sim.png, id=1001, 1223.57
+124pt x 326.21875pt>
+File: functional_units/parsed_clock/individual_blocks/mux4_sim.png Graphic file
+ (type png)
+<use functional_units/parsed_clock/individual_blocks/mux4_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/mux4_s
+im.png  used on input line 821.
+(pdftex.def)             Requested size: 418.2537pt x 111.51022pt.
+ [53
+
+ <./functional_units/parsed_clock/individual_blocks/mux4_symbol.png> <./functio
+nal_units/parsed_clock/individual_blocks/mux4_sim.png>]
+<functional_units/parsed_clock/individual_blocks/counter_symbol.png, id=1008, 4
+31.6125pt x 316.18124pt>
+File: functional_units/parsed_clock/individual_blocks/counter_symbol.png Graphi
+c file (type png)
+<use functional_units/parsed_clock/individual_blocks/counter_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/counte
+r_symbol.png  used on input line 837.
+(pdftex.def)             Requested size: 204.85802pt x 150.06703pt.
+<functional_units/parsed_clock/individual_blocks/counter_sim.png, id=1009, 1333
+.98375pt x 519.9425pt>
+File: functional_units/parsed_clock/individual_blocks/counter_sim.png Graphic f
+ile (type png)
+<use functional_units/parsed_clock/individual_blocks/counter_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/counte
+r_sim.png  used on input line 842.
+(pdftex.def)             Requested size: 418.2537pt x 163.02112pt.
+ [54
+
+ <./functional_units/parsed_clock/individual_blocks/counter_symbol.png> <./func
+tional_units/parsed_clock/individual_blocks/counter_sim.png>]
+<functional_units/parsed_clock/individual_blocks/parser_symbol.png, id=1017, 59
+9.23875pt x 377.41pt>
+File: functional_units/parsed_clock/individual_blocks/parser_symbol.png Graphic
+ file (type png)
+<use functional_units/parsed_clock/individual_blocks/parser_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/parser
+_symbol.png  used on input line 858.
+(pdftex.def)             Requested size: 204.85802pt x 129.02026pt.
+<functional_units/parsed_clock/individual_blocks/parser_sim.png, id=1018, 1396.
+21625pt x 554.07pt>
+File: functional_units/parsed_clock/individual_blocks/parser_sim.png Graphic fi
+le (type png)
+<use functional_units/parsed_clock/individual_blocks/parser_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/parser
+_sim.png  used on input line 863.
+(pdftex.def)             Requested size: 418.2537pt x 165.9771pt.
+ [55
+
+ <./functional_units/parsed_clock/individual_blocks/parser_symbol.png> <./funct
+ional_units/parsed_clock/individual_blocks/parser_sim.png>]
+<functional_units/parsed_clock/individual_blocks/comparator_symbol.png, id=1025
+, 345.29pt x 378.41376pt>
+File: functional_units/parsed_clock/individual_blocks/comparator_symbol.png Gra
+phic file (type png)
+<use functional_units/parsed_clock/individual_blocks/comparator_symbol.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/compar
+ator_symbol.png  used on input line 879.
+(pdftex.def)             Requested size: 204.85802pt x 224.51515pt.
+<functional_units/parsed_clock/individual_blocks/comparator_sim.png, id=1026, 1
+027.84pt x 418.56375pt>
+File: functional_units/parsed_clock/individual_blocks/comparator_sim.png Graphi
+c file (type png)
+<use functional_units/parsed_clock/individual_blocks/comparator_sim.png>
+Package pdftex.def Info: functional_units/parsed_clock/individual_blocks/compar
+ator_sim.png  used on input line 884.
+(pdftex.def)             Requested size: 418.2537pt x 170.32211pt.
+ [56
+
+ <./functional_units/parsed_clock/individual_blocks/comparator_symbol.png> <./f
+unctional_units/parsed_clock/individual_blocks/comparator_sim.png>]
+[57
+
+]
+<functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator_sym
+bol.png, id=1039, 104.89188pt x 75.28125pt>
+File: functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerato
+r_symbol.png Graphic file (type png)
+<use functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator
+_symbol.png>
+Package pdftex.def Info: functional_units/SquareWaveGenerator/individual_blocks
+/SquareWaveGenerator_symbol.png  used on input line 911.
+(pdftex.def)             Requested size: 204.85802pt x 147.02756pt.
+<functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator_sim
+.png, id=1040, 587.69562pt x 234.37563pt>
+File: functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerato
+r_sim.png Graphic file (type png)
+<use functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator
+_sim.png>
+Package pdftex.def Info: functional_units/SquareWaveGenerator/individual_blocks
+/SquareWaveGenerator_sim.png  used on input line 916.
+(pdftex.def)             Requested size: 418.2537pt x 166.80122pt.
+ [58
+
+ <./functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator_
+symbol.png> <./functional_units/SquareWaveGenerator/individual_blocks/SquareWav
+eGenerator_sim.png>]
+<functional_units/SquareWaveGenerator/individual_blocks/decoder_symbol.png, id=
+1045, 105.39375pt x 64.74188pt>
+File: functional_units/SquareWaveGenerator/individual_blocks/decoder_symbol.png
+ Graphic file (type png)
+<use functional_units/SquareWaveGenerator/individual_blocks/decoder_symbol.png>
+
+Package pdftex.def Info: functional_units/SquareWaveGenerator/individual_blocks
+/decoder_symbol.png  used on input line 932.
+(pdftex.def)             Requested size: 204.85802pt x 125.84407pt.
+<functional_units/SquareWaveGenerator/individual_blocks/decoder_sim.png, id=104
+6, 564.1075pt x 199.24437pt>
+File: functional_units/SquareWaveGenerator/individual_blocks/decoder_sim.png Gr
+aphic file (type png)
+<use functional_units/SquareWaveGenerator/individual_blocks/decoder_sim.png>
+Package pdftex.def Info: functional_units/SquareWaveGenerator/individual_blocks
+/decoder_sim.png  used on input line 937.
+(pdftex.def)             Requested size: 418.2537pt x 147.73038pt.
+ [59
+
+ <./functional_units/SquareWaveGenerator/individual_blocks/decoder_symbol.png> 
+<./functional_units/SquareWaveGenerator/individual_blocks/decoder_sim.png>]
+<functional_units/nes_to_motor/nes_to_motor_symbol.png, id=1051, 253.94875pt x 
+155.58125pt>
+File: functional_units/nes_to_motor/nes_to_motor_symbol.png Graphic file (type 
+png)
+<use functional_units/nes_to_motor/nes_to_motor_symbol.png>
+Package pdftex.def Info: functional_units/nes_to_motor/nes_to_motor_symbol.png 
+ used on input line 953.
+(pdftex.def)             Requested size: 204.85802pt x 125.5097pt.
+<functional_units/nes_to_motor/nes_to_motor_sim.png, id=1052, 847.165pt x 363.3
+575pt>
+File: functional_units/nes_to_motor/nes_to_motor_sim.png Graphic file (type png
+)
+<use functional_units/nes_to_motor/nes_to_motor_sim.png>
+Package pdftex.def Info: functional_units/nes_to_motor/nes_to_motor_sim.png  us
+ed on input line 958.
+(pdftex.def)             Requested size: 418.2537pt x 179.39401pt.
+ [60
+
+ <./functional_units/nes_to_motor/nes_to_motor_symbol.png> <./functional_units/
+nes_to_motor/nes_to_motor_sim.png>]
+<functional_units/Comparator/Comparator_symbol.png, id=1060, 273.02pt x 151.566
+25pt>
+File: functional_units/Comparator/Comparator_symbol.png Graphic file (type png)
+
+<use functional_units/Comparator/Comparator_symbol.png>
+Package pdftex.def Info: functional_units/Comparator/Comparator_symbol.png  use
+d on input line 974.
+(pdftex.def)             Requested size: 204.85802pt x 113.72758pt.
+<functional_units/Comparator/Comparator_sim.png, id=1061, 1218.5525pt x 407.522
+5pt>
+File: functional_units/Comparator/Comparator_sim.png Graphic file (type png)
+<use functional_units/Comparator/Comparator_sim.png>
+Package pdftex.def Info: functional_units/Comparator/Comparator_sim.png  used o
+n input line 979.
+(pdftex.def)             Requested size: 418.2537pt x 139.87408pt.
+ [61
+
+ <./functional_units/Comparator/Comparator_symbol.png> <./functional_units/Comp
+arator/Comparator_sim.png>]
+<functional_units/DisplayDecoder/DisplayDecoder_symbol.png, id=1068, 381.425pt 
+x 172.645pt>
+File: functional_units/DisplayDecoder/DisplayDecoder_symbol.png Graphic file (t
+ype png)
+<use functional_units/DisplayDecoder/DisplayDecoder_symbol.png>
+Package pdftex.def Info: functional_units/DisplayDecoder/DisplayDecoder_symbol.
+png  used on input line 995.
+(pdftex.def)             Requested size: 341.43437pt x 154.54922pt.
+<functional_units/DisplayDecoder/DisplayDecoderTest.png, id=1069, 1220.56pt x 4
+12.54124pt>
+File: functional_units/DisplayDecoder/DisplayDecoderTest.png Graphic file (type
+ png)
+<use functional_units/DisplayDecoder/DisplayDecoderTest.png>
+Package pdftex.def Info: functional_units/DisplayDecoder/DisplayDecoderTest.png
+  used on input line 1001.
+(pdftex.def)             Requested size: 418.2537pt x 141.36377pt.
+ [62
+
+ <./functional_units/DisplayDecoder/DisplayDecoder_symbol.png> <./functional_un
+its/DisplayDecoder/DisplayDecoderTest.png>]
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 1024.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1024
+.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+(./functional_units/decoder/decoder.sv)
+(./functional_units/seven_seg_6/individual_blocks/sevenseg.sv) [63
+
+]
+(./functional_units/L293D_encoder/L293D_encoder.sv
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 10--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[] 
+ []
+
+) (./functional_units/Counter/Counter.sv)
+(./functional_units/vga_encoder/individual_blocks/vga_640x480.sv [64
+
+]
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (83.389pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.69629pt too wide) in paragraph at lines 21--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (83.389pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.69629pt too wide) in paragraph at lines 25--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 33--36
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (94.72635pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][]
+ []
+
+
+Overfull \hbox (15.36496pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][] 
+ []
+
+[65]) (./functional_units/vga_encoder/individual_blocks/rgb_decoder.sv)
+(./functional_units/vga_encoder/individual_blocks/clock_modulator.sv) [66]
+(./functional_units/vcr_decoder/vcr_decoder.sv
+Overfull \hbox (4.02762pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.02762pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 18--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.03964pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (128.73837pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[67
+
+]
+Overfull \hbox (162.7504pt too wide) in paragraph at lines 82--83
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (117.40103pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (49.37698pt too wide) in paragraph at lines 88--89
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.72635pt too wide) in paragraph at lines 99--100
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ 
+ []
+
+
+Overfull \hbox (4.02762pt too wide) in paragraph at lines 114--115
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+
+Overfull \hbox (4.02762pt too wide) in paragraph at lines 123--124
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+[68]) (./functional_units/vcr_decoder/individual_blocks/ReadState.sv
+Overfull \hbox (123.0697pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (162.7504pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.69629pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[69]
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 93--94
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 102--103
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][] 
+ []
+
+
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+[70]) (./functional_units/vcr_decoder/individual_blocks/ShiftRegister.sv)
+(./functional_units/vcr_decoder/individual_blocks/mux2.sv
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 3--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (213.76843pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][] 
+ []
+
+
+Overfull \hbox (123.0697pt too wide) in paragraph at lines 6--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (151.41306pt too wide) in paragraph at lines 8--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/SignalDecoder.sv [71])
+[72] (./functional_units/ps2_keyboard/ps2_keyboard.sv
+Overfull \hbox (55.04565pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (49.37698pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (225.10577pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][] 
+ []
+
+
+Overfull \hbox (77.72034pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (49.37698pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ 
+ []
+
+
+Overfull \hbox (9.69629pt too wide) in paragraph at lines 40--41
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[] 
+ []
+
+
+Overfull \hbox (89.05768pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (26.7023pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (117.40103pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 53--54
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 57--58
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [73
+
+] (./functional_units/ps2_keyboard/individual_blocks/debounce.sv
+Overfull \hbox (49.37698pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
+) [74] (./functional_units/nes_decoder/nes_decoder.sv
+Overfull \hbox (123.0697pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.08173pt too wide) in paragraph at lines 3--4
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (162.7504pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][] 
+ []
+
+
+Overfull \hbox (117.40103pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (202.43109pt too wide) in paragraph at lines 8--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36496pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36496pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.03964pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.70831pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.03363pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.03964pt too wide) in paragraph at lines 17--19
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (208.09976pt too wide) in paragraph at lines 19--22
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][] 
+ []
+
+
+Overfull \hbox (32.37097pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 52--53
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][] 
+ []
+
+
+Overfull \hbox (100.39502pt too wide) in paragraph at lines 53--54
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.72635pt too wide) in paragraph at lines 54--56
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[75
+
+]
+Overfull \hbox (66.383pt too wide) in paragraph at lines 66--67
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.72635pt too wide) in paragraph at lines 68--70
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (38.03964pt too wide) in paragraph at lines 77--79
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36496pt too wide) in paragraph at lines 94--95
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][] 
+ []
+
+) [76] (./functional_units/parsed_clock/individual_blocks/parser.sv)
+(./functional_units/parsed_clock/individual_blocks/comparator.sv)
+(./functional_units/parsed_clock/individual_blocks/mux4.sv
+Overfull \hbox (60.71432pt too wide) in paragraph at lines 3--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (208.09976pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.0697pt too wide) in paragraph at lines 6--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+
+Overfull \hbox (89.05768pt too wide) in paragraph at lines 8--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][] 
+ []
+
+[77]) (./functional_units/parsed_clock/individual_blocks/counter.sv) [78]
+(./functional_units/SquareWaveGenerator/individual_blocks/decoder.sv)
+(./functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator.s
+v [79
+
+]) [80] (./functional_units/nes_to_motor/nes_to_motor.sv)
+(./functional_units/Comparator/Comparator.sv)
+(./functional_units/DisplayDecoder/DisplayDecoder.sv [81
+
+]) [82]
+(./functional_units/decoder/decoder_sim.do)
+(./functional_units/seven_seg_6/seven_seg_6.do
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+
+Overfull \hbox (215.05681pt too wide) in paragraph at lines 9--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+) (./functional_units/seven_seg_6/individual_blocks/sevenseg.do [83
+
+]) [84]
+(./functional_units/L293D_encoder/L293D_encoder.do)
+(./functional_units/Counter/CounterTest.do)
+(./functional_units/vga_encoder/individual_blocks/vga_640x480_sim.do [85
+
+])
+(./functional_units/vga_encoder/individual_blocks/clock_modulator_sim.do)
+(./functional_units/vga_encoder/individual_blocks/vga_640x480_sim_Vsync.do)
+(./functional_units/vga_encoder/individual_blocks/color_mux_sim.do [86])
+(./functional_units/vga_encoder/individual_blocks/rgb_decoder_sim.do) [87]
+(./functional_units/vcr_decoder/vcr_decoder_Sim_4.do
+Overfull \hbox (5523.80093pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_0.do
+Overfull \hbox (5103.90027pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_3.do
+Overfull \hbox (5469.8137pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_1.do [88
+
+]
+Overfull \hbox (5169.88466pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_9.do
+Overfull \hbox (5037.91588pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_5.do
+Overfull \hbox (5463.81512pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_2.do [89]
+Overfull \hbox (4779.9769pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_3.do
+Overfull \hbox (5271.86053pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_9.do
+Overfull \hbox (4642.00954pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/shiftRegisterTest.do)
+[90] (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_8.do
+Overfull \hbox (4893.94994pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_7.do
+Overfull \hbox (4606.01805pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_0.do
+Overfull \hbox (4839.9627pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_4.do [91]
+Overfull \hbox (5325.84776pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_5.do
+Overfull \hbox (5199.87756pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/signalDecoder.do
+Overfull \hbox (466.99721pt too wide) in paragraph at lines 6--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_1.do
+Overfull \hbox (4839.9627pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [92] (./functional_units/vcr_decoder/individual_blocks/ReadState_Sim_6.do
+Overfull \hbox (4845.96129pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_7.do
+Overfull \hbox (4869.95561pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_6.do
+Overfull \hbox (5229.87047pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_8.do [93]
+Overfull \hbox (5157.8875pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) (./functional_units/vcr_decoder/vcr_decoder_Sim_2.do
+Overfull \hbox (4977.93007pt too wide) in paragraph at lines 14--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+) [94] (./functional_units/ps2_keyboard/ps2_keyboard_sim_3.do)
+(./functional_units/ps2_keyboard/ps2_keyboard_sim.do [95
+
+])
+(./functional_units/ps2_keyboard/individual_blocks/debounce_sim.do [96])
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_5.do)
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_2.do [97])
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_7.do [98])
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_6.do [99])
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_4.do [100])
+(./functional_units/ps2_keyboard/ps2_keyboard_sim_9.do [101]) [102]
+(./functional_units/nes_decoder/nes_decoder.do)
+(./functional_units/parsed_clock/parsed_clock.do
+Overfull \hbox (47.09654pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./functional_units/parsed_clock/individual_blocks/counter.do [103
+
+])
+(./functional_units/parsed_clock/individual_blocks/parser.do)
+(./functional_units/parsed_clock/individual_blocks/enable_flip_flop.do)
+(./functional_units/parsed_clock/individual_blocks/delay.do)
+(./functional_units/parsed_clock/individual_blocks/mux4.do [104])
+(./functional_units/parsed_clock/individual_blocks/comparator.do) [105]
+(./functional_units/SquareWaveGenerator/individual_blocks/SquareWaveGenerator_s
+im.do) (./functional_units/SquareWaveGenerator/individual_blocks/decoder_sim.do
+[106
+
+]) [107] (./functional_units/nes_to_motor/nes_to_motor.do)
+(./functional_units/Comparator/ComparatorTest.do)
+(./functional_units/DisplayDecoder/DisplayDecoderTest.do
+Overfull \hbox (35.09938pt too wide) in paragraph at lines 6--8
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][] 
+ []
+
+) [108
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1335.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1335.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1335.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F0F39B2C1854CF7460D158220412BAA7;5811.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32008 strings out of 492616
+ 593877 string characters out of 6129482
+ 1039864 words of memory out of 5000000
+ 32705 multiletter control sequences out of 15000+600000
+ 14003 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,6n,97p,2026b,2113s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on main.pdf (109 pages, 7165498 bytes).
+PDF statistics:
+ 3987 PDF objects out of 4296 (max. 8388607)
+ 3659 compressed objects within 37 object streams
+ 2429 named destinations out of 2487 (max. 500000)
+ 1131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
